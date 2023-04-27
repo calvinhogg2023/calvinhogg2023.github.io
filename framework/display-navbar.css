@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/* ---------- Mobile navigation bar ---------- */
+@media (max-width: 645px) {
+	#calvinhoggDesktop {
+		display: none;
+	}
+
+	#calvinhoggMobile {
+		display: flex;
+	}
+}
+
+@media (max-width: 995px) {
+	.navbarLinks-other {
+		width: auto !important;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	.navbarLinks-active {
+		width: auto !important;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	.navbarLinks-text {
+		display: none;
+	}
+}

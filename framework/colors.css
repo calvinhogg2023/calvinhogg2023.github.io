@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+/* ---------- Background colours ---------- */
+
+.bg-teal {
+    background-color: #3c464d;
+}
+
+.bg-blueLight {
+	background-color: #4c5777;
+}
+
+.bg-blueDark {
+	background-color: #2f364a;
+}
+
+
+/* ---------- Text colours ---------- */
+
+.textColor-primary {
+    color: #f8f8f8;
+}
+
+.textColor-blog {
+    color: #e0e0e0;
+}
+
+.textColor-secondary {
+    color: #b0b0b0;
+}
+
+.textColor-tertiary {
+    color: #808080;
+}
+
+.textColor-white {
+    color: #ffffff;
+}
+
+.textColor-lightGrey {
+    color: #b0b0b0;
+}
+
+.textColor-darkGrey {
+    color: #606060;
+}
+
+.textColor-black {
+    color: #000000;
+}
+
+.textColor-link {
+	color: #a3b3ff;
+}
