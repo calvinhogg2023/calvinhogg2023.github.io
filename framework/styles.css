@@ -75,10 +75,10 @@ section {
 .container,
 .container-fluid {
 	width: 100%;
-	padding-right: var(--bs-gutter-x, 0.75rem);
 	padding-left: var(--bs-gutter-x, 0.75rem);
-	margin-right: auto;
+	padding-right: var(--bs-gutter-x, 0.75rem);
 	margin-left: auto;
+	margin-right: auto;
 }
 
 .row {
@@ -86,16 +86,15 @@ section {
 	--bs-gutter-y: 0;
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 0.67rem;
-	padding-right: 0.67rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 	margin-top: calc(var(--bs-gutter-y) * -1);
-	margin-right: calc(var(--bs-gutter-x) * -.10);
 	margin-left: calc(var(--bs-gutter-x) * -.10);
+	margin-right: calc(var(--bs-gutter-x) * -.10);
 }
 
 .section-heading {
 	color: #ffffffc0;
-    text-align: center;
     font-weight: 600;
 }
 
@@ -155,32 +154,32 @@ section {
     display: flex;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #909090;
+	border-color: #ffffff80;
     border-radius: 0.5rem;
-    width: 128px;
-    height: 50px;
+    width: 116px;
+    height: 54px;
 	padding: 2px;
     overflow: hidden;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 13px;
     user-select: none;
 }
 
 .social-link {
     background-color: #ffffff00;
     border-radius: 0.3rem;
-    width: 60px;
-    height: 42px;
+    width: 54px;
+    height: 46px;
     transition: all 0.1s ease-out;
 }
 
 .social-image {
 	filter: invert();
 	opacity: 50%;
-    width: 60px;
-    height: 42px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+    width: 54px;
+    height: 46px;
+	padding-top: 7px;
+	padding-bottom: 7px;
     user-select: none;
     pointer-events: auto !important;
     transition: all 0.1s ease-out;
@@ -200,8 +199,8 @@ section {
 .divider {
 	width: 100%;
 	height: 2px;
-	margin-top: 0.25rem;
-	margin-bottom: 1.5rem;
+	margin-top: 0.15rem;
+	margin-bottom: 1rem;
 	background-color: #ffffff80;
 }
 
@@ -217,7 +216,7 @@ section {
     display: flex;
     flex-direction: column;
     height: auto;
-    background-image: linear-gradient(to bottom, #505050, #2a2a2a);
+    background-image: linear-gradient(to bottom, #525252, #2a2a2a);
 }
 
 .navbarLogo {
@@ -233,11 +232,11 @@ section {
 
 .navbarLogo-text {
 	color: #fff;
-	padding: 25px;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
-	line-height: 0.85;
-    border-radius: 0.75rem;
+	line-height: 80px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
     height: 80px;
     justify-content: left;
 	user-select: none;
@@ -252,20 +251,37 @@ section {
 }
 
 .navbarLinks {
-	margin-left: 1rem;
+	margin-left: 13px;
     display: flex;
     width: auto;
-	height: 48px;
+	height: 54px;
 }
 
 .navbarLinks-active {
 	display: flex;
-	padding: 12px;
-	padding-left: 18px;
-	padding-right: 18px;
-    border-radius: 0.5rem;
+	padding: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
     height: 100%;
     overflow: hidden;
+}
+
+.navbarLinks-other {
+	display: flex;
+	padding: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0.5rem;
+	height: 100%;
+	overflow: hidden;
+	opacity: 50%;
+	background-color: #ffffff00;
+	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
+}
+
+.navbarLinks-other:hover {
+	opacity: 100%;
+	background-color: #ffffff36;
 }
 
 .navbarLinks-image {
@@ -274,29 +290,12 @@ section {
 
 .navbarLinks-text {
 	font-weight: 500;
-	margin-left: 0.67rem;
+	margin-left: 0.75rem;
+	line-height: 26px;
 	color: #fff;
 	opacity: 100%;
 	overflow: hidden;
 	user-select: none;
-}
-
-.navbarLinks-other {
-	display: flex;
-	padding: 12px;
-	padding-left: 18px;
-	padding-right: 18px;
-    border-radius: 0.5rem;
-    height: 100%;
-	overflow: hidden;
-	opacity: 50%;
-    background-color: #ffffff00;
-	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
-}
-
-.navbarLinks-other:hover {
-	opacity: 100%;
-    background-color: #ffffff36;
 }
 
 .textLink {
@@ -410,27 +409,6 @@ section {
 
 
 
-.featureImage {
-    border-radius: 1.5rem;
-    border: none;
-    box-shadow: 0rem 0.1rem 0.65rem #00000040;
-    transform: scale(0.95);
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 1rem;
-	user-select: none;
-	pointer-events: none;
-}
-
-@media (max-width: 899px) {
-}
-
-@media (max-width: 1719px) {
-	.featureImage {
-		height: 560px;
-	}
-}
-
 .home-background {
 	width: 100vw;
 	height: 100vh;
@@ -448,8 +426,7 @@ section {
 
 .home-about-image {
 	width: 100%;
-	border-radius: 0.5rem;
-	box-shadow: 0rem 0.1rem 0.4rem #00000050;
+	border-radius: 0.67rem;
 }
 
 #home-about-imageStandard {
@@ -471,16 +448,13 @@ section {
 	display: flex;
 	flex-direction: row;
     border-radius: 0.5rem;
-    box-shadow: 0rem 0.1rem 0.4rem #00000050;
 	background-color: #ffffff30;
 	cursor: pointer;
-	transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+	transition: background-color 0.1s ease-out;
 }
 
 .home-portal:hover {
-	z-index: 10;
-    box-shadow: 0rem 0.2rem 1rem #00000070;
-	transform: scale(1.03);
+	background-color: #ffffff50;
 }
 
 .home-portal:hover .card-glare {
@@ -507,7 +481,7 @@ section {
 }
 
 .form-heading {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.25rem;
 	font-weight: 500;
 }
 
@@ -515,24 +489,24 @@ section {
 	background-color: #00000070;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #90909000;
+	border-color: #b0b0b000;
+	border-radius: 0.5rem;
 	width: 100%;
 	cursor: text;
 	margin-bottom: 1.5rem;
-	padding: 0.5rem;
+	padding: 0.67rem;
 	padding-left: 0.75rem;
 	transition: border-color 0.1s ease-out;
 }
 
 .form-entry:hover {
-	border-color: #909090ff;
+	border-color: #b0b0b0ff;
 }
 
 .form-text {
 	font-size: 0.9rem;
 	font-weight: 500;
 	color: #c0c0c0;
-	visibility: hidden;
 }
 
 .form-send {
@@ -565,15 +539,16 @@ section {
 
 .card {
 	position: relative;
-	height: 15rem;
+	height: 14.5rem;
     border-radius: 0.5rem;
     border: none;
     box-shadow: 0rem 0.1rem 0.4rem #00000050;
 	background-color: #4b4a5f;
     background-position: center;
     background-size: cover;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
 	cursor: pointer;
+	transform: scale(0.96);
 	transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
 }
 
@@ -588,7 +563,7 @@ section {
 
 .card-gradient {
 	height: 5rem;
-	margin-top: 10rem;
+	margin-top: 9.5rem;
 	padding-top: 2rem;
 	background: linear-gradient(to bottom, #00000000, #00000080);
 	border-radius: 0 0 0.5rem 0.5rem;
@@ -603,9 +578,9 @@ section {
 }
 
 .card:hover {
+	transform: scale(1);
 	z-index: 10;
     box-shadow: 0rem 0.2rem 1rem #00000070;
-	transform: scale(0.99);
 }
 
 .card:hover .card-glare {

@@ -2,7 +2,7 @@
 
 
 /* ---------- Mobile navigation bar ---------- */
-@media (max-width: 645px) {
+@media (max-width: 702px) {
 	#calvinhoggDesktop {
 		display: none;
 	}
@@ -12,17 +12,13 @@
 	}
 }
 
-@media (max-width: 995px) {
+@media (max-width: 1010px) {
 	.navbarLinks-other {
 		width: auto !important;
-		padding-left: 12px;
-		padding-right: 12px;
 	}
 
 	.navbarLinks-active {
 		width: auto !important;
-		padding-left: 12px;
-		padding-right: 12px;
 	}
 
 	.navbarLinks-text {

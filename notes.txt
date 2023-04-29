@@ -1,0 +1,31 @@
+- - - BRANDING - - -
+Open Sans font
+Consistent, predictable layout
+Greyscale on non-artwork elements
+Slightly rounded rectangles
+Padding for adequate clicking space
+Glass appearance
+Muted purple, green, teal and blue colours
+Appropriate use of screen space
+Serious, not distracting, concise
+
+
+- - - TO DO - - -
+Upload YouTube videos
+Embed YouTube videos in modals
+Update YouTube social media link
+Make modal feature image change when hovering on thumbnails
+More sketches and photographs
+Longer description
+Contact form
+Rewrite workbooks in PDF and HTML form
+Lazy load images / blank screen until fully loaded
+			Game downloads in same tab
+Add remaining project descriptions
+Fix navbar on mobile
+Add page explaining history of website and design language
+
+Optimize image sizes
+Check consistency
+Clean up code
+Publish
