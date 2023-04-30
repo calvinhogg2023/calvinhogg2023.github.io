@@ -265,16 +265,18 @@ section {
 
 .navbarLinks-active {
 	display: flex;
-	padding-left: 6px;
-	padding-right: 6px;
+	padding: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
     height: 100%;
     overflow: hidden;
 }
 
 .navbarLinks-other {
 	display: flex;
-	padding-left: 6px;
-	padding-right: 6px;
+	padding: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
 	height: 100%;
 	overflow: hidden;
 	border-radius: 0.5rem;
@@ -290,13 +292,12 @@ section {
 
 .navbarLinks-image {
 	filter: invert();
-	padding: 14px;
 }
 
 .navbarLinks-text {
 	font-weight: 500;
-	line-height: 54px;
-	margin-right: 14px;
+	line-height: 28px;
+	margin-left: 12px;
 	color: #ffffff;
 	opacity: 100%;
 	overflow: hidden;

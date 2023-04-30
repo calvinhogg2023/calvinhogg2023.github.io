@@ -14,13 +14,15 @@
 
 @media (max-width: 1020px) {
 	.navbarLinks-active {
-		padding-left: 0px;
-		padding-right: 0px;
+		width: 54px !important;
+		padding-left: 13px;
+		padding-right: 13px;
 	}
 
 	.navbarLinks-other {
-		padding-left: 0px;
-		padding-right: 0px;
+		width: 54px !important;
+		padding-left: 13px;
+		padding-right: 13px;
 	}
 
 	.navbarLinks-text {
