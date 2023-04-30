@@ -269,7 +269,6 @@ section {
 	padding-left: 20px;
 	padding-right: 20px;
     height: 100%;
-    overflow: hidden;
 }
 
 .navbarLinks-other {
@@ -278,7 +277,6 @@ section {
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 100%;
-	overflow: hidden;
 	border-radius: 0.5rem;
 	opacity: 50%;
 	background-color: #ffffff00;
@@ -300,7 +298,6 @@ section {
 	margin-left: 12px;
 	color: #ffffff;
 	opacity: 100%;
-	overflow: hidden;
 	user-select: none;
 }
 
