@@ -58,7 +58,7 @@ img {
 }
 
 section {
-	padding-bottom: 7rem;
+	padding-bottom: 6rem;
 }
 
 ::selection {
@@ -93,6 +93,7 @@ section {
 .section-heading {
 	color: #ffffffc0;
     font-weight: 600;
+	font-size: 2rem;
 }
 
 .img-fluid {
@@ -126,6 +127,7 @@ section {
     width: 100%;
     height: 100%;
     display: flex;
+	flex-direction: column;
     background: linear-gradient(to bottom, #3c464d20, #3c464dff);
 }
 
@@ -136,11 +138,15 @@ section {
     background: linear-gradient(to bottom, #3b445e20, #3b445eff);
 }
 
-.pageBanner-text {
+.pageBanner-title {
 	text-align: center;
     font-size: 2.5rem;
 	font-weight: 700;
-    margin: auto;
+}
+
+.pageBanner-subtitle {
+	text-align: center;
+	opacity: 67%;
 }
 
 
@@ -555,7 +561,7 @@ section {
 	height: 14.5rem;
     border-radius: 0.5rem;
     border: none;
-    box-shadow: 0rem 0.1rem 0.4rem #00000050;
+    box-shadow: 0rem 0.1rem 0.15rem #00000050;
 	background-color: #00000050;
     background-position: center;
     background-size: cover;
@@ -578,7 +584,7 @@ section {
 	height: 5rem;
 	margin-top: 9.5rem;
 	padding-top: 2rem;
-	background: linear-gradient(to bottom, #00000000, #00000080);
+	background: linear-gradient(to bottom, #00000000, #00000070);
 	border-radius: 0 0 0.5rem 0.5rem;
 }
 
