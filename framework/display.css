@@ -29,7 +29,7 @@
 
 	.column4 {
 	    flex: 0 0 auto;
-	    width: 100%;
+	    width: 50%;
 	}
 
 	.column5 {
@@ -74,11 +74,11 @@
 	}
 
 	.card {
-		height: 17rem;
+		height: 9.5rem;
 	}
 
 	.card-gradient {
-		margin-top: 12rem;
+		margin-top: 4.5rem;
 	}
 }
 
