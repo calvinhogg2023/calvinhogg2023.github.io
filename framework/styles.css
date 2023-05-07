@@ -61,6 +61,15 @@ section {
 	padding-bottom: 7rem;
 }
 
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 ::selection {
     background: #fff4;
 }
@@ -561,6 +570,8 @@ section {
     background-size: cover;
     margin-bottom: 0.4rem;
 	cursor: pointer;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
 	transform: scale(0.96);
 	transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
 }
