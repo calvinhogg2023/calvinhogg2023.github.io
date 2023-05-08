@@ -15,7 +15,7 @@
 }
 
 .fade {
-	transition: opacity 0.25s ease-out;
+	transition: opacity 0.2s ease-out;
 }
 
 .fade:not(.show) {
@@ -52,7 +52,7 @@
 	background-color: #00000000;
 	background-clip: padding-box;
 	border-radius: 1rem;
-	box-shadow: 0rem 0.33rem 2rem #000000d0;
+	box-shadow: 0rem 0.25rem 4rem #000000f0;
 }
 
 .modal-container {

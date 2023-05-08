@@ -134,10 +134,6 @@
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 
-	.footer-text {
-	    font-size: 0.7rem;
-	}
-
 	.card {
 		height: 14.9rem;
 	}

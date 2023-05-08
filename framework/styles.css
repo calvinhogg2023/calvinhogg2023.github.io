@@ -237,7 +237,6 @@ section {
 }
 
 .navbarLogo {
-	width: max-content;
 	height: 80px;
 	opacity: 50%;
 	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
@@ -250,15 +249,18 @@ section {
 
 .navbarLogo-image {
 	height: 100%;
+	padding: 1.25rem;
 	filter: invert();
 	user-select: none;
 }
 
 #calvinhoggDesktop {
+	width: 268px !important;
 	display: flex;
 }
 
 #calvinhoggMobile {
+	width: 98px !important;
 	display: none;
 }
 
@@ -383,7 +385,7 @@ section {
 
 .footer-text {
     font-size: 0.8rem;
-    color: #ffffff60;
+    color: #ffffff80;
 }
 
 
