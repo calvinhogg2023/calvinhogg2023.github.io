@@ -248,14 +248,9 @@ section {
 }
 
 .navbarLogo-text {
-	color: #fff;
-    font-size: 2rem;
-    font-weight: 700;
-	line-height: 80px;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-    height: 80px;
-    justify-content: left;
+	height: 100%;
+	filter: invert();
+	padding: 1.25rem;
 	user-select: none;
 }
 
