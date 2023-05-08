@@ -254,12 +254,10 @@ section {
 }
 
 #calvinhoggDesktop {
-	width: 455px;
 	display: flex;
 }
 
 #calvinhoggMobile {
-	width: 115px;
 	display: none;
 }
 
