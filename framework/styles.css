@@ -237,6 +237,7 @@ section {
 }
 
 .navbarLogo {
+	width: max-content;
 	height: 80px;
 	opacity: 50%;
 	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
@@ -247,7 +248,8 @@ section {
     background-color: #ffffff36;
 }
 
-.navbarLogo-text {
+.navbarLogo-image {
+	width: 100%;
 	height: 100%;
 	filter: invert();
 	padding: 1.25rem;
