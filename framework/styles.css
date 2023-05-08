@@ -248,6 +248,7 @@ section {
 }
 
 .navbarLogo-image {
+	width: auto;
 	height: 100%;
 	filter: invert();
 	padding: 1.25rem;
