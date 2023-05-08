@@ -248,18 +248,18 @@ section {
 }
 
 .navbarLogo-image {
-	width: auto;
 	height: 100%;
 	filter: invert();
-	padding: 1.25rem;
 	user-select: none;
 }
 
 #calvinhoggDesktop {
+	width: 455px;
 	display: flex;
 }
 
 #calvinhoggMobile {
+	width: 115px;
 	display: none;
 }
 
