@@ -249,23 +249,23 @@ section {
 
 .navbarLogo-image {
 	height: 100%;
-	padding: 1.25rem;
+	padding: 1rem;
 	filter: invert();
 	user-select: none;
 }
 
 #calvinhoggDesktop {
-	width: 268px !important;
+	width: 305px !important;
 	display: flex;
 }
 
 #calvinhoggMobile {
-	width: 98px !important;
+	width: 101px !important;
 	display: none;
 }
 
 .navbarLinks {
-	margin-left: 13px;
+	margin-left: 0.5rem;
     display: flex;
     width: auto;
 	height: 54px;
@@ -377,14 +377,14 @@ section {
 
 .footer {
     width: auto;
-    height: 24px;
     text-align: right;
-	padding-right: 1rem;
-	padding-bottom: 2rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 .footer-text {
     font-size: 0.8rem;
+	line-height: 1.25;
     color: #ffffff80;
 }
 
@@ -440,6 +440,16 @@ section {
 	width: 100%;
 	box-shadow: 0rem 0.1rem 0.4rem #00000050;
 	border-radius: 0.5rem;
+}
+
+.home-about-icon {
+	filter: invert();
+	opacity: 50%;
+	width: 42px;
+    height: 42px;
+	padding: 5px;
+	pointer-events: auto;
+    transition: all 0.1s ease-out;
 }
 
 #home-about-imageStandard {

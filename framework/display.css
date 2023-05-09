@@ -3,7 +3,7 @@
 
 /* ---------- Mobile view ---------- */
 
-@media (max-width: 770px) {
+@media (max-width: 750px) {
     .container {
         max-width: 100%;
     }
@@ -44,7 +44,7 @@
 	}
 
 	.home-about {
-		grid-template-columns: 30% auto;
+		grid-template-columns: 150px auto;
 		column-gap: 1rem;
 	}
 
@@ -63,10 +63,6 @@
 
 	.home-grid {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
-
-	.footer-text {
-	    font-size: 0.7rem;
 	}
 
 	.card {
@@ -122,7 +118,16 @@
 	}
 
 	.home-about {
-		grid-template-columns: 40% auto;
+		grid-template-columns: 150px auto;
+		column-gap: 1rem;
+	}
+
+	#home-about-imageStandard {
+		display: none;
+	}
+
+	#home-about-imageNarrow {
+		display: grid;
 	}
 
     .column2-home {

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="maya"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="mayaBW.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.5976562"
+     inkscape:cx="132.38142"
+     inkscape:cy="256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="maya" />
+  <defs
+     id="defs24">
+    <style
+       id="style22">
+      .cls-1 {
+        fill: #ffffff;
+      }
+
+      .cls-2 {
+        fill: #000000;
+      }
+    </style>
+  </defs>
+  <path
+     class="cls-2"
+     d="M512,104.71V489.02H75.64c-16.62,0-30.11-13.5-30.11-30.11v-15.63l38.88-24H488.34V104.71h23.66Z"
+     id="path26" />
+  <path
+     id="path28"
+     class="cls-2"
+     d="M 81 22.980469 L 0 72.980469 L 0 457.2793 L 81 407.2793 L 476.33984 407.2793 L 476.33984 53.089844 C 476.33984 36.469844 462.85047 22.980469 446.23047 22.980469 L 81 22.980469 z M 171.40039 108.82031 L 237.09961 108.82031 L 278.33008 276.25977 L 319.57031 108.82031 L 385.25977 108.82031 L 385.25977 321.60938 L 338.75 321.60938 L 338.75 189.05078 L 303.28906 321.60938 L 253.38086 321.60938 L 217.91016 189.05078 L 217.91016 321.60938 L 171.40039 321.60938 L 171.40039 108.82031 z " />
+</svg>
