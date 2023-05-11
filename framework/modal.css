@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 .modal.show .modal-dialog {
-	transform: none;
+	transform: scale(1);
+	opacity: 1;
 }
 
 .modal-backdrop {
@@ -11,11 +12,10 @@
 	z-index: 900;
 	width: 100vw;
 	height: 100vh;
-	background-color: #161616d0;
 }
 
 .fade {
-	transition: opacity 0.2s ease-out;
+
 }
 
 .fade:not(.show) {
@@ -24,6 +24,9 @@
 
 
 .modal {
+	overflow-x: hidden;
+	transition: opacity 0.25s;
+	background-color: #202020c0;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -36,6 +39,9 @@
 }
 
 .modal-dialog {
+	transform: scale(1.1);
+	transition: all 0.25s ease-out, margin 0s, width 0s, height 0s, padding 0s;
+	opacity: 0;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -52,7 +58,7 @@
 	background-color: #00000000;
 	background-clip: padding-box;
 	border-radius: 1rem;
-	box-shadow: 0rem 0.25rem 4rem #000000f0;
+	box-shadow: 0rem 0.2rem 3.5rem #000000ff;
 }
 
 .modal-container {

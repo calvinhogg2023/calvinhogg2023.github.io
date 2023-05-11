@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="framework/styles.css">
         <link rel="stylesheet" href="framework/modal.css">
         <link rel="stylesheet" href="framework/colors.css">
-        <link rel="stylesheet" href="framework/display.css">
+		<link rel="stylesheet" href="framework/display.css">
+        <link rel="stylesheet" href="framework/display-home.css">
         <link rel="stylesheet" href="framework/display-navbar.css">
         <link rel="stylesheet" href="framework/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
@@ -49,12 +50,6 @@
 							<p class="navbarLinks-text">Photography</p>
 						</div>
 					</a>
-					<!-- <a href="blog.html" class="disabled">
-						<div class="navbarLinks-other" style="width: 114px;">
-							<img class="navbarLinks-image" src="assets/icons/blog.svg"/>
-							<p class="navbarLinks-text">Blog</p>
-						</div>
-					</a> -->
                 </div>
                 <div class="social">
                     <div class="social-link">
@@ -62,120 +57,125 @@
                             <img draggable="false" class="social-image" src="assets/logos/linkedin.svg"/>
                         </a>
                     </div>
-                    <div class="social-linkDisabled">
-                        <img draggable="false" class="social-image" src="assets/logos/youtube.svg"/>
+                    <div class="social-link">
+                        <a href="https://youtube.com/@CalvinHogg" target="_blank">
+                        	<img draggable="false" class="social-image" src="assets/logos/youtube.svg"/>
+						</a>
                     </div>
                 </div>
             </div>
 			<div class="navbar-divider"></div>
         </nav>
 
-		<section style="padding-top: 6rem;">
-            <div class="container">
-                <p class="section-heading">About me</p>
-				<div class="divider"></div>
-				<div class="row" style="padding-left: 0.67rem; padding-right: 0.67rem;">
+		<div class="viewportHome">
+			<div class="contentHome">
+	            <div class="containerHome">
+	                <p class="section-heading">About me</p>
+					<div class="divider"></div>
+					<div style="font-size: 0.9rem;">
 
-					<div class="home-about">
+						<div class="home-about">
 
-						<img class="home-about-image" id="home-about-imageStandard" src="assets/images/about/calvin.jpg"/>
-						<img class="home-about-image" id="home-about-imageNarrow" src="assets/images/about/calvin-narrow.jpg"/>
-						<p>
-							Hi, I'm Calvin. Welcome to my website. You might be wondering why I'm posting my work here and not on social media. You see, I studied digital media, and presentation is important. Why be suffocated by the limitations of another platform and the distractions of other artists' work, when I could make my own site which is a work of art in and of itself?
-							<br><br>
-							I hold a Bachelor's degree in Digital Media which I completed at the Wellington Institute of Technology, and a Certificate in Information Technology, completed at Whitireia. I have several years of experience with Adobe Creative Cloud and Autodesk Maya, and know a little about photography and programming.
-							<br><br>
+							<div class="home-about-image" style="background-image: url('assets/images/about/calvin.jpg');"></div>
+							<div class="home-about2">
+								<div class="home-about-image2" style="background-image: url('assets/images/about/calvin.jpg');"></div>
+								<p>
+									Hi, I'm Calvin. Welcome to my website. You might be wondering why I'm posting my work here and not on social media. You see, I studied digital media, and presentation is important. Why be suffocated by the limitations of another platform and the distractions of other artists' work, when I could make my own site which is a work of art in and of itself?
+								</p>
+								<p class="second-about-paragraph-Wide" style="margin-top: 1rem;">
+									I hold a Bachelor's degree in Digital Media which I completed at the Wellington Institute of Technology, and a Certificate in Information Technology, completed at Whitireia. I have several years of experience with Adobe Creative Cloud and Autodesk Maya, and know a little about photography and programming.
+								</p>
+							</div>
+								<p class="second-about-paragraph-Narrow" style="margin-top: 1rem;">
+									I hold a Bachelor's degree in Digital Media which I completed at the Wellington Institute of Technology, and a Certificate in Information Technology, completed at Whitireia. I have several years of experience with Adobe Creative Cloud and Autodesk Maya, and know a little about photography and programming.
+								</p>
+							</div>
+
+						<p style="margin-top: 1rem;">
 							My creative area of interest is 3D animation, with character and environment creation being the primary focus during my final year of polytechnic. In my spare time I enjoy nature and a good coffee.
-							<br><br>
-							<img class="home-about-icon" src="assets/logos/maya2.svg"/>
-							<img class="home-about-icon" src="assets/logos/creativeCloud.svg"/>
-							<img class="home-about-icon" src="assets/logos/renderman.svg"/>
-							<img class="home-about-icon" src="assets/logos/blender2.svg"/>
-							<img class="home-about-icon" src="assets/logos/realityCapture3.svg"/>
-							<img class="home-about-icon" src="assets/logos/atom2.svg"/>
-							<img class="home-about-icon" src="assets/logos/unity.svg"/>
-							<img class="home-about-icon" src="assets/logos/androidStudio.svg"/>
 						</p>
+						<div class="software">
+							<img class="software-icon" src="assets/logos/maya2.svg"/>
+							<img class="software-icon" src="assets/logos/creativeCloud.svg"/>
+							<img class="software-icon" src="assets/logos/renderman.svg"/>
+							<img class="software-icon" src="assets/logos/blender2.svg"/>
+							<img class="software-icon" src="assets/logos/realityCapture3.svg"/>
+							<img class="software-icon" src="assets/logos/atom2.svg"/>
+							<img class="software-icon" src="assets/logos/unity.svg"/>
+							<img class="software-icon" src="assets/logos/androidStudio.svg"/>
+						</div>
 
 					</div>
-
 				</div>
-			</div>
-		</section>
-
-		<section style="padding-bottom: 16rem;">
-            <div class="container home-grid">
-				<div>
+				<div class="containerHome">
 	                <p class="section-heading">Let's have a look around</p>
 					<div class="divider"></div>
-					<div class="row" style="padding-left: 0.67rem; padding-right: 0.67rem; flex-direction: column;">
-
-						<a href="projects.html" style="margin-bottom: 1rem;">
-							<div class="home-portal" style="background-image: url('assets/images/about/projects.jpg');">
+					<div style="height: auto; flex-grow: 1; flex-direction: column;">
+						<div class="portal-grid">
+							<a class="home-portal" href="projects.html" style="background-image: url('assets/images/about/projects.jpg');">
 								<div class="home-portal-gradient">
-									<img class="home-portal-icon" src="assets/icons/photos.svg"/>
-									<p class="home-portal-text">Projects</p>
+									<div style="height: 3rem; display: flex; margin: auto; margin-left: 3rem;">
+										<img class="home-portal-icon" src="assets/icons/photos.svg"/>
+										<p class="home-portal-text">Projects</p>
+									</div>
 								</div>
-							</div>
-						</a>
-
-						<a href="sketches.html" style="margin-bottom: 1rem;">
-							<div class="home-portal" style="background-image: url('assets/images/about/sketches.jpg');">
+							</a>
+							<a class="home-portal" href="sketches.html" style="background-image: url('assets/images/about/sketches.jpg');">
 								<div class="home-portal-gradient">
-									<img class="home-portal-icon" src="assets/icons/pencil.svg"/>
-									<p class="home-portal-text">Sketches</p>
+									<div style="height: 3rem; display: flex; margin: auto; margin-left: 3rem;">
+										<img class="home-portal-icon" src="assets/icons/pencil.svg"/>
+										<p class="home-portal-text">Sketches</p>
+									</div>
 								</div>
-							</div>
-						</a>
-
-						<a href="photography.html" style="margin-bottom: 1rem;">
-							<div class="home-portal" style="background-image: url('assets/images/about/photography.jpg');">
+							</a>
+							<a class="home-portal" href="photography.html" style="background-image: url('assets/images/about/photography.jpg');">
 								<div class="home-portal-gradient">
-									<img class="home-portal-icon" src="assets/icons/camera.svg"/>
-									<p class="home-portal-text">Photography</p>
+									<div style="height: 3rem; display: flex; margin: auto; margin-left: 3rem;">
+										<img class="home-portal-icon" src="assets/icons/camera.svg"/>
+										<p class="home-portal-text">Photography</p>
+									</div>
 								</div>
-							</div>
-						</a>
-
+							</a>
+						</div>
 					</div>
 				</div>
-				<!-- <div>
-	                <p class="section-heading">Get in touch (coming soon)</p>
-					<div class="divider"></div>
-					<div class="row" style="padding-left: 0.67rem; padding-right: 0.67rem;">
-
-						<p class="form-heading">Name</p>
-						<div class="form-entry">
-							<p class="form-text">
-								Random Person
-							</p>
-						</div>
-						<p class="form-heading">Email address</p>
-						<div class="form-entry">
-							<p class="form-text">
-								random.person@gmail.com
-							</p>
-						</div>
-						<p class="form-heading">Subject</p>
-						<div class="form-entry">
-							<p class="form-text">
-								Great business proposal. I think you'll like this!
-							</p>
-						</div>
-						<p class="form-heading">Message</p>
-						<div class="form-entry" style="height: 14rem; margin-bottom: 0.5rem; overflow-y: scroll;">
-							<p class="form-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut elementum enim. Integer molestie erat augue, nec ultricies sem dignissim at. Vestibulum molestie placerat scelerisque. Aenean commodo ultrices felis sed cursus. Maecenas sit amet massa dictum, blandit nisi non, aliquet risus. Praesent at tellus orci. Fusce eu mi rhoncus, dictum risus et, blandit nibh. Proin quis convallis odio. Vivamus congue lorem eget augue molestie, vitae imperdiet dui elementum. Praesent at aliquet dolor, in vehicula nunc. Proin non nulla erat. Etiam pretium augue lacus, eget facilisis dolor tincidunt quis. Vivamus pharetra volutpat nisl. Fusce condimentum neque ut commodo posuere.
-							</p>
-						</div>
-						<div class="form-send">
-							<p class="form-send-text">Send</p>
-						</div>
-
-					</div> -->
-				</div>
 			</div>
-		</section>
+		</div>
+
+		<!-- <div>
+            <p class="section-heading">Get in touch (coming soon)</p>
+			<div class="divider"></div>
+			<div class="row" style="padding-left: 0.67rem; padding-right: 0.67rem;">
+
+				<p class="form-heading">Name</p>
+				<div class="form-entry">
+					<p class="form-text">
+						Random Person
+					</p>
+				</div>
+				<p class="form-heading">Email address</p>
+				<div class="form-entry">
+					<p class="form-text">
+						random.person@gmail.com
+					</p>
+				</div>
+				<p class="form-heading">Subject</p>
+				<div class="form-entry">
+					<p class="form-text">
+						Great business proposal. I think you'll like this!
+					</p>
+				</div>
+				<p class="form-heading">Message</p>
+				<div class="form-entry" style="height: 14rem; margin-bottom: 0.5rem; overflow-y: scroll;">
+					<p class="form-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut elementum enim. Integer molestie erat augue, nec ultricies sem dignissim at. Vestibulum molestie placerat scelerisque. Aenean commodo ultrices felis sed cursus. Maecenas sit amet massa dictum, blandit nisi non, aliquet risus. Praesent at tellus orci. Fusce eu mi rhoncus, dictum risus et, blandit nibh. Proin quis convallis odio. Vivamus congue lorem eget augue molestie, vitae imperdiet dui elementum. Praesent at aliquet dolor, in vehicula nunc. Proin non nulla erat. Etiam pretium augue lacus, eget facilisis dolor tincidunt quis. Vivamus pharetra volutpat nisl. Fusce condimentum neque ut commodo posuere.
+					</p>
+				</div>
+				<div class="form-send">
+					<p class="form-send-text">Send</p>
+				</div>
+
+			</div> -->
 
         <div class="footer">
             <p class="footer-text">&copy; 2023 All content on this website (excluding other company logos) is the property of Calvin Hogg.</p>

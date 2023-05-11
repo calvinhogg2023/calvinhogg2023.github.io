@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+/* ---------- Mobile view ---------- */
+
+@media (max-width: 708px) {
+	.containerHome {
+		width: 100%;
+		max-width: 560px;
+	}
+
+	.home-about {
+		display: block;
+	}
+
+	.home-about2 {
+		display: grid;
+	}
+
+	.home-about-image {
+		display: none;
+	}
+
+	.home-about-image2 {
+		display: block;
+	}
+
+	.second-about-paragraph-Wide {
+		display: none;
+	}
+
+	.second-about-paragraph-Narrow {
+		display: block;
+	}
+}
+
+@media (max-width: 1544px) {
+	.viewportHome {
+		height: auto;
+	}
+
+	.contentHome {
+		padding-left: 0;
+		padding-right: 0;
+		display: flex;
+		flex-direction: column;
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+		grid-template-rows: repeat(2, minmax(0, 1fr));
+		column-gap: 0;
+		row-gap: 3rem;
+	}
+
+	.containerHome {
+		height: auto;
+	}
+
+	.portal-grid {
+		display: flex;
+		flex-direction: column;
+		row-gap: 0;
+	}
+
+	.home-portal {
+		height: 8rem;
+		margin-bottom: 1rem;
+	}
+}
