@@ -23,8 +23,8 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.5976562"
-     inkscape:cx="255.68704"
-     inkscape:cy="256"
+     inkscape:cx="164.30318"
+     inkscape:cy="256.00001"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -35,7 +35,7 @@
      id="_14_renderman"
      data-name="14 renderman"
      style="fill:#000000"
-     transform="matrix(0.95410539,0,0,0.95410539,11.749019,11.749019)">
+     transform="matrix(0.9932252,0,0,0.9932252,1.7343488,1.7343488)">
     <path
        d="M 385.73,337.09 C 558.28,249 509.07,0 280.33,0 H 7 V 512 H 178.42 V 364.9 h 37.05 L 311.59,512 H 505 Z M 256,243.83 H 178.4 V 141.32 H 256 c 83.4,0 83.4,102.51 0,102.51 z"
        style="fill:#000000"

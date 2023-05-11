@@ -37,6 +37,7 @@
 @media (max-width: 1544px) {
 	.viewportHome {
 		height: auto;
+		padding-bottom: 8rem;
 	}
 
 	.contentHome {
