@@ -3,7 +3,7 @@
 
 /* ---------- Mobile view ---------- */
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
     .container {
         max-width: 100%;
     }
@@ -53,20 +53,24 @@
 	}
 
 	.card {
-		height: 32vw;
+		height: 31vw;
 	}
 
 	.card-gradient {
-		margin-top: calc(32vw - 5rem);
+		margin-top: calc(31vw - 5rem);
+	}
+
+	.grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
 
 
 /* ---------- Tablet view ---------- */
 
-@media (min-width: 750.1px) and (max-width: 1120px) {
+@media (min-width: 760.1px) and (max-width: 1120px) {
     .container {
-        max-width: 750px;
+        max-width: 760px;
     }
 
     .column1 {
@@ -120,14 +124,18 @@
 	.card-gradient {
 		margin-top: 9.9rem;
 	}
+
+	.grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }
 
 
 /* ---------- Tablet view ---------- */
 
-@media (min-width: 1120.1px) and (max-width: 1440px) {
+@media (min-width: 1120.1px) and (max-width: 1460px) {
 	.container {
-        max-width: 1100px;
+        max-width: 1120px;
     }
 
     .column1 {
@@ -177,14 +185,18 @@
 	.card-gradient {
 		margin-top: 9.7rem;
 	}
+
+	.grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
 }
 
 
 /* ---------- Desktop view ---------- */
 
-@media (min-width: 1440.1px) {
+@media (min-width: 1460.1px) {
 	.container {
-        max-width: 1420px;
+        max-width: 1460px;
     }
 
     .column1 {
@@ -233,5 +245,9 @@
 
 	.card-gradient {
 		margin-top: 9.5rem;
+	}
+
+	.grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }

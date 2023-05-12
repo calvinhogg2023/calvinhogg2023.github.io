@@ -1,61 +1,41 @@
-window.addEventListener('DOMContentLoaded', event => {
-
-    // Activate Bootstrap scrollspy on the main nav element
-    /*
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 0,
-        });
-    };
-    */
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
-
-});
-
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+const renderImage2 = {
+	1:'assets/preview/0001.png',
+	2:'assets/preview/0002.png',
+	3:'assets/preview/0003.png',
+	4:'assets/preview/0004.png',
+	5:'assets/preview/0005.png',
+	6:'assets/preview/0006.png',
+	7:'assets/preview/0007.png',
+	8:'assets/preview/0008.png',
+	9:'assets/preview/0009.png',
+	10:'assets/preview/0010.png',
+	11:'assets/preview/0011.png',
+	12:'assets/preview/0012.png',
+	13:'assets/preview/0013.png',
+	14:'assets/preview/0014.png',
+	15:'assets/preview/0015.png',
+	16:'assets/preview/0016.png',
+	17:'assets/preview/0017.png',
+	18:'assets/preview/0018.png',
+	19:'assets/preview/0019.png',
+	20:'assets/preview/0020.png',
+	21:'assets/preview/0021.png',
+	22:'assets/preview/0022.png',
+	23:'assets/preview/0023.png',
+	24:'assets/preview/0024.png',
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+const step = 20;
+
+function trackScrollPosition() {
+	const y = window.scrollY;
+	const label = Math.min(Math.floor(y/20) + 1, 20);
+	const imageToUse = renderImage2[label];
+	$('.renderImage').css('background-image',`url('${imageToUse}')`);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slideshow-slides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  slides[slideIndex-1].style.display = "block";
-}
-
-function toggleNavbarMenuItems() {
-  var x = document.getElementById("navbarMenuItems");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+$(document).ready(()=>{
+	$(window).scroll(()=>{
+		trackScrollPosition();
+	})
+})
