@@ -11,51 +11,40 @@
         <link rel="stylesheet" href="framework/display-navbar.css">
         <link rel="stylesheet" href="framework/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
-        <script src="framework/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
-		<nav class="navbar bg-default">
-            <div class="container-fluid" style="padding: 0px;">
-				<div class="navbarLogo">
+		<nav class="navbar">
+            <div class="container-fluid">
+				<div class="navbar-section1">
 					<a href="index.html">
-                        <div class="navbarLogo-image" id="logoDesktop">
-                            <img src="assets/logos/logoDesktop.svg"/>
-                        </div>
-						<div class="navbarLogo-image" id="logoMobile">
-                            <img src="assets/logos/logoMobile.svg"/>
-                        </div>
+                        <img class="navbar-logo" id="logoDesktop" src="assets/logos/logoDesktop.svg"/>
+                        <img class="navbar-logo" id="logoMobile" src="assets/logos/logoMobile.svg"/>
                     </a>
 				</div>
-                <div class="navbarLinks">
-					<a href="projects.html">
-    					<div class="navbarLinks-other" style="width: 142px;">
-    						<img draggable="false" class="navbarLinks-image" src="assets/icons/photos.svg"/>
-							<p class="navbarLinks-text">Projects</p>
-    					</div>
+				<div class="navbar-section2">
+					<a class="navbar-page" style="width: 142px;" href="projects.html">
+						<img class="navbar-page-image" src="assets/icons/photos.svg"/>
+						<p class="navbar-page-text">Projects</p>
     				</a>
-					<a href="sketches.html">
-						<div class="navbarLinks-other" style="width: 148px;">
-							<img draggable="false" class="navbarLinks-image" src="assets/icons/pencil.svg"/>
-							<p class="navbarLinks-text">Sketches</p>
-						</div>
+					<a class="navbar-page" style="width: 148px;" href="sketches.html">
+						<img class="navbar-page-image" src="assets/icons/pencil.svg"/>
+						<p class="navbar-page-text">Sketches</p>
 					</a>
-					<a href="photography.html" style="pointer-events: none;">
-						<div class="navbarLinks-active" style="width: 178px;">
-							<img draggable="false" class="navbarLinks-image" src="assets/icons/camera.svg"/>
-							<p class="navbarLinks-text">Photography</p>
-						</div>
+					<a class="navbar-pageCurrent" style="width: 178px;" href="photography.html">
+						<img class="navbar-page-image" src="assets/icons/camera.svg"/>
+						<p class="navbar-page-text">Photography</p>
 					</a>
                 </div>
-                <div class="social">
-                    <a class="social-link" href="https://www.linkedin.com/in/calvinhogg2000/" target="_blank">
-                        <img draggable="false" class="social-image" src="assets/logos/linkedin.svg"/>
+				<div class="navbar-section3">
+                    <a class="navbar-social" href="https://www.linkedin.com/in/calvinhogg2000/" target="_blank">
+                        <img class="navbar-social-image" src="assets/logos/linkedin.svg"/>
                     </a>
-                    <a class="social-link" href="https://youtube.com/@CalvinHogg" target="_blank">
-                    	<img draggable="false" class="social-image" src="assets/logos/youtube.svg"/>
+                    <a class="navbar-social" href="https://youtube.com/@CalvinHogg" target="_blank">
+                    	<img class="navbar-social-image" src="assets/logos/youtube.svg"/>
 					</a>
                 </div>
             </div>
@@ -75,49 +64,27 @@
                 <p class="section-heading">All Photos</p>
 				<div class="divider"></div>
 				<div class="grid">
-
-					<div class="card" style="background-image: url('assets/images/photography/2022-007.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2022-006.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2022-005.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-040.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-039.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-027.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-020.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-019.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-017.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-015.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2021-006.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2020-078.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2020-067.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2020-066.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2020-065.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2020-039.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2019-008.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2019-007.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2019-002.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2018-026.jpg'); cursor: default; pointer-events: none;"></div>
-
-					<div class="card" style="background-image: url('assets/images/photography/2018-021.jpg'); cursor: default; pointer-events: none;"></div>
-
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2022-007.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2022-006.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2022-005.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-040.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-039.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-027.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-020.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-019.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-017.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-015.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2021-006.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2020-078.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2020-067.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2020-066.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2020-065.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2020-039.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2019-008.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2019-007.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2019-002.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2018-026.jpg');"></div>
+					<div class="cardAlt" style="background-image: url('assets/images/photography/2018-021.jpg');"></div>
                 </div>
             </div>
         </section>
