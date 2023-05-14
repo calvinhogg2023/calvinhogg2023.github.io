@@ -52,7 +52,8 @@
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 
-	.card {
+	.card,
+	.cardAlt {
 		height: 31vw;
 	}
 
@@ -117,7 +118,8 @@
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 
-	.card {
+	.card,
+	.cardAlt {
 		height: 14.9rem;
 	}
 
@@ -178,7 +180,8 @@
         width: 50%;
     }
 
-	.card {
+	.card,
+	.cardAlt {
 		height: 14.7rem;
 	}
 
@@ -239,7 +242,8 @@
         width: 50%;
     }
 
-	.card {
+	.card,
+	.cardAlt {
 		height: 14.5rem;
 	}
 

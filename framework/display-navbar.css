@@ -13,19 +13,19 @@
 }
 
 @media (max-width: 953px) {
-	.navbarLinks-active {
+	.navbar-pageCurrent {
 		width: 54px !important;
 		padding-left: 13px;
 		padding-right: 13px;
 	}
 
-	.navbarLinks-other {
+	.navbar-page {
 		width: 54px !important;
 		padding-left: 13px;
 		padding-right: 13px;
 	}
 
-	.navbarLinks-text {
+	.navbar-page-text {
 		display: none;
 	}
 }
