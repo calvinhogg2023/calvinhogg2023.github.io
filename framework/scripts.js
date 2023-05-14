@@ -2,9 +2,9 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 24;
+const frameCount = 96;
 const currentFrame = index => (
-  `preview/${index.toString().padStart(4, '0')}.png`
+  `preview2/${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
