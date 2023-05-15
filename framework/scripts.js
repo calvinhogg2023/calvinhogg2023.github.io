@@ -1,3 +1,24 @@
+const overlay = document.getElementById("overlay");
+
+window.addEventListener('load', () => {
+	document.body.style.opacity = '1';
+});
+
+history.scrollRestoration = 'manual';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
