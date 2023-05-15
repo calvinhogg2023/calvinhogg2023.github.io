@@ -178,6 +178,7 @@ section {
 	display: flex;
     width: auto;
 	padding: 0.5rem;
+	padding-left: 5rem;
 	height: 3rem;
     font-size: 0.8rem;
     opacity: 50%;
@@ -279,7 +280,8 @@ section {
 }
 
 .card,
-.cardAlt {
+.cardAlt,
+.cardSketch {
 	position: relative;
 	height: 14.5rem;
     border-radius: 0.5rem;
@@ -294,6 +296,12 @@ section {
 }
 
 .cardAlt {
+	cursor: default;
+	pointer-events: none;
+}
+
+.cardSketch {
+	background-color: #ebebeb;
 	cursor: default;
 	pointer-events: none;
 }
