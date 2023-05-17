@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 	document.body.style.opacity = '1';
 });
 
-history.scrollRestoration = 'manual';
+history.scrollRestoration = 'auto';
 
 
 

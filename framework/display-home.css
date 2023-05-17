@@ -34,15 +34,16 @@
 	}
 }
 
-@media (max-width: 1512px) {
+@media (max-width: 1480px) {
 	.viewportHome {
 		height: auto;
-		padding-bottom: 8rem;
 	}
 
 	.contentHome {
 		padding-left: 0;
 		padding-right: 0;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
 		display: flex;
 		flex-direction: column;
 		grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -58,11 +59,9 @@
 	.portal-grid {
 		display: flex;
 		flex-direction: column;
-		row-gap: 0;
 	}
 
 	.home-portal {
 		height: 8rem;
-		margin-bottom: 1rem;
 	}
 }
