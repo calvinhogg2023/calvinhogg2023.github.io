@@ -2,17 +2,7 @@
 
 
 /* ---------- Mobile navigation bar ---------- */
-@media (max-width: 647px) {
-	#logoDesktop {
-		display: none;
-	}
-
-	#logoMobile {
-		display: flex;
-	}
-}
-
-@media (max-width: 953px) {
+@media (max-width: 731px) {
 	.navbar-pageCurrent {
 		width: 54px !important;
 		padding-left: 13px;
@@ -27,5 +17,15 @@
 
 	.navbar-page-text {
 		display: none;
+	}
+}
+
+@media (max-width: 935px) {
+	#logoDesktop {
+		display: none;
+	}
+
+	#logoMobile {
+		display: flex;
 	}
 }

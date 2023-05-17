@@ -7,9 +7,28 @@
 
 	--shadow-small: 0rem 0.1rem 0.15rem #00000050;
 	--shadow-large: 0rem 0.2rem 1rem #000000a0;
+
+	--font-regular: 'Open Sans', sans-serif;
+	--font-semibold: 'Open Sans SemiBold', sans-serif;
+	--font-bold: 'Open Sans Bold', sans-serif;
 }
 
 /* ---------- Root elements ---------- */
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Open Sans SemiBold";
+	src: url('OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: "Open Sans Bold";
+	src: url('OpenSans-Bold.ttf');
+}
 
 html {
 	scroll-behavior: smooth;
@@ -18,7 +37,7 @@ html {
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-regular);
     box-sizing: border-box;
 }
 
@@ -26,7 +45,6 @@ body {
     margin: 0;
     min-width: 360px;
     background-color: var(--colour-teal);
-    font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     line-height: 1.5;
 	background-repeat: no-repeat;
@@ -95,7 +113,7 @@ section {
 
 .section-heading {
 	color: #ffffffc0;
-    font-weight: 600;
+    font-family: var(--font-semibold);
 	font-size: 2rem;
 }
 
@@ -143,12 +161,13 @@ section {
 }
 
 .pageBanner-title {
+    font-family: var(--font-bold);
 	text-align: center;
     font-size: 2.5rem;
-	font-weight: 700;
 }
 
 .pageBanner-subtitle {
+    font-family: var(--font-semibold);
 	text-align: center;
 	opacity: 67%;
 }
@@ -274,8 +293,8 @@ section {
 .home-portal-text {
 	margin-left: 1.25rem;
 	line-height: 3rem;
+    font-family: var(--font-semibold);
 	font-size: 1.5rem;
-	font-weight: 500;
 	user-select: none;
 }
 
@@ -328,9 +347,9 @@ section {
 }
 
 .card-text {
+    font-family: var(--font-semibold);
 	line-height: 3rem;
 	margin-left: 1rem;
-	font-weight: 600;
 	text-shadow: 0rem 1px 4px #000000d0;
 	user-select: none;
 }
@@ -356,8 +375,8 @@ section {
 }
 
 .contentHome {
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	grid-template-rows: repeat(1, minmax(0, 1fr));
@@ -509,11 +528,12 @@ section {
 }
 
 .navbar-section2 {
-	margin-left: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	user-select: none;
     display: flex;
     width: auto;
 	height: 54px;
-	user-select: none;
 }
 
 .navbar-page,
@@ -546,7 +566,7 @@ section {
 }
 
 .navbar-page-text {
-	font-weight: 500;
+    font-family: var(--font-semibold);
 	line-height: 28px;
 	margin-left: 12px;
 	color: #ffffff;
