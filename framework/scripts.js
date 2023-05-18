@@ -7,27 +7,6 @@ window.addEventListener('load', () => {
 history.scrollRestoration = 'auto';
 
 
-
-
-
-var element1 = document.getElementById("projectBackground");
-var element2 = document.getElementById("projectContent");
-
-$('.modal').on('show.bs.modal', function (e) {
-	element1.classList.add("modal-greyscale");
-	element2.classList.add("modal-greyscale");
-})
-
-$('.modal').on('hide.bs.modal', function (e) {
-	element1.classList.remove("modal-greyscale");
-	element2.classList.remove("modal-greyscale");
-})
-
-
-
-
-
-
 const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");

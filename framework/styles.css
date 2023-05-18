@@ -23,7 +23,7 @@
         url('../fonts/OpenSans-Regular.woff2') format('woff2'),
         url('../fonts/OpenSans-Regular.woff') format('woff'),
         url('../fonts/OpenSans-Regular.ttf') format('truetype');
-	font-display: block;
+	font-display: swap;
 }
 
 @font-face {
@@ -33,7 +33,7 @@
         url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
         url('../fonts/OpenSans-SemiBold.woff') format('woff'),
         url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
-	font-display: block;
+	font-display: swap;
 }
 
 @font-face {
@@ -43,7 +43,7 @@
         url('../fonts/OpenSans-Bold.woff2') format('woff2'),
         url('../fonts/OpenSans-Bold.woff') format('woff'),
         url('../fonts/OpenSans-Bold.ttf') format('truetype');
-	font-display: block;
+	font-display: swap;
 }
 
 html {
@@ -68,10 +68,6 @@ body {
 	background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.modal-greyscale {
-	filter: saturate(0);
 }
 
 a {
@@ -371,7 +367,7 @@ section {
     border-radius: 0.5rem;
     border: none;
     box-shadow: var(--shadow-small);
-	background-color: #556570;
+	background-color: #2c353b;
     background-position: center;
     background-size: cover;
 	cursor: pointer;
