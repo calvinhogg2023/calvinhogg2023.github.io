@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-/* ---------- Mobile modal ---------- */
 @media (max-width: 842px) {
 	.modal {
 		padding-bottom: 7rem !important;
@@ -21,12 +19,12 @@
 
 	.modal-section1 {
 		width: 100%;
-		border-radius: 1rem 1rem 0 0;
+		border-radius: 0.67rem 0.67rem 0 0;
 	}
 
 	.modal-section2 {
 		width: 100%;
-		border-radius: 0 0 1rem 1rem;
+		border-radius: 0 0 0.67rem 0.67rem;
 	}
 
 	.modal-description {
@@ -41,9 +39,7 @@
 	}
 }
 
-
-/* ---------- Mobile modal ---------- */
-@media (min-width: 842px) and (max-width: 1232px) {
+@media (min-width: 822px) and (max-width: 1222px) {
 	.modal {
 		padding-bottom: 7rem !important;
 	}
@@ -53,7 +49,7 @@
 		height: auto;
 		padding: 0rem;
 		margin-top: 0;
-		margin-left: calc(50vw - 400px - 1rem);
+		margin-left: calc(50vw - 400px - 0.67rem);
 	}
 
 	.modal-content {
@@ -67,12 +63,12 @@
 
 	.modal-section1 {
 		width: 100%;
-		border-radius: 1rem 1rem 0 0;
+		border-radius: 0.67rem 0.67rem 0 0;
 	}
 
 	.modal-section2 {
 		width: 100%;
-		border-radius: 0 0 1rem 1rem;
+		border-radius: 0 0 0.67rem 0.67rem;
 	}
 
 	.modal-description {

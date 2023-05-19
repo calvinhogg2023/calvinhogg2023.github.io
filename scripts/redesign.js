@@ -1,19 +1,10 @@
-const overlay = document.getElementById("overlay");
-
-window.addEventListener('load', () => {
-	document.body.style.opacity = '1';
-});
-
-history.scrollRestoration = 'auto';
-
-
 const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
 const frameCount = 96;
 const currentFrame = index => (
-  `preview2/${index.toString().padStart(4, '0')}.jpg`
+  `./assets/images/redesign/preview2/${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@media (max-width: 760px) {
+    .container {
+        max-width: 100%;
+    }
+
+	.card,
+	.cardAlt,
+	.cardSketch {
+		height: 31vw;
+	}
+
+	.grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 760.1px) and (max-width: 1120px) {
+    .container {
+        max-width: 760px;
+    }
+
+	.card,
+	.cardAlt,
+	.cardSketch {
+		height: 14.9rem;
+	}
+
+	.grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1120.1px) and (max-width: 1460px) {
+	.container {
+        max-width: 1120px;
+    }
+
+	.card,
+	.cardAlt,
+	.cardSketch {
+		height: 14.7rem;
+	}
+
+	.grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1460.1px) {
+	.container {
+        max-width: 1460px;
+    }
+
+	.card,
+	.cardAlt,
+	.cardSketch {
+		height: 14.5rem;
+	}
+
+	.grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}

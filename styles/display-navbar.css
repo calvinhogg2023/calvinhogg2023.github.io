@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-/* ---------- Mobile navigation bar ---------- */
 @media (max-width: 731px) {
 	.navbar-pageCurrent {
 		width: 54px !important;
