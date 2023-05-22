@@ -110,7 +110,7 @@
 .modal-images-feature {
 	width: 100%;
 	height: auto;
-	background-color: #242424;
+	background-color: #1b1b1b;
 }
 
 .modal-images-gallery {
@@ -118,7 +118,7 @@
 	grid-template-columns: repeat(4, 1fr);
 	column-gap: 8px;
 	padding: 8px;
-	background-color: #242424;
+	background-color: #202020;
 }
 
 .modal-images-gallery-thumbnail {
