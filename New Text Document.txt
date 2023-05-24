@@ -1,0 +1,4 @@
+primary image 1080x720
+secondary image 270x180
+
+grid image 540x360
