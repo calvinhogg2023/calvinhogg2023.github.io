@@ -491,9 +491,8 @@ section {
 }
 
 .navbar-section2 {
-	background-color: #f005;
 	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding-right: 1rem;
 	user-select: none;
     display: flex;
     width: auto;
@@ -503,7 +502,7 @@ section {
 .navbar-page,
 .navbar-pageCurrent {
 	display: flex;
-	padding: 13px;
+	padding: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
 	width: auto;
@@ -525,14 +524,13 @@ section {
 }
 
 .navbar-page-image {
-	width: 100%;
 	height: 100%;
 	filter: invert();
 }
 
 .navbar-page-text {
     font-family: var(--font-semibold);
-	line-height: 28px;
+	line-height: 26px;
 	margin-left: 12px;
 	color: #ffffff;
 	opacity: 100%;
