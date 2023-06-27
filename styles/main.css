@@ -502,7 +502,7 @@ section {
 .navbar-page,
 .navbar-pageCurrent {
 	display: flex;
-	padding: 13px;
+	padding: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
 	width: auto;
@@ -530,7 +530,7 @@ section {
 
 .navbar-page-text {
     font-family: var(--font-semibold);
-	line-height: 28px;
+	line-height: 26px;
 	margin-left: 12px;
 	color: #ffffff;
 	opacity: 100%;
