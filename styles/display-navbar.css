@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 731px) {
+@media (max-width: 1028px) {
 	.navbar-pageCurrent {
 		width: 54px !important;
 		padding-left: 13px;
@@ -18,7 +18,7 @@
 	}
 }
 
-@media (max-width: 935px) {
+@media (max-width: 1232px) {
 	#logoDesktop {
 		display: none;
 	}

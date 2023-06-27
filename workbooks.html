@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CALVIN HOGG</title>
+        <title>CALVIN HOGG > Workbooks</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Portfolio website for Calvin Hogg, digital media bachelor graduate with a passion for 3D animation.">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/modal.css">
-		<link rel="stylesheet" href="styles/display.css">
+        <link rel="stylesheet" href="styles/display.css">
         <link rel="stylesheet" href="styles/display-navbar.css">
         <link rel="stylesheet" href="styles/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
     </head>
     <body>
 
-        <nav id="navbar">
+		<nav id="navbar">
             <div class="container-fluid">
-				<div class="navbar-section1" style="opacity: 100%; pointer-events: none;">
+				<div class="navbar-section1">
 					<a href="index.html">
                         <img class="navbar-logo" id="logoDesktop" src="assets/logos/logoDesktop.svg"/>
                         <img class="navbar-logo" id="logoMobile" src="assets/logos/logoMobile.svg"/>
@@ -39,7 +39,7 @@
 						<img class="navbar-page-image" src="assets/icons/placeholder.svg"/>
 						<p class="navbar-page-text">Miscellaneous</p>
 					</a>
-					<a class="navbar-page" href="workbooks.html">
+					<a class="navbar-pageCurrent" href="workbooks.html">
 						<img class="navbar-page-image" src="assets/icons/workbook.svg"/>
 						<p class="navbar-page-text">Workbooks</p>
 					</a>
@@ -56,23 +56,31 @@
 			<div class="navbar-divider"></div>
         </nav>
 
-		<div style="background-image: url('assets/images/index/water.jpg'); width: 100%; height: calc(100vh - 81px); background-size: cover; background-repeat: no-repeat;">
-			<div style="background: linear-gradient(to right, #00000000, #000000e0); width: 100%; height: 100%; display: flex; padding: 7rem;">
-				<div style="width: 600px; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: 0;">
-					<p style="font-size: 2.2rem; font-weight: 600; margin-bottom: 0.5rem;">
-						About me
-					</p>
-					<p>
-						Hi, I'm Calvin. Welcome to my website. You might be wondering why I'm posting my work here and not on social media. You see, I studied digital media, and presentation is important. Why be suffocated by the limitations of another platform and the distractions of other artists' work, when I could make my own site which is a work of art in and of itself?
-					</p>
-					<br>
-					<p>
-						I hold a Bachelor's degree in Digital Media which I completed at the Wellington Institute of Technology, and a Certificate in Information Technology, completed at Whitireia. I have several years of experience with Adobe Creative Cloud and Autodesk Maya, and know a little about photography and programming.
-					</p>
+		<div class="banner" style="background-image: url('assets/images/banner.webp');">
+            <div class="banner-gradient">
+				<div style="margin: auto;">
+					<p class="banner-title">Workbooks</p>
+					<p class="banner-subtitle">Tap on a card to learn more</p>
 				</div>
-			</div>
+            </div>
+        </div>
 
-		</div>
+		<section class="section-top section-bottom">
+            <div class="container">
+                <p class="section-heading">All</p>
+				<div class="divider"></div>
+				<div class="grid">
+
+					<p>Coming soon</p>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p class="footer-text">&copy; 2023 All content on this website (excluding other company logos) is the property of Calvin Hogg.</p>
+        </div>
+
 
 		<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
