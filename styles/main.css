@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 :root {
-	--colour-teal: #282f36;
-	--colour-blueLight: #535f82;
-	--colour-blueDark: #3b445e;
+	--teal: #2e3740;
+	--tealLight: #3A4754;
+	--tealDark: #242A31;
 
 	--shadow-small: 0rem 0.1rem 0.15rem #00000050;
 	--shadow-medium: 0rem 0.1rem 0.67rem #000000a0;
-	--shadow-large: 0rem 0.15rem 1.2rem #00000070;
+	--shadow-large: 0rem 0.15rem 1.2rem #00000080;
 
 	--font-regular: 'Open Sans', sans-serif;
 	--font-semibold: 'Open Sans SemiBold', sans-serif;
@@ -57,7 +57,7 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--colour-teal);
+    background-color: var(--teal);
     font-size: 1rem;
     line-height: 1.5;
 	background-repeat: no-repeat;
@@ -159,7 +159,7 @@ section {
 .banner-gradient {
 	height: 100%;
 	display: flex;
-	background: linear-gradient(to bottom, #282f3620, #282f36ff);
+	background: linear-gradient(to bottom, #2e374020, #2e3740ff);
 }
 
 .banner-title {
@@ -314,7 +314,7 @@ section {
 }
 
 .card:hover {
-	transform: scale(1.03);
+	transform: scale(1.04);
 	z-index: 10;
     box-shadow: var(--shadow-large);
 	transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
@@ -502,7 +502,7 @@ section {
 .navbar-page,
 .navbar-pageCurrent {
 	display: flex;
-	padding: 14px;
+	padding: 13px;
 	padding-left: 20px;
 	padding-right: 20px;
 	width: auto;
@@ -530,7 +530,7 @@ section {
 
 .navbar-page-text {
     font-family: var(--font-semibold);
-	line-height: 26px;
+	line-height: 28px;
 	margin-left: 12px;
 	color: #ffffff;
 	opacity: 100%;
