@@ -13,6 +13,23 @@
      id="defs31">
     <inkscape:path-effect
        effect="fillet_chamfer"
+       id="path-effect2568"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="30"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
        id="path-effect1722"
        is_visible="true"
        lpeversion="1"
@@ -64,8 +81,8 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.79882812"
-     inkscape:cx="511.37408"
-     inkscape:cy="512"
+     inkscape:cx="463.17848"
+     inkscape:cy="513.25183"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -187,7 +204,7 @@
        r="96" />
   </g>
   <path
-     style="fill:none;stroke:#000000;stroke-width:64;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     style="display:inline;fill:none;stroke:#000000;stroke-width:64;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 784,32 992,240 352,880 32,992 144,672 Z"
      id="path3584"
      sodipodi:nodetypes="cccccc" />

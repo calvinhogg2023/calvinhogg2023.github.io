@@ -1,0 +1,36 @@
+<div class="modal fade" id="modal-DylanV2" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-section1">
+				<p class="modal-title">Dylan V2</p>
+				<p class="modal-subtitle">October 2022</p>
+				<div class="modal-images">
+					<img class="modal-images-feature" src="assets/images/projects/dylan2/dylan2-1.webp"/>
+					<div class="modal-images-gallery">
+						<img class="modal-images-gallery-thumbnail" src="assets/images/projects/dylan2/dylan2-2.webp"/>
+						<img class="modal-images-gallery-thumbnail" src="assets/images/projects/dylan2/dylan2-3.webp"/>
+						<img class="modal-images-gallery-thumbnail" src="assets/images/projects/dylan2/dylan2-4.webp"/>
+						<img class="modal-images-gallery-thumbnail" src="assets/images/projects/dylan2/dylan2-5.webp"/>
+					</div>
+				</div>
+			</div>
+			<div class="modal-section2">
+				<p class="modal-header">ABOUT THIS PIECE</p>
+				<div class="modal-description">
+					<p>
+						For the second semester's major project, I focused on improving my skills in character modelling. I brought front and side reference images of Dylan into Blender, then sculpted out a sphere to match his head and shoulders.
+						<br><br>
+						You can see the improvement in the facial features, with noticeably more detail in the eyes and nose. I still had trouble getting the lips looking right though.
+						<br><br>
+						I experimented with XGen plugged into a PxrMarschnerHair shader to create Dylan's shiny, wavy hair, and Maya's nHair system for the physics.
+						<br><br>
+					</p>
+					<a class="modal-button" target="_blank" href="workbooks/2022-sem2-MajorProjects.pdf" aria-label="2022 Semester 2 Major Projects Workbook">
+						<img class="modal-button-icon" src="assets/icons/workbook.svg"/>
+						<p class="modal-button-text">Read the documentation</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

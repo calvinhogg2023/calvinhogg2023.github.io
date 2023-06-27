@@ -116,8 +116,8 @@
 .modal-images-gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	column-gap: 6px;
-	padding: 6px;
+	column-gap: 5px;
+	padding: 5px;
 	background-color: #202020;
 }
 

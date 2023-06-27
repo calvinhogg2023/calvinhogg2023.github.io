@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-@media (max-width: 708px) {
+@media (max-width: 654px) {
 	.containerHome {
 		width: 100%;
-		max-width: 560px;
 	}
 
 	.home-about {
@@ -37,7 +36,7 @@
 	}
 
 	.contentHome {
-		padding-top: 1.4rem;
+		padding-top: 2rem;
 		padding-bottom: 1rem;
 		padding-left: 0;
 		padding-right: 0;
@@ -50,7 +49,7 @@
 
 	.containerHome {
 		height: auto;
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 	}
 
 	.portal-grid {
@@ -59,6 +58,6 @@
 	}
 
 	.home-portal {
-		height: 8rem;
+		height: 7rem;
 	}
 }
