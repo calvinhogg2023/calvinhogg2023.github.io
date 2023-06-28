@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="styles/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
     </head>
-    <body>
+    <body style="overflow-y: hidden;">
 
         <nav id="navbar">
             <div class="container-fluid">
@@ -48,19 +48,42 @@
 			<div class="navbar-divider"></div>
         </nav>
 
-		<div style="background-image: url('assets/images/index/water.jpg'); width: 100%; height: calc(100vh - 81px); background-size: cover; background-repeat: no-repeat;">
-			<div style="background: linear-gradient(to right, #00000000, #000000e0); width: 100%; height: 100%; display: flex; padding: 7rem;">
-				<div style="width: 600px; margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: 0;">
-					<p style="font-size: 2.2rem; font-weight: 600; margin-bottom: 0.5rem;">
-						About me
+		<div style="position: relative;">
+			<div style="background-image: url('assets/images/index/study2.jpg'); width: 100%; height: 100vh; background-size: cover; background-repeat: no-repeat; background-position: center; position: absolute; top: -81px;"></div>
+
+			<div style="background: linear-gradient(to right, #00000020, #000000f0); width: 100%; height: calc(100vh - 81px); display: flex; position: absolute; overflow-y: scroll;">
+				<div style="width: 700px; height: 100%; margin-left: auto; padding-left: 4vw; padding-right: 4vw;">
+					<p style="font-size: 2.4rem; font-weight: 600; margin-top: 7rem; margin-bottom: 0.5rem;">
+						Welcome
 					</p>
 					<p>
-						Hi, I'm Calvin. Welcome to my website. You might be wondering why I'm posting my work here and not on social media. You see, I studied digital media, and presentation is important. Why be suffocated by the limitations of another platform and the distractions of other artists' work, when I could make my own site which is a work of art in and of itself?
+						Integer viverra dolor at odio convallis, ac tincidunt turpis volutpat. Sed condimentum porta commodo. Fusce venenatis felis at velit cursus, sit amet euismod urna ullamcorper. Nullam dapibus sagittis quam eu interdum. Duis a urna pulvinar, lacinia turpis at, volutpat turpis. Nullam pretium leo vel diam posuere, non volutpat mi viverra. Praesent et massa vel massa aliquet pellentesque. Duis condimentum nisl tortor, faucibus pretium mauris varius tempor. Mauris pellentesque turpis eget elit viverra, nec rutrum nulla gravida.
 					</p>
 					<br>
 					<p>
-						I hold a Bachelor's degree in Digital Media which I completed at the Wellington Institute of Technology, and a Certificate in Information Technology, completed at Whitireia. I have several years of experience with Adobe Creative Cloud and Autodesk Maya, and know a little about photography and programming.
+						Fusce consectetur accumsan diam, rhoncus vehicula sapien pretium id. Praesent interdum tellus ut congue fringilla. Vestibulum vel consectetur purus, eget ullamcorper lorem. Nulla vestibulum magna eget pretium posuere. Nullam tempor massa vitae volutpat blandit. Ut interdum accumsan ante id malesuada. Morbi massa arcu, vestibulum eget sapien id, placerat faucibus tellus. Mauris et pellentesque nibh. Nunc non varius nulla. Sed sodales vulputate semper. Curabitur ultricies lorem eget nulla dapibus vehicula. Praesent scelerisque lobortis elit, vitae hendrerit elit. Integer scelerisque massa vel leo varius, in auctor felis facilisis. Morbi pharetra sed dui quis gravida. Maecenas lobortis risus at tempor euismod. Vivamus varius venenatis augue eu tristique.
 					</p>
+					<br>
+					<div style="padding-bottom: 4rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 12px;">
+						<a href="https://www.youtube.com/@CalvinHogg" target="_blank">
+							<div class="home-link">
+								<img class="home-link-image" src="assets/logos/youtube.svg"/>
+								<p class="home-link-text">YouTube</p>
+							</div>
+						</a>
+						<a href="https://nz.linkedin.com/in/calvinhogg2000" target="_blank">
+							<div class="home-link">
+								<img class="home-link-image" src="assets/logos/linkedin.svg"/>
+								<p class="home-link-text">LinkedIn</p>
+							</div>
+						</a>
+						<!-- <a href="youtube.com" target="_blank">
+							<div class="home-link">
+								<img class="home-link-image" src="assets/icons/workbook.svg"/>
+								<p class="home-link-text">Resume</p>
+							</div>
+						</a> -->
+					</div>
 				</div>
 			</div>
 

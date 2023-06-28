@@ -254,20 +254,29 @@ section {
 
 .card,
 .cardAlt,
-.cardSketch {
+.cardSketch,
+.cardWorkbook {
 	position: relative;
 	height: 14.5rem;
     border: none;
 	border-radius: 0.67rem;
     box-shadow: var(--shadow-small);
-	background-color: #37434f;
+	background-color: var(--tealLight);
     background-position: center;
     background-size: cover;
 	cursor: pointer;
 	transform: scale(1);
-	transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+	transition: background-color 0.18s ease-out, transform 0.18s ease-out, box-shadow 0.18s ease-out;
 	transition-delay: 0.02s;
 	transition-timing-function: cubic-bezier(0.400, 0.000, 1.000, 1.000);
+}
+
+.cardWorkbook {
+	transition: background-color 0.1s ease-out;
+}
+
+.cardWorkbook:hover {
+	background-color: #47586A;
 }
 
 .cardAlt {
@@ -586,5 +595,42 @@ section {
 	height: 1px;
 	z-index: 100;
 	background-color: #686868;
-	/* background: linear-gradient(to right, #b0269e, #e78d17); */
+	/* background: linear-gradient(to right, #AB1B65, #e78d17); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home-link {
+	background-color: #ffffff20;
+	box-shadow: var(--shadow-small);
+	border-radius: 0.5rem;
+	display: flex;
+	padding: 8px;
+	transition: all 0.1s ease-out;
+}
+
+.home-link-image {
+	height: 32px;
+	margin-left: auto;
+	filter: invert();
+}
+
+.home-link-text {
+	line-height: 32px;
+	margin-left: 12px;
+	margin-right: auto;
+}
+
+.home-link:hover {
+	background-color: #ffffff40;
 }
