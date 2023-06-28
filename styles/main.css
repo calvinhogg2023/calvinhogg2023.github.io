@@ -97,6 +97,10 @@ section {
 	background-color: var(--colour-teal);
 }
 
+textarea {
+	resize: none;
+}
+
 .section-top {
 	padding-top: 3rem;
 }
@@ -327,11 +331,6 @@ section {
 	z-index: 10;
     box-shadow: var(--shadow-large);
 	transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
-}
-
-.card:active {
-	transform: scale(1.02);
-	transition: transform 0.03s;
 }
 
 .card:hover .card-glare {
@@ -691,8 +690,8 @@ section {
 	background-position: center;
 	position: absolute;
 	top: -81px;
-	animation: home-background 1s ease-out;
-	animation-delay: 0.7s;
+	animation: home-background 0.8s ease-out;
+	animation-delay: 0.5s;
 	animation-fill-mode: both;
 }
 

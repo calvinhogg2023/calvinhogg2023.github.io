@@ -52,7 +52,7 @@
 			<div id="home-background"></div>
 
 			<div style="background: linear-gradient(to right, #00000050, #000000f0); width: 100%; height: calc(100vh - 81px); display: flex; position: absolute; overflow-y: scroll;">
-				<div style="width: 700px; height: 100%; margin-left: auto; padding-left: 4vw; padding-right: 4vw;">
+				<div style="width: 700px; height: 100%; margin-left: auto; padding-right: 8rem;">
 					<p style="font-size: 2.4rem; font-weight: 600; margin-top: 7rem; margin-bottom: 0.5rem;">
 						Welcome
 					</p>
@@ -77,7 +77,7 @@
 								<p class="home-link-text">LinkedIn</p>
 							</div>
 						</a>
-						<a>
+						<a data-bs-toggle="modal" data-bs-target="#modal-Contact" style="cursor: pointer;">
 							<div class="home-link">
 								<img class="home-link-image" src="assets/icons/contact.svg"/>
 								<p class="home-link-text">Contact</p>
@@ -94,6 +94,28 @@
 			</div>
 
 		</div>
+
+		<div class="modal fade" style="background-color: #00000070;" id="modal-Contact" tabindex="-1">
+            <div class="modal-dialog" id="modal-dialogContact">
+                <div id="modal-contentContact">
+					<p class="modal-titleContact">Contact</p>
+	                <p class="modal-subtitleContact">Name</p>
+					<input class="modal-textfield" type="text" id="name" name="name">
+	                <p class="modal-subtitleContact">Email address</p>
+					<input class="modal-textfield" type="text" id="name" name="name">
+	                <p class="modal-subtitleContact">Phone number</p>
+					<input class="modal-textfield" type="text" id="name" name="name">
+	                <p class="modal-subtitleContact">Message</p>
+					<textarea class="modal-textfield" id="name" name="name" rows="8" columns="10"></textarea>
+					<div style="display: flex;">
+						<p style="line-height: 2.8rem; color: #FF7676">Contact form still a work in progress</p>
+						<a class="modal-button disabled" style="margin-left: auto; margin-top: 0;">
+							<img class="modal-button-icon" src="assets/icons/workbook.svg"/>
+							<p class="modal-button-text">Send</p>
+						</a>
+				</div>
+            </div>
+        </div>
 
 		<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
