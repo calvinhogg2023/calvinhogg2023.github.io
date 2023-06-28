@@ -45,8 +45,8 @@
 	display: flex;
 	align-items: center;
 	width: 1200px;
-	height: 770px;
-	margin-top: calc(50vh - 385px - 0.67rem);
+	height: 750px;
+	margin-top: calc(50vh - 375px - 0.67rem);
 	margin-left: calc(50vw - 600px - 0.67rem);
 	transform: scale(1.23);
 	transition: all 0.3s, margin 0s, width 0s, height 0s, padding 0s;
@@ -115,17 +115,18 @@
 
 .modal-images-gallery {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	column-gap: 5px;
 	padding: 5px;
 	background-color: #202020;
 }
 
 .modal-images-gallery-thumbnail {
+	object-fit: cover;
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	height: auto;
+	height: 110px;
 }
 
 .modal-header {
@@ -138,7 +139,7 @@
 	font-size: 0.9rem;
 	padding-right: 0.5rem;
 	overflow-y: auto;
-	height: 700px;
+	height: 686px;
 }
 
 .modal-button {
