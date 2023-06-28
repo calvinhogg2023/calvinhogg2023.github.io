@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="styles/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
     </head>
-    <body style="overflow-y: hidden;">
+    <body style="overflow-y: hidden; background-color: #000000;">
 
         <nav id="navbar">
             <div class="container-fluid">
@@ -23,23 +23,23 @@
                     </a>
 				</div>
                 <div class="navbar-section2">
-					<a class="navbar-page" href="cgi.html">
+					<a id="navbar-anim1" class="navbar-page" href="cgi.html">
 						<img class="navbar-page-image" src="assets/icons/cgi.svg"/>
 						<p class="navbar-page-text">CGI</p>
     				</a>
-					<a class="navbar-page" href="animations.html">
+					<a id="navbar-anim2" class="navbar-page" href="animations.html">
 						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
 						<p class="navbar-page-text">Animations</p>
 					</a>
-					<a class="navbar-page" href="software.html">
+					<a id="navbar-anim3" class="navbar-page" href="software.html">
 						<img class="navbar-page-image" src="assets/icons/software.svg"/>
 						<p class="navbar-page-text">Software</p>
 					</a>
-					<a class="navbar-page" href="misc.html">
+					<a id="navbar-anim4" class="navbar-page" href="misc.html">
 						<img class="navbar-page-image" src="assets/icons/placeholder.svg"/>
 						<p class="navbar-page-text">Miscellaneous</p>
 					</a>
-					<a class="navbar-page" href="workbooks.html">
+					<a id="navbar-anim5" class="navbar-page" href="workbooks.html">
 						<img class="navbar-page-image" src="assets/icons/workbook.svg"/>
 						<p class="navbar-page-text">Workbooks</p>
 					</a>
@@ -49,9 +49,9 @@
         </nav>
 
 		<div style="position: relative;">
-			<div style="background-image: url('assets/images/index/study2.jpg'); width: 100%; height: 100vh; background-size: cover; background-repeat: no-repeat; background-position: center; position: absolute; top: -81px;"></div>
+			<div id="home-background"></div>
 
-			<div style="background: linear-gradient(to right, #00000020, #000000f0); width: 100%; height: calc(100vh - 81px); display: flex; position: absolute; overflow-y: scroll;">
+			<div style="background: linear-gradient(to right, #00000050, #000000f0); width: 100%; height: calc(100vh - 81px); display: flex; position: absolute; overflow-y: scroll;">
 				<div style="width: 700px; height: 100%; margin-left: auto; padding-left: 4vw; padding-right: 4vw;">
 					<p style="font-size: 2.4rem; font-weight: 600; margin-top: 7rem; margin-bottom: 0.5rem;">
 						Welcome
@@ -75,6 +75,12 @@
 							<div class="home-link">
 								<img class="home-link-image" src="assets/logos/linkedin.svg"/>
 								<p class="home-link-text">LinkedIn</p>
+							</div>
+						</a>
+						<a>
+							<div class="home-link">
+								<img class="home-link-image" src="assets/icons/contact.svg"/>
+								<p class="home-link-text">Contact</p>
 							</div>
 						</a>
 						<!-- <a href="youtube.com" target="_blank">

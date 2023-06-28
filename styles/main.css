@@ -329,6 +329,11 @@ section {
 	transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
 }
 
+.card:active {
+	transform: scale(1.02);
+	transition: transform 0.03s;
+}
+
 .card:hover .card-glare {
 	opacity: 70%;
 	transition: all 0.08s ease-out;
@@ -546,6 +551,47 @@ section {
 	user-select: none;
 }
 
+@keyframes navbar-anim {
+	0% {
+		opacity: 0%;
+	}
+	40% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 50%;
+	}
+}
+
+#navbar-anim1 {
+	animation: navbar-anim 0.67s;
+	animation-fill-mode: backwards;
+}
+
+#navbar-anim2 {
+	animation: navbar-anim 0.67s;
+	animation-delay: 0.1s;
+	animation-fill-mode: backwards;
+}
+
+#navbar-anim3 {
+	animation: navbar-anim 0.67s;
+	animation-delay: 0.2s;
+	animation-fill-mode: backwards;
+}
+
+#navbar-anim4 {
+	animation: navbar-anim 0.67s;
+	animation-delay: 0.3s;
+	animation-fill-mode: backwards;
+}
+
+#navbar-anim5 {
+	animation: navbar-anim 0.67s;
+	animation-delay: 0.4s;
+	animation-fill-mode: backwards;
+}
+
 .navbar-section3 {
     display: flex;
 	outline-style: solid;
@@ -616,6 +662,7 @@ section {
 	border-radius: 0.5rem;
 	display: flex;
 	padding: 8px;
+	user-select: none;
 	transition: all 0.1s ease-out;
 }
 
@@ -633,4 +680,27 @@ section {
 
 .home-link:hover {
 	background-color: #ffffff40;
+}
+
+#home-background {
+	background-image: url('../assets/images/index/study2.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: -81px;
+	animation: home-background 1s ease-out;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+}
+
+@keyframes home-background {
+	0% {
+		filter: brightness(0);
+	}
+	100% {
+		filter: brightness(1);
+	}
 }
