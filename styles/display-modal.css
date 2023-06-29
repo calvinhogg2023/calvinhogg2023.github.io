@@ -47,8 +47,8 @@
 	}
 
 	.modal-images-gallery {
-		column-gap: calc(1vw);
-		padding: calc(1vw);
+		column-gap: calc(0.6vw);
+		padding: calc(0.6vw);
 	}
 }
 
