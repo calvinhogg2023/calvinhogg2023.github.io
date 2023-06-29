@@ -1,6 +1,44 @@
 @charset "UTF-8";
 
-@media (max-width: 760px) {
+@media (max-width: 600px) {
+	.home-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 800px) {
+	.home-content2 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.home-content {
+		background: linear-gradient(to right, #000000c0, #000000c0);
+	}
+}
+
+@media (max-width: 416px) {
+    .container {
+        max-width: 100%;
+    }
+
+	.card,
+	.cardAlt,
+	.cardSketch {
+		height: 59vw;
+		min-height: 177px;
+	}
+
+	.grid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+
+	.workbook-grid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 416.1px) and (max-width: 760px) {
     .container {
         max-width: 100%;
     }
@@ -13,6 +51,10 @@
 
 	.grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.workbook-grid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 }
 
@@ -30,6 +72,10 @@
 	.grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
+
+	.workbook-grid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
 }
 
 @media (min-width: 1120.1px) and (max-width: 1460px) {
@@ -46,6 +92,10 @@
 	.grid {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
+
+	.workbook-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }
 
 @media (min-width: 1460.1px) {
@@ -61,5 +111,9 @@
 
 	.grid {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+
+	.workbook-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }

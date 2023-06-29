@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Portfolio website for Calvin Hogg, digital media bachelor graduate with a passion for 3D animation.">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/navbar.css">
         <link rel="stylesheet" href="styles/modal.css">
         <link rel="stylesheet" href="styles/display.css">
         <link rel="stylesheet" href="styles/display-navbar.css">
@@ -43,45 +44,74 @@
 						<img class="navbar-page-image" src="assets/icons/workbook.svg"/>
 						<p class="navbar-page-text">Workbooks</p>
 					</a>
+					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
+						<img class="navbar-page-image" src="assets/icons/menu.svg"/>
+					</div>
                 </div>
             </div>
 			<div class="navbar-divider"></div>
+			<div id="menu">
+				<a class="menu-page" href="cgi.html">
+					<img class="menu-page-image" src="assets/icons/cgi.svg"/>
+					<p class="menu-page-text">CGI</p>
+				</a>
+				<a class="menu-page" href="animations.html">
+					<img class="menu-page-image" src="assets/icons/animations.svg"/>
+					<p class="menu-page-text">Animations</p>
+				</a>
+				<a class="menu-page" href="software.html">
+					<img class="menu-page-image" src="assets/icons/software.svg"/>
+					<p class="menu-page-text">Software</p>
+				</a>
+				<a class="menu-page" href="misc.html">
+					<img class="menu-page-image" src="assets/icons/placeholder.svg"/>
+					<p class="menu-page-text">Miscellaneous</p>
+				</a>
+				<a class="menu-pageCurrent" href="workbooks.html">
+					<img class="menu-page-image" src="assets/icons/workbook.svg"/>
+					<p class="menu-page-text">Workbooks</p>
+				</a>
+			</div>
         </nav>
 
-		<div class="banner" style="background-image: url('assets/images/banner.webp');">
-            <div class="banner-gradient">
-				<div style="margin: auto;">
-					<p class="banner-title">Workbooks</p>
-					<p class="banner-subtitle">Tap on a card to learn more</p>
-				</div>
-            </div>
-        </div>
+		<div id="content" onclick="hideMenu()">
 
-		<section class="section-top section-bottom" style="height: 2000px;">
-            <div class="container">
-                <p class="section-heading">All</p>
-				<div class="divider"></div>
-				<div class="grid">
-
-					<a href="workbooks/2022-sem2-MajorProjects.pdf" target="_blank">
-					<div class="cardWorkbook" style="height: auto; padding: 1rem;">
-						<p style="font-size: 1.4rem;">Dylan Recreation</p>
-						<p style="font-size: 0.9rem; color: #ffffffa0">Semester 2, 2022</p>
+			<div class="banner" style="background-image: url('assets/images/banner.webp');">
+	            <div class="banner-gradient">
+					<div style="margin: auto;">
+						<p class="banner-title">Workbooks</p>
+						<p class="banner-subtitle">Tap on a card to learn more</p>
 					</div>
+	            </div>
+	        </div>
 
-					<a href="workbooks/2022-sem1-appliedMedia.pdf" target="_blank">
-					<div class="cardWorkbook" style="height: auto; padding: 1rem;">
-						<p style="font-size: 1.4rem;">Photogrammetry / Mount Victoria</p>
-						<p style="font-size: 0.9rem; color: #ffffffa0">Semester 1, 2022</p>
-					</div>
+			<section class="section-top section-bottom" style="height: 2000px;">
+	            <div class="container">
+	                <p class="section-heading">All</p>
+					<div class="divider"></div>
+					<div class="workbook-grid">
 
-                </div>
-            </div>
-        </section>
+						<a href="workbooks/2022-sem2-MajorProjects.pdf" target="_blank">
+						<div class="cardWorkbook" style="height: auto; padding: 1rem;">
+							<p class="cardWorkbook-title">Dylan Recreation</p>
+							<p class="cardWorkbook-subtitle">Semester 2, 2022</p>
+						</div>
 
-        <div class="footer">
-            <p class="footer-text">&copy; 2023 Calvin Hogg. All rights reserved.</p>
-        </div>
+						<a href="workbooks/2022-sem1-appliedMedia.pdf" target="_blank">
+						<div class="cardWorkbook" style="height: auto; padding: 1rem;">
+							<p class="cardWorkbook-title">Photogrammetry / Mount Victoria</p>
+							<p class="cardWorkbook-subtitle">Semester 1, 2022</p>
+						</div>
+
+	                </div>
+	            </div>
+	        </section>
+
+	        <div class="footer">
+	            <p class="footer-text">&copy; 2023 Calvin Hogg. All rights reserved.</p>
+	        </div>
+
+		</div>
 
 
 		<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->

@@ -1,6 +1,34 @@
 @charset "UTF-8";
 
-@media (max-width: 918px) {
+@media (max-width: 416px) {
+	.navbar-section2 {
+		margin-left: auto;
+	}
+
+	.navbar-pageCurrent {
+		display: none;
+	}
+
+	.navbar-page {
+		display: none;
+	}
+
+	#navbar-menuButton {
+		display: flex;
+	}
+
+	.navbar-page-text {
+		display: none;
+	}
+}
+
+@media (min-width: 416.1px) {
+	#menu {
+		height: 0px !important;
+	}
+}
+
+@media (max-width: 916px) {
 	.navbar-pageCurrent {
 		padding: 14px;
 	}
@@ -14,7 +42,7 @@
 	}
 }
 
-@media (max-width: 1122px) {
+@media (max-width: 1120px) {
 	#logoDesktop {
 		display: none;
 	}

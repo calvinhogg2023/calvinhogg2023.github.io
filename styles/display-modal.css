@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@media (max-width: 800px) {
+	#modal-dialogContact {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 @media (max-width: 842px) {
 	.modal {
 		padding-bottom: 7rem !important;
@@ -20,11 +27,17 @@
 	.modal-section1 {
 		width: 100%;
 		border-radius: 0.67rem 0.67rem 0 0;
+		border-top: var(--border-modal);
+		border-left: var(--border-modal);
+		border-right: var(--border-modal);
 	}
 
 	.modal-section2 {
 		width: 100%;
 		border-radius: 0 0 0.67rem 0.67rem;
+		border-bottom: var(--border-modal);
+		border-left: var(--border-modal);
+		border-right: var(--border-modal);
 	}
 
 	.modal-description {
@@ -64,11 +77,17 @@
 	.modal-section1 {
 		width: 100%;
 		border-radius: 0.67rem 0.67rem 0 0;
+		border-top: var(--border-modal);
+		border-left: var(--border-modal);
+		border-right: var(--border-modal);
 	}
 
 	.modal-section2 {
 		width: 100%;
 		border-radius: 0 0 0.67rem 0.67rem;
+		border-bottom: var(--border-modal);
+		border-left: var(--border-modal);
+		border-right: var(--border-modal);
 	}
 
 	.modal-description {
@@ -79,6 +98,12 @@
 
 @media (max-height: 794px) {
 	.modal-dialog {
+		margin-top: 0;
+	}
+}
+
+@media (max-height: 784px) {
+	#modal-dialogContact {
 		margin-top: 0;
 	}
 }
