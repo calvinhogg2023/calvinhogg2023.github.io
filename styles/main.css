@@ -150,11 +150,17 @@ textarea {
 	row-gap: 0.6rem;
 }
 
-.section-heading {
+.section-title {
 	color: #ffffffa0;
     font-family: var(--font-regular);
 	font-size: 2rem;
 	line-height: 48px;
+}
+
+.section-subtitle {
+	color: #ffffffa0;
+    font-family: var(--font-regular);
+	margin-bottom: 4px;
 }
 
 .img-fluid {
@@ -168,6 +174,7 @@ textarea {
 	display: flex;
 	position: relative;
 	flex-direction: column;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -544,7 +551,8 @@ textarea {
 	width: 100%;
 	max-width: 100vw;
 	height: calc(100vh - 81px);
-	background-image: url('../assets/images/index/study2.jpg');
+	filter: blur(8px);
+	background-image: url('../assets/images/index/study3.jpg');
 	background-size: cover;
 	background-position: left;
 	animation: home-background 0.8s ease-out;
