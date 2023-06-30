@@ -7,7 +7,7 @@
 	}
 }
 
-@media (max-width: 842px) {
+@media (max-width: 566px) {
 	.modal {
 		padding-bottom: 7rem !important;
 	}
@@ -52,17 +52,17 @@
 	}
 }
 
-@media (min-width: 822px) and (max-width: 1222px) {
+@media (min-width: 566.1px) and (max-width: 1216px) {
 	.modal {
 		padding-bottom: 7rem !important;
 	}
 
 	.modal-dialog {
-		width: 800px;
+		width: 550px;
 		height: auto;
 		padding: 0rem;
 		margin-top: 0;
-		margin-left: calc(50vw - 400px - 0.67rem);
+		margin-left: calc(50vw - 275px - 8px);
 	}
 
 	.modal-content {
@@ -96,7 +96,7 @@
 	}
 }
 
-@media (max-height: 794px) {
+@media (max-height: 756px) {
 	.modal-dialog {
 		margin-top: 0;
 	}

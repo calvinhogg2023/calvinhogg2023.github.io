@@ -37,7 +37,7 @@
 	height: 100%;
 	outline-style: none;
 	border-style: none;
-	padding: 0.67rem !important;
+	padding: 8px !important;
 	overflow-y: auto;
 }
 
@@ -47,9 +47,9 @@
 	display: flex;
 	align-items: center;
 	width: 1200px;
-	height: 750px;
-	margin-top: calc(50vh - 375px - 0.67rem);
-	margin-left: calc(50vw - 600px - 0.67rem);
+	height: 740px;
+	margin-top: calc(50vh - 370px - 8px);
+	margin-left: calc(50vw - 600px - 8px);
 	transform: scale(1.23);
 	transition: all 0.3s, margin 0s, width 0s, height 0s, padding 0s;
 	transition-timing-function: linear;
@@ -199,7 +199,7 @@
 	font-size: 0.9rem;
 	padding-right: 0.5rem;
 	overflow-y: auto;
-	height: 686px;
+	height: 674px;
 }
 
 .modal-button {
