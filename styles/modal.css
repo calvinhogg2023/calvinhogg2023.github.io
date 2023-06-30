@@ -6,6 +6,10 @@
 	transition-timing-function: cubic-bezier(0, 0, 0, 1);
 }
 
+.modal.show > #content {
+	user-select: none;
+}
+
 .modal-backdrop {
 	position: fixed;
 	top: 0;
@@ -25,6 +29,7 @@
 
 
 .modal {
+	user-select: contain;
 	overflow-x: hidden;
 	transition: opacity 0.3s;
 	background-color: #101010d8;
