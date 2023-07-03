@@ -10,7 +10,8 @@
 	--border-modal: 1px solid #404040;
 
 	--shadow-none: 0rem 0.1rem 0.15rem #00000000;
-	--shadow-small: 0rem 0.1rem 0.15rem #00000050;
+	--shadow-small: 0rem 0.1rem 0.15rem #00000060;
+	--shadow-navbar: 0rem 0.1rem 0.6rem #00000088;
 	--shadow-medium: 0rem 0.1rem 0.67rem #000000a0;
 	--shadow-large: 0rem 0.15rem 1.2rem #00000080;
 

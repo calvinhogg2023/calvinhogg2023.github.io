@@ -16,7 +16,7 @@
     <body style="overflow-y: hidden; background-color: #000000;">
 
         <nav id="navbar">
-            <div class="container-fluid">
+            <div id="navbarContainer">
 				<div class="navbar-section1" style="opacity: 100%; pointer-events: none;">
 					<a href="index.html">
                         <img class="navbar-logo" id="logoDesktop" src="assets/logos/logoDesktop.svg"/>
@@ -125,20 +125,22 @@
 		<div class="modal fade" style="background-color: #00000070;" id="modal-Contact" tabindex="-1">
             <div class="modal-dialog" id="modal-dialogContact">
                 <div id="modal-contentContact">
-					<p class="modal-titleContact">Contact</p>
-	                <p class="modal-subtitleContact">Name</p>
-					<input class="modal-textfield" type="text" id="name" name="name">
-	                <p class="modal-subtitleContact">Email address</p>
-					<input class="modal-textfield" type="text" id="name" name="name">
-	                <p class="modal-subtitleContact">Phone number</p>
-					<input class="modal-textfield" type="text" id="name" name="name">
-	                <p class="modal-subtitleContact">Message</p>
-					<textarea class="modal-textfield" id="name" name="name" rows="8" columns="10"></textarea>
-					<p style="line-height: 20px; height: 40px; color: #FF7676">Functionality coming soon</p>
-					<a class="modal-button disabled" style="margin-top: 1rem; margin-left: auto;">
-						<img class="modal-button-icon" src="assets/icons/workbook.svg"/>
-						<p class="modal-button-text">Send</p>
-					</a>
+					<form id="fcf-form-id" method="post" action="contact-form-process.php">
+						<p class="modal-titleContact">Contact</p>
+		                <p class="modal-subtitleContact">Name</p>
+						<input class="modal-textfield" type="text" id="name" name="name">
+		                <p class="modal-subtitleContact">Email address</p>
+						<input class="modal-textfield" type="email" id="email" name="email">
+		                <!-- <p class="modal-subtitleContact">Phone number</p>
+						<input class="modal-textfield" type="tel" id="phone"> -->
+		                <p class="modal-subtitleContact">Message</p>
+						<textarea class="modal-textfield" id="message" name="message" rows="8"></textarea>
+						<p class="contact-status">Functionality coming soon</p>
+						<a class="modal-button" style="margin-top: 1rem; margin-left: auto;">
+							<p class="modal-button-text">Send</p>
+						</a>
+						<button type="submit" id="send">Send Message</button>
+					</form>
 				</div>
             </div>
         </div>

@@ -1,13 +1,12 @@
 @charset "UTF-8";
 
-#navbar > .container,
-#navbar > .container-fluid {
+#navbar > #navbarContainer {
 	height: 80px;
 	padding: 0px;
 	display: flex;
-	box-shadow: var(--shadow-medium);
 	flex-wrap: inherit;
 	align-items: center;
+	box-shadow: var(--shadow-navbar);
 	z-index: 100;
     background-image: linear-gradient(to bottom, #525252, #2a2a2a);
 }

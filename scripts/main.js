@@ -1,33 +1,36 @@
 history.scrollRestoration = 'auto';
 
+var navbar = document.getElementById("navbarContainer");
+var button = document.getElementById("navbar-menuButton");
+var menu = document.getElementById("menu");
+
+
+
 function toggleMenu() {
-	var x = document.getElementById("menu");
-	var y = document.getElementById("navbar-menuButton");
-	if (x.style.height === "300px") {
-		x.style.height = "0px";
-		x.style.boxShadow = "var(--shadow-none)";
-		y.style.opacity = "50%";
+	if (menu.style.height === "300px") {
+		//Collapsed
+		button.style.opacity = "50%";
+		menu.style.height = "0px";
+		menu.style.boxShadow = "var(--shadow-none)";
 	} else {
-		x.style.height = "300px";
-		x.style.boxShadow = "var(--shadow-small)";
-		y.style.opacity = "100%";
+		//Expanded
+		button.style.opacity = "100%";
+		menu.style.height = "300px";
+		menu.style.boxShadow = "var(--shadow-medium)";
 	}
 }
 
 function hideMenu() {
-	var x = document.getElementById("menu");
-	var y = document.getElementById("navbar-menuButton");
-	x.style.height = "0px";
-	x.style.boxShadow = "var(--shadow-none)";
-	y.style.opacity = "50%";
+	//Collapsed
+	button.style.opacity = "50%";
+	menu.style.height = "0px";
+	menu.style.boxShadow = "var(--shadow-none)";
 }
 
 function menuButtonHover() {
-	var y = document.getElementById("navbar-menuButton");
-	y.classList.add("hovered");
+	button.classList.add("hovered");
 }
 
 function menuButtonNotHover() {
-	var y = document.getElementById("navbar-menuButton");
-	y.classList.remove("hovered");
+	button.classList.remove("hovered");
 }
