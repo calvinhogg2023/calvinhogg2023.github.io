@@ -29,7 +29,6 @@
 
 
 .modal {
-	user-select: none;
 	overflow-x: hidden;
 	transition: opacity 0.3s;
 	background-color: #101010d8;
@@ -47,7 +46,6 @@
 }
 
 .modal-dialog {
-	user-select: none;
 	opacity: 0;
 	position: relative;
 	display: flex;
@@ -206,7 +204,6 @@
 	padding-right: 0.5rem;
 	overflow-y: auto;
 	height: 674px;
-	user-select: text;
 }
 
 .modal-button {
