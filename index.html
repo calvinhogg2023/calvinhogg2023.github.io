@@ -125,21 +125,20 @@
 		<div class="modal fade" style="background-color: #00000070;" id="modal-Contact" tabindex="-1">
             <div class="modal-dialog" id="modal-dialogContact">
                 <div id="modal-contentContact">
-					<form id="fcf-form-id" method="post" action="contact-form-process.php">
+					<form action="contact.php" method="post" autocomplete="off">
 						<p class="modal-titleContact">Contact</p>
 		                <p class="modal-subtitleContact">Name</p>
-						<input class="modal-textfield" type="text" id="name" name="name">
+						<input class="modal-textfield" type="text" id="name" name="guest_name" pattern=[A-Z\sa-z]{3,40} required>
 		                <p class="modal-subtitleContact">Email address</p>
-						<input class="modal-textfield" type="email" id="email" name="email">
-		                <!-- <p class="modal-subtitleContact">Phone number</p>
-						<input class="modal-textfield" type="tel" id="phone"> -->
+						<input class="modal-textfield" type="email" id="email" name="guest_email" required>
 		                <p class="modal-subtitleContact">Message</p>
-						<textarea class="modal-textfield" id="message" name="message" rows="8"></textarea>
-						<p class="contact-status">Functionality coming soon</p>
-						<a class="modal-button" style="margin-top: 1rem; margin-left: auto;">
-							<p class="modal-button-text">Send</p>
-						</a>
-						<button type="submit" id="send">Send Message</button>
+						<textarea class="modal-textfield" style="margin-bottom: 0.75rem;" id="message" name="guest_message" rows="12" required></textarea>
+						<div style="display: flex;">
+							<p class="contact-status">Functionality coming soon</p>
+							<button class="modal-button disabled" style="margin-left: auto; margin-top: 0;" type="submit" id="send">
+								<p class="modal-button-text">Send</p>
+							</button>
+						</div>
 					</form>
 				</div>
             </div>

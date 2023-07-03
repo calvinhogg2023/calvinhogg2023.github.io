@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@media (min-width: 300px) {
+	*,
+	body,
+	 {
+		overflow-x: hidden !important;
+	}
+}
+
 @media (max-width: 600px) {
 	.home-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -21,6 +29,10 @@
     .container {
         max-width: 100%;
     }
+
+	.home-grid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
 
 	.card,
 	.cardAlt,

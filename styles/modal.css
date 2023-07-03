@@ -217,6 +217,9 @@
 	padding-right: 1.5rem;
     display: flex;
 	cursor: pointer;
+	outline-style: none;
+	border-style: none;
+	font-size: 1rem;
 	transition: all 0.1s ease-out;
 }
 
@@ -244,6 +247,8 @@
 
 .contact-status {
 	line-height: 20px;
-	height: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 1rem;
 	color: #FF7676;
 }
