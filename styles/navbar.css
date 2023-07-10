@@ -20,7 +20,7 @@
 .navbar-section1 {
 	height: 80px;
 	opacity: 50%;
-	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
 .navbar-section1:hover {
@@ -65,7 +65,7 @@
 	border-radius: 0.5rem;
 	opacity: 50%;
 	background-color: #ffffff00;
-	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
 .navbar-pageCurrent {
@@ -86,7 +86,7 @@
 	border-radius: 0.5rem;
 	opacity: 50%;
 	background-color: #ffffff00;
-	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
 .hovered {
@@ -177,7 +177,7 @@
 	height: 60px;
 	opacity: 50%;
 	background-color: #ffffff00;
-	transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
 .menu-pageCurrent {

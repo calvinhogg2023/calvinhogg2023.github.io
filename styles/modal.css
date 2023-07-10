@@ -31,7 +31,7 @@
 .modal {
 	overflow-x: hidden;
 	transition: opacity 0.3s;
-	background-color: #101010d8;
+	background-color: #000000c0;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -51,7 +51,6 @@
 	display: flex;
 	align-items: center;
 	width: 1200px;
-	height: 740px;
 	margin-top: calc(50vh - 370px - 8px);
 	margin-left: calc(50vw - 600px - 8px);
 	transform: scale(1.23);
@@ -63,7 +62,6 @@
 	width: 100%;
 	min-width: 276px;
 	max-width: 620px;
-	height: 760px;
 	margin-top: calc(50vh - 380px - 0.67rem);
 	margin-left: auto;
 	margin-right: 80px;
@@ -85,6 +83,7 @@
 	flex-direction: row;
 	width: 100%;
 	background-color: #00000000;
+	border-radius: 0.67rem;
 	box-shadow: 0rem 0.2rem 3.5rem #000000ff;
 }
 
