@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-	--min-width: 300px;
+	--min-width: 250px;
 
 	--teal: #2e3740;
 	--tealLight: #3A4754;
@@ -498,6 +498,7 @@ textarea {
 }
 
 .home-background {
+	min-width: var(--min-width);
 	width: 100%;
 	max-width: 100vw;
 	height: calc(100vh - 81px);

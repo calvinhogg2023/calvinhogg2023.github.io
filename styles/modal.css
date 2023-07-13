@@ -29,7 +29,6 @@
 
 
 .modal {
-	overflow-x: hidden;
 	transition: opacity 0.3s;
 	background-color: #000000c0;
 	position: fixed;
@@ -49,6 +48,7 @@
 	opacity: 0;
 	position: relative;
 	display: flex;
+	min-width: var(--min-width);
 	align-items: center;
 	width: 1200px;
 	margin-top: calc(50vh - 370px - 8px);
@@ -181,7 +181,7 @@
 	grid-template-columns: repeat(5, 1fr);
 	column-gap: 5px;
 	padding: 5px;
-	background-color: #202020;
+	background-color: #101010;
 }
 
 .modal-images-gallery-thumbnail {
