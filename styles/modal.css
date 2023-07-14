@@ -29,8 +29,9 @@
 
 
 .modal {
+	overflow-x: hidden;
 	transition: opacity 0.3s;
-	background-color: #000000c0;
+	background-color: #080808d0;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -58,24 +59,9 @@
 	transition-timing-function: linear;
 }
 
-#modal-dialogContact {
-	width: 100%;
-	min-width: 276px;
-	max-width: 620px;
-	margin-top: calc(50vh - 380px - 0.67rem);
-	margin-left: auto;
-	margin-right: 80px;
-}
-
-#modal-contentContact {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	background-color: #303030;
-	border-radius: 0.67rem;
-	box-shadow: 0rem 0.2rem 3.5rem #000000ff;
-	padding: 1rem;
-	border: var(--border-modal);
+#dialogContact {
+	width: 620px;
+	margin-left: calc(50vw - 310px - 8px);
 }
 
 .modal-content {
@@ -85,6 +71,13 @@
 	background-color: #00000000;
 	border-radius: 0.67rem;
 	box-shadow: 0rem 0.2rem 3.5rem #000000ff;
+}
+
+#contentContact {
+	flex-direction: column;
+	background-color: #303030;
+	padding: 1rem;
+	border: var(--border-modal);
 }
 
 .modal-container {
