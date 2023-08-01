@@ -40,9 +40,9 @@
 						<img class="navbar-page-image" src="assets/icons/placeholder.svg"/>
 						<p class="navbar-page-text">Miscellaneous</p>
 					</a>
-					<a id="navbar-anim5" class="navbar-page" href="workbooks.html">
-						<img class="navbar-page-image" src="assets/icons/workbook.svg"/>
-						<p class="navbar-page-text">Workbooks</p>
+					<a id="navbar-anim5" class="navbar-page" href="downloads.html">
+						<img class="navbar-page-image" src="assets/icons/download.svg"/>
+						<p class="navbar-page-text">Downloads</p>
 					</a>
 					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
 						<img class="navbar-page-image" src="assets/icons/menu.svg"/>
@@ -67,9 +67,9 @@
 					<img class="menu-page-image" src="assets/icons/placeholder.svg"/>
 					<p class="menu-page-text">Miscellaneous</p>
 				</a>
-				<a class="menu-page" href="workbooks.html">
-					<img class="menu-page-image" src="assets/icons/workbook.svg"/>
-					<p class="menu-page-text">Workbooks</p>
+				<a class="menu-page" href="downloads.html">
+					<img class="menu-page-image" src="assets/icons/download.svg"/>
+					<p class="menu-page-text">Downloads</p>
 				</a>
 			</div>
         </nav>
@@ -80,7 +80,7 @@
 
 			<div class="home-content">
 				<div class="home-content2">
-					<p style="font-size: 2.4rem; font-weight: 600;">
+					<p style="font-size: 2.4rem; font-weight: 600; margin-bottom: 0.5rem;">
 						Welcome
 					</p>
 					<p>
@@ -108,12 +108,12 @@
 								<p class="home-link-text">LinkedIn</p>
 							</div>
 						</a>
-						<a data-bs-toggle="modal" data-bs-target="#modal-Contact" style="cursor: pointer;">
+						<!-- <a data-bs-toggle="modal" data-bs-target="#modal-Contact" style="cursor: pointer;">
 							<div class="home-link">
 								<img class="home-link-image" src="assets/icons/contact.svg"/>
 								<p class="home-link-text">Contact</p>
 							</div>
-						</a>
+						</a> -->
 						<!-- <a href="youtube.com" target="_blank">
 							<div class="home-link">
 								<img class="home-link-image" src="assets/icons/workbook.svg"/>
@@ -127,8 +127,8 @@
 		</div>
 
 		<div class="modal fade" id="modal-Contact" tabindex="-1">
-            <div class="modal-dialog" id="dialogContact">
-                <div class="modal-content" id="contentContact">
+            <div class="modal-dialog dialogContact">
+                <div class="modal-content contentContact">
 					<form action="contact.php" method="post" autocomplete="off">
 						<p class="modal-titleContact">Contact</p>
 		                <p class="modal-subtitleContact">Name</p>
@@ -136,7 +136,7 @@
 		                <p class="modal-subtitleContact">Email address</p>
 						<input class="modal-textfield" type="email" id="email" name="guest_email" required>
 		                <p class="modal-subtitleContact">Message</p>
-						<textarea class="modal-textfield" style="margin-bottom: 0.75rem;" id="message" name="guest_message" rows="12" required></textarea>
+						<textarea class="modal-textfield" style="margin-bottom: 1.5rem;" id="message" name="guest_message" rows="12" required></textarea>
 						<div style="display: flex;">
 							<p class="contact-status">Functionality coming soon</p>
 							<button class="modal-button disabled" style="margin-left: auto; margin-top: 0;" type="submit" id="send">
