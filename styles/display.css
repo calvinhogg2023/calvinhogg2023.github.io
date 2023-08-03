@@ -11,10 +11,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-	.home-content {
-		background: linear-gradient(to right, #000000c0, #000000c0);
-	}
 }
 
 @media (max-width: 416px) {
