@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 416px) {
+@media (max-width: 932px) {
 	.navbar-section2 {
 		margin-left: auto;
 	}
@@ -22,13 +22,13 @@
 	}
 }
 
-@media (min-width: 416.1px) {
+@media (min-width: 968px.1px) {
 	#menu {
 		height: 0px !important;
 	}
 }
 
-@media (max-width: 916px) {
+@media (max-width: 95px) {
 	.navbar-pageCurrent {
 		padding: 14px;
 	}
@@ -42,7 +42,7 @@
 	}
 }
 
-@media (max-width: 1120px) {
+/* @media (max-width: 1120px) {
 	#logoDesktop {
 		display: none;
 	}
@@ -50,4 +50,4 @@
 	#logoMobile {
 		display: flex;
 	}
-}
+} */
