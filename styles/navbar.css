@@ -143,12 +143,6 @@
 	animation-fill-mode: backwards;
 }
 
-#navbar-anim5 {
-	animation: navbar-anim 0.67s;
-	animation-delay: 0.4s;
-	animation-fill-mode: backwards;
-}
-
 .navbar-divider {
 	width: 100%;
 	height: 1px;

@@ -113,6 +113,14 @@
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 
+	.grid2 {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		width: 1440px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.workbook-grid {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
