@@ -483,7 +483,7 @@ textarea {
 }
 
 .home-link {
-	background-color: #e0e0e038;
+	background-color: #e0e0e030;
 	box-shadow: var(--shadow-small);
 	border-radius: 0.5rem;
 	display: flex;
@@ -493,6 +493,7 @@ textarea {
 }
 
 .home-link-image {
+	width: 32px;
 	height: 32px;
 	margin-left: auto;
 	filter: invert();
@@ -506,7 +507,7 @@ textarea {
 }
 
 .home-link:hover {
-	background-color: #e0e0e058;
+	background-color: #e0e0e050;
 }
 
 .home-background {

@@ -184,12 +184,12 @@
 
 .modal-button {
 	background-color: #ffffff20;
-	height: 2.8rem;
+	height: 3rem;
 	border-radius: 0.5rem;
 	margin-top: 0.5rem;
 	padding: 0.5rem;
-	padding-left: 1rem;
-	padding-right: 1.5rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
     display: flex;
 	cursor: pointer;
 	outline-style: none;
@@ -203,10 +203,9 @@
 }
 
 .modal-button-icon {
-	height: 100%;
+	width: 2rem;
+	height: 2rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
 	margin-right: 0.25rem;
     user-select: none;
 	filter: invert();
