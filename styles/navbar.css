@@ -167,8 +167,8 @@
 .menu-page,
 .menu-pageCurrent {
 	display: flex;
-	padding: 14px;
-	height: 60px;
+	padding: 18px;
+	height: 70px;
 	opacity: 50%;
 	background-color: #ffffff00;
 	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
@@ -185,15 +185,15 @@
 }
 
 .menu-page-image {
-	width: 50px;
-	height: 100%;
+	width: 34px;
+	height: 34px;
 	filter: invert();
 }
 
 .menu-page-text {
     font-family: var(--font-semibold);
-	line-height: 32px;
-	margin-left: 12px;
+	line-height: 34px;
+	margin-left: 15px;
 	color: #ffffff;
 	opacity: 100%;
 	user-select: none;

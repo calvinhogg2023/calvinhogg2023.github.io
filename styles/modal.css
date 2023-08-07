@@ -143,23 +143,22 @@
 .modal-images {
 	display: flex;
 	flex-direction: column;
+	background-color: #141414;
+	padding: 5px;
 	margin-top: 1.25rem;
-	border-radius: 0.67rem;
 }
 
 .modal-images-feature {
 	width: 100%;
 	height: auto;
-	border-radius: 0.5rem;
 	background-color: #1b1b1b;
 }
 
 .modal-images-gallery {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	column-gap: 8px;
-	margin-top: 8px;
-	border-radius: 0.5rem;
+	column-gap: 5px;
+	margin-top: 5px;
 }
 
 .modal-images-gallery-thumbnail {
@@ -168,7 +167,6 @@
 	padding: 0px;
 	width: 100%;
 	height: 100%;
-	border-radius: 0.5rem;
 }
 
 .modal-header {

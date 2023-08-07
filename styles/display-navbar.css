@@ -13,41 +13,11 @@
 		display: none;
 	}
 
+	.navbar-page-text {
+		display: none;
+	}
+
 	#navbar-menuButton {
 		display: flex;
 	}
-
-	.navbar-page-text {
-		display: none;
-	}
 }
-
-@media (min-width: 968px.1px) {
-	#menu {
-		height: 0px !important;
-	}
-}
-
-@media (max-width: 95px) {
-	.navbar-pageCurrent {
-		padding: 14px;
-	}
-
-	.navbar-page {
-		padding: 14px;
-	}
-
-	.navbar-page-text {
-		display: none;
-	}
-}
-
-/* @media (max-width: 1120px) {
-	#logoDesktop {
-		display: none;
-	}
-
-	#logoMobile {
-		display: flex;
-	}
-} */
