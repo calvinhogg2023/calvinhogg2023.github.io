@@ -244,10 +244,7 @@ textarea {
 	margin-bottom: 0;
 }
 
-.card,
-.cardAlt,
-.cardSketch,
-.cardWorkbook {
+.card {
 	position: relative;
 	height: 14.5rem;
     border: none;
@@ -261,25 +258,6 @@ textarea {
 	transition: background-color 0.18s ease-out, transform 0.18s ease-out, box-shadow 0.18s ease-out;
 	transition-delay: 0.02s;
 	transition-timing-function: cubic-bezier(0.400, 0.000, 1.000, 1.000);
-}
-
-.cardWorkbook {
-	transition: background-color 0.05s ease-out;
-}
-
-.cardWorkbook:hover {
-	background-color: var(--cardHover);
-}
-
-.cardAlt {
-	cursor: default;
-	pointer-events: none;
-}
-
-.cardSketch {
-	background-color: #ebebeb;
-	cursor: default;
-	pointer-events: none;
 }
 
 .card-glare {
@@ -312,6 +290,26 @@ textarea {
 	line-height: 1.2;
 	text-shadow: 0rem 1px 4px #000000d0;
 	user-select: none;
+}
+
+.cardWorkbook {
+	height: 5rem;
+	padding: 1rem;
+	display: flex;
+	border-radius: 0.67rem;
+    box-shadow: var(--shadow-small);
+	background-color: var(--card);
+	transition: background-color 0.05s ease-out;
+}
+
+.cardWorkbook:hover {
+	background-color: var(--cardHover);
+}
+
+.cardWorkbook-image {
+	filter: invert();
+	width: 3rem;
+	margin-right: 1rem;
 }
 
 .cardWorkbook-title {
@@ -459,7 +457,7 @@ textarea {
 
 
 .home-content {
-	background: linear-gradient(to right, #00000010, #000000f0);
+	background: linear-gradient(to right, #00000010, #000000e0);
 	width: 100%;
 	height: calc(100vh - 81px);
 	display: flex;
@@ -515,7 +513,7 @@ textarea {
 	width: 100%;
 	max-width: 100vw;
 	height: calc(100vh - 81px);
-	background-image: url('../assets/images/index/willis.webp');
+	background-image: url('../assets/imagesPNG/index/willis.png');
 	background-size: cover;
 	background-position: left;
 	animation: home-background 1s ease-out;
