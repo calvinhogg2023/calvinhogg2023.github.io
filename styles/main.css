@@ -250,7 +250,6 @@ textarea {
     border: none;
 	border-radius: 0.67rem;
     box-shadow: var(--shadow-small);
-	background-color: var(--card);
     background-position: center;
     background-size: cover;
 	cursor: pointer;
@@ -288,12 +287,12 @@ textarea {
 	margin-left: 0.9rem;
 	margin-bottom: 0.9rem;
 	line-height: 1.2;
-	text-shadow: 0rem 1px 4px #000000d0;
+	text-shadow: 0rem 1px 2px #000000d0;
 	user-select: none;
 }
 
-.cardWorkbook {
-	height: 5rem;
+.cardDownload {
+	height: auto;
 	padding: 1rem;
 	display: flex;
 	border-radius: 0.67rem;
@@ -302,22 +301,22 @@ textarea {
 	transition: background-color 0.05s ease-out;
 }
 
-.cardWorkbook:hover {
+.cardDownload:hover {
 	background-color: var(--cardHover);
 }
 
-.cardWorkbook-image {
+.cardDownload-image {
 	filter: invert();
 	width: 3rem;
 	margin-right: 1rem;
 }
 
-.cardWorkbook-title {
+.cardDownload-title {
 	font-size: 1.4rem;
 	line-height: 1.2;
 }
 
-.cardWorkbook-subtitle {
+.cardDownload-subtitle {
 	font-size: 0.9rem;
 	margin-top: 2px;
 	color: #bcc9d6;
@@ -457,7 +456,7 @@ textarea {
 
 
 .home-content {
-	background: linear-gradient(to right, #00000010, #000000e0);
+	background: linear-gradient(to right, #00000020, #000000f0);
 	width: 100%;
 	height: calc(100vh - 81px);
 	display: flex;

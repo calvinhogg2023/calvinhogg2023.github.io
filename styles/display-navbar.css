@@ -20,4 +20,8 @@
 	#navbar-menuButton {
 		display: flex;
 	}
+
+	.home-content {
+		background: linear-gradient(to right, #000000c0, #000000c0);
+	}
 }
