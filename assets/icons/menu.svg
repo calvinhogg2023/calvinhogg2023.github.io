@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="layer1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <path d="m61,53.833H3c-1.657,0-3-1.343-3-3h0c0-1.657,1.343-3,3-3h58c1.657,0,3,1.343,3,3h0c0,1.657-1.343,3-3,3Zm0-18.833H3c-1.657,0-3-1.343-3-3h0c0-1.657,1.343-3,3-3h58c1.657,0,3,1.343,3,3h0c0,1.657-1.343,3-3,3Zm0-18.833H3c-1.657,0-3-1.343-3-3h0c0-1.657,1.343-3,3-3h58c1.657,0,3,1.343,3,3h0c0,1.657-1.343,3-3,3Z"/>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m0,32h64M0,14h64M0,50h64"/>
 </svg>
