@@ -3,7 +3,7 @@
 :root {
 	--min-width: 250px;
 
-	--background: #283039;
+	--background: #2f363e;
 	--card: #38424f;
 	--cardHover: #455060;
 
@@ -192,7 +192,7 @@ textarea {
 .banner-gradient {
 	height: 100%;
 	display: flex;
-	background: linear-gradient(to bottom, #28303960, #283039ff);
+	background: linear-gradient(to bottom, #2f363e40, #2f363eff);
 }
 
 .banner-title {

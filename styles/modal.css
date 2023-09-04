@@ -144,8 +144,9 @@
 	display: flex;
 	flex-direction: column;
 	background-color: #141414;
-	padding: 5px;
+	padding: 4px;
 	margin-top: 1.25rem;
+	margin-bottom: 4px;
 }
 
 .modal-images-feature {
@@ -156,8 +157,8 @@
 .modal-images-gallery {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	column-gap: 5px;
-	margin-top: 5px;
+	column-gap: 4px;
+	margin-top: 4px;
 }
 
 .modal-images-gallery-thumbnail {
