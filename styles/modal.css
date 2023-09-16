@@ -29,7 +29,7 @@
 
 
 .modal {
-	overflow-x: hidden;
+	overflow-x: scroll;
 	transition: opacity 0.3s;
 	background-color: #080808d0;
 	position: fixed;
@@ -60,6 +60,7 @@
 
 .modal-content {
 	display: flex;
+	min-width: 400px;
 	width: 100%;
 	border-radius: 0.67rem;
 	box-shadow: 0rem 0.2rem 3.5rem #000000ff;

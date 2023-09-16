@@ -94,6 +94,12 @@
 	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
+#navbar-menuButton-image {
+	width: 30px;
+	height: 30px;
+	filter: invert();
+}
+
 #menu {
 	background-color: #303030;
 	min-width: var(--min-width);

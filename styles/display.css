@@ -13,32 +13,7 @@
 	}
 }
 
-@media (max-width: 416px) {
-    .container {
-        max-width: 100%;
-    }
-
-	.home-grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
-
-	.card,
-	.cardAlt,
-	.cardSketch {
-		height: 59vw;
-		min-height: 177px;
-	}
-
-	.grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
-
-	.workbook-grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
-}
-
-@media (min-width: 416.1px) and (max-width: 760px) {
+@media (max-width: 760px) {
     .container {
         max-width: 100%;
     }
@@ -46,6 +21,7 @@
 	.card,
 	.cardAlt,
 	.cardSketch {
+		min-height: 130px;
 		height: 31vw;
 	}
 
