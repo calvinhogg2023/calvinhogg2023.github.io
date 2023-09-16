@@ -58,7 +58,7 @@
 	}
 }
 
-@media (min-width: 760.1px) and (max-width: 1120px) {
+@media (min-width: 760.1px) and (max-width: 1152px) {
     .container {
         max-width: 760px;
     }
@@ -78,7 +78,7 @@
 	}
 }
 
-@media (min-width: 1120.1px) and (max-width: 1460px) {
+@media (min-width: 1152.1px) and (max-width: 1460px) {
 	.container {
         max-width: 1120px;
     }

@@ -2,7 +2,6 @@
 
 #navbar > #navbarContainer {
 	height: 80px;
-	padding: 0px;
 	display: flex;
 	flex-wrap: inherit;
 	align-items: center;
@@ -19,14 +18,15 @@
 
 .navbar-logo {
 	display: flex;
-	width: 101px !important;
-	height: 100%;
-	padding: 1rem;
+	width: 69px;
+	height: 48px;
+	margin-left: 1rem;
 	user-select: none;
 	filter: invert();
 }
 
 .navbar-section2 {
+	padding-left: 1rem;
 	padding-right: 1rem;
 	user-select: none;
     display: flex;
@@ -58,24 +58,9 @@
 	background-color: #ffffff30;
 }
 
-#navbar-menuButton {
-	display: none;
- 	padding: 12px;
-	width: 54px;
-	height: 100%;
-	border-radius: 0.5rem;
-	opacity: 50%;
-	background-color: #ffffff00;
-	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
-}
-
-.hovered {
-	opacity: 100% !important;
-	background-color: #ffffff30 !important;
-}
-
 .navbar-page-image {
-	height: 100%;
+	width: 26px;
+	height: 26px;
 	filter: invert();
 }
 
@@ -88,58 +73,25 @@
 	user-select: none;
 }
 
-@keyframes navbar-anim {
-	0% {
-		opacity: 0%;
-	}
-	40% {
-		opacity: 100%;
-	}
-	100% {
-		opacity: 50%;
-	}
-}
-
-#navbar-anim1 {
-	animation: navbar-anim 0.67s;
-	animation-fill-mode: backwards;
-}
-
-#navbar-anim2 {
-	animation: navbar-anim 0.67s;
-	animation-delay: 0.1s;
-	animation-fill-mode: backwards;
-}
-
-#navbar-anim3 {
-	animation: navbar-anim 0.67s;
-	animation-delay: 0.2s;
-	animation-fill-mode: backwards;
-}
-
-#navbar-anim4 {
-	animation: navbar-anim 0.67s;
-	animation-delay: 0.3s;
-	animation-fill-mode: backwards;
-}
-
-#navbar-anim5 {
-	animation: navbar-anim 0.67s;
-	animation-delay: 0.4s;
-	animation-fill-mode: backwards;
-}
-
-#navbar-anim6 {
-	animation: navbar-anim 0.67s;
-	animation-delay: 0.5s;
-	animation-fill-mode: backwards;
-}
-
 .navbar-divider {
 	width: 100%;
 	height: 1px;
 	z-index: 100;
 	background-color: #686868;
+}
+
+
+/* ---------- Mobile view ---------- */
+
+#navbar-menuButton {
+	display: none;
+ 	padding: 12px;
+	width: 54px;
+	height: 100%;
+	border-radius: 0.5rem;
+	opacity: 50%;
+	background-color: #ffffff00;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
 #menu {
@@ -153,6 +105,11 @@
 	top: 81px;
 	overflow: hidden;
 	transition: all 0.25s cubic-bezier(.17,.12,.37,.97);
+}
+
+.hovered {
+	opacity: 100% !important;
+	background-color: #ffffff30 !important;
 }
 
 .menu-page,
