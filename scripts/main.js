@@ -7,7 +7,7 @@ var menu = document.getElementById("menu");
 
 
 function toggleMenu() {
-	if (menu.style.height === "280px") {
+	if (menu.style.height === "304px") {
 		//Collapsed
 		button.style.opacity = "50%";
 		menu.style.height = "0px";
@@ -15,7 +15,7 @@ function toggleMenu() {
 	} else {
 		//Expanded
 		button.style.opacity = "100%";
-		menu.style.height = "280px";
+		menu.style.height = "304px";
 		menu.style.boxShadow = "var(--shadow-medium)";
 	}
 }

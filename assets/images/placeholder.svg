@@ -3,10 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 900 600" style="enable-background:new 0 0 900 600;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#1D1D1D;}
-	.st1{fill:none;stroke:#141414;stroke-width:32;stroke-linecap:square;stroke-miterlimit:10;}
+	.st0{display:none;fill:#202020;}
+	.st1{fill:#202020;}
 </style>
 <rect class="st0" width="900" height="600"/>
-<circle class="st1" cx="301.4" cy="191.1" r="81.8"/>
-<path class="st1" d="M0,490l163-135l163,135l287-237.7L900,490"/>
+<path class="st1" d="M900,510.8V600H0v-89.2l163-135l163,135l287-237.7L900,510.8z M0,469.2V0h900v469.2L613,231.5L326,469.2
+	l-163-135L0,469.2z M203.6,191.1c0,53.9,43.9,97.8,97.8,97.8c53.9,0,97.8-43.9,97.8-97.8s-43.9-97.8-97.8-97.8
+	C247.5,93.3,203.6,137.2,203.6,191.1z M301.4,256.9c36.3,0,65.8-29.5,65.8-65.8s-29.5-65.8-65.8-65.8s-65.8,29.5-65.8,65.8
+	S265.1,256.9,301.4,256.9z"/>
 </svg>

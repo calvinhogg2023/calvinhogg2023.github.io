@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 932px) {
+@media (max-width: 910px) {
 	.navbar-section2 {
 		margin-left: auto;
 	}
@@ -23,5 +23,11 @@
 
 	.home-content {
 		background: linear-gradient(to right, #000000c0, #000000c0);
+	}
+}
+
+@media (min-width: 910.1px) {
+	#menu {
+		display: none;
 	}
 }

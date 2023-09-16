@@ -17,13 +17,13 @@
 
 		<nav id="navbar">
             <div id="navbarContainer">
-				<a class="navbar-logo" href="index.html">
-                    <img src="assets/logos/calvinhogg.svg"/>
-                </a>
+				<div class="navbar-logo">
+                    <img src="assets/logos/calvin.svg"/>
+                </div>
                 <div class="navbar-section2">
-					<a class="navbar-page" href="cgi.html">
+					<a class="navbar-page" href="renders.html">
 						<img class="navbar-page-image" src="assets/icons/cgi.svg"/>
-						<p class="navbar-page-text">CGI</p>
+						<p class="navbar-page-text">Renders</p>
     				</a>
 					<a class="navbar-page" href="animations.html">
 						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
@@ -37,6 +37,10 @@
 						<img class="navbar-page-image" src="assets/icons/download.svg"/>
 						<p class="navbar-page-text">Downloads</p>
 					</a>
+					<a class="navbar-page" href="about.html">
+						<img class="navbar-page-image" src="assets/icons/about.svg"/>
+						<p class="navbar-page-text">About Me</p>
+					</a>
 					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
 						<img class="navbar-page-image" src="assets/icons/menu.svg"/>
 					</div>
@@ -44,28 +48,36 @@
             </div>
 			<div class="navbar-divider"></div>
 			<div id="menu">
-				<a class="menu-page" href="cgi.html">
+				<a class="menu-page" href="renders.html">
 					<img class="menu-page-image" src="assets/icons/cgi.svg"/>
-					<p class="menu-page-text">CGI</p>
+					<p class="menu-page-text">Renders</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-page" href="animations.html">
 					<img class="menu-page-image" src="assets/icons/animations.svg"/>
 					<p class="menu-page-text">Animations</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-pageCurrent" href="software.html">
 					<img class="menu-page-image" src="assets/icons/software.svg"/>
 					<p class="menu-page-text">Software</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-page" href="downloads.html">
-					<img class="menu-page-image" src="assets/icons/download.svg"/>
+					<img class="menu-page-image" src="assets/icons/workbook.svg"/>
 					<p class="menu-page-text">Downloads</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="about.html">
+					<img class="menu-page-image" src="assets/icons/about.svg"/>
+					<p class="menu-page-text">About Me</p>
 				</a>
 			</div>
         </nav>
 
 		<div id="content" onclick="hideMenu()">
 
-			<div class="banner" style="background-image: url('assets/imagesPNG/banner.png');">
+			<div class="banner" style="background-image: url('assets/images/banner.webp');">
 	            <div class="banner-gradient">
 					<div style="margin: auto;">
 						<p class="banner-title">Software</p>
@@ -80,14 +92,14 @@
 					<div class="divider"></div>
 					<div class="grid">
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Whitireia" style="background-image: url('assets/imagesPNG/software/whitireia/whitireia-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Whitireia" style="background-image: url('assets/images/software/whitireia/whitireia-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Whitireia Assistant</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Yoobee" style="background-image: url('assets/imagesPNG/software/yoobee/yoobee-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Yoobee" style="background-image: url('assets/images/software/yoobee/yoobee-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Yoobee Timetable</p>
@@ -104,7 +116,7 @@
 					<div class="divider"></div>
 					<div class="grid">
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Game" style="background-image: url('assets/imagesPNG/software/game/game-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Game" style="background-image: url('assets/images/software/game/game-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Major Projects Game</p>
@@ -130,13 +142,13 @@
 						<p class="modal-title">Whitireia Assistant</p>
                         <p class="modal-subtitle">May 2020</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/software/whitireia/whitireia-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/software/whitireia/whitireia-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>
@@ -160,13 +172,13 @@
 						<p class="modal-title">Yoobee Timetable</p>
                         <p class="modal-subtitle">February 2017</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/software/yoobee/yoobee-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/software/yoobee/yoobee-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>
@@ -179,7 +191,10 @@
 							</p>
 							<a class="modal-button" href="files/yoobeetimetable.apk">
 								<img class="modal-button-icon" src="assets/logos/android.svg"/>
-								<p class="modal-button-text">Download for Android</p>
+								<div>
+									<p class="modal-button-text">Download for Android</p>
+									<p class="modal-button-subtext">1.56 MB</p>
+								</div>
 							</a>
 						</div>
                     </div>
@@ -194,13 +209,13 @@
 						<p class="modal-title">Major Projects Game</p>
                         <p class="modal-subtitle">June 2022</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/software/game/game-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/software/game/game-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/software/game/game-2.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/software/game/game-3.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/software/game/game-4.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/software/game/game-5.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/software/game/game-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/software/game/game-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/software/game/game-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/software/game/game-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>
@@ -213,13 +228,19 @@
 								I had planned to build the console using Raspberry Pi along with a combination of lasercutting and 3D printing techniques. The operating system for the console would be a stripped down version of Ubuntu with a custom made homescreen, however due to time limits I wasn't able to complete this.
 								<br><br>
 							</p>
-							<a class="modal-button" href="files/majorprojects-windows.7z">
+							<a class="modal-button" href="files/majorprojects-windows.zip">
 								<img class="modal-button-icon" src="assets/logos/windows.svg"/>
-								<p class="modal-button-text">Download for Windows</p>
+								<div>
+									<p class="modal-button-text">Download for Windows</p>
+									<p class="modal-button-subtext">48.2 MB</p>
+								</div>
 							</a>
-							<a class="modal-button" href="files/majorprojects-source.7z">
+							<a class="modal-button" href="files/majorprojects-source.zip">
 								<img class="modal-button-icon" src="assets/logos/unity.svg"/>
-								<p class="modal-button-text">Download project files</p>
+								<div>
+									<p class="modal-button-text">Download project files</p>
+									<p class="modal-button-subtext">87.3 MB</p>
+								</div>
 							</a>
 						</div>
                     </div>

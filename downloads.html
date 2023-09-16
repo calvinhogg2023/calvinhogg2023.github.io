@@ -17,13 +17,13 @@
 
 		<nav id="navbar">
             <div id="navbarContainer">
-				<a class="navbar-logo" href="index.html">
-                    <img src="assets/logos/calvinhogg.svg"/>
-                </a>
+				<div class="navbar-logo">
+                    <img src="assets/logos/calvin.svg"/>
+                </div>
                 <div class="navbar-section2">
-					<a class="navbar-page" href="cgi.html">
+					<a class="navbar-page" href="renders.html">
 						<img class="navbar-page-image" src="assets/icons/cgi.svg"/>
-						<p class="navbar-page-text">CGI</p>
+						<p class="navbar-page-text">Renders</p>
     				</a>
 					<a class="navbar-page" href="animations.html">
 						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
@@ -37,6 +37,10 @@
 						<img class="navbar-page-image" src="assets/icons/download.svg"/>
 						<p class="navbar-page-text">Downloads</p>
 					</a>
+					<a class="navbar-page" href="about.html">
+						<img class="navbar-page-image" src="assets/icons/about.svg"/>
+						<p class="navbar-page-text">About Me</p>
+					</a>
 					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
 						<img class="navbar-page-image" src="assets/icons/menu.svg"/>
 					</div>
@@ -44,28 +48,36 @@
             </div>
 			<div class="navbar-divider"></div>
 			<div id="menu">
-				<a class="menu-page" href="cgi.html">
+				<a class="menu-page" href="renders.html">
 					<img class="menu-page-image" src="assets/icons/cgi.svg"/>
-					<p class="menu-page-text">CGI</p>
+					<p class="menu-page-text">Renders</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-page" href="animations.html">
 					<img class="menu-page-image" src="assets/icons/animations.svg"/>
 					<p class="menu-page-text">Animations</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-page" href="software.html">
 					<img class="menu-page-image" src="assets/icons/software.svg"/>
 					<p class="menu-page-text">Software</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-pageCurrent" href="downloads.html">
-					<img class="menu-page-image" src="assets/icons/download.svg"/>
+					<img class="menu-page-image" src="assets/icons/workbook.svg"/>
 					<p class="menu-page-text">Downloads</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="about.html">
+					<img class="menu-page-image" src="assets/icons/about.svg"/>
+					<p class="menu-page-text">About Me</p>
 				</a>
 			</div>
         </nav>
 
 		<div id="content" onclick="hideMenu()">
 
-			<div class="banner" style="background-image: url('assets/imagesPNG/banner.png');">
+			<div class="banner" style="background-image: url('assets/images/banner.webp');">
 	            <div class="banner-gradient">
 					<div style="margin: auto;">
 						<p class="banner-title">Downloads</p>
@@ -73,13 +85,13 @@
 	            </div>
 	        </div>
 
-			<section class="section-top section-bottom grid2">
+			<section class="section-top section-bottom">
 	            <div class="container" style="margin-bottom: 6rem;">
 	                <p class="section-title">Workbooks</p>
 					<div class="divider"></div>
 					<div class="workbook-grid">
 
-						<a href="workbooks/2022-sem2-majorProjects.pdf" target="_blank">
+						<a href="downloads/2022-sem2-majorProjects.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Dylan V2</p>
@@ -88,7 +100,7 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2022-sem1-majorProjectsC.pdf" target="_blank">
+						<a href="downloads/2022-sem1-majorProjectsC.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Major Projects Game (Part 3)</p>
@@ -97,7 +109,7 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2022-sem1-majorProjectsB.pdf" target="_blank">
+						<a href="downloads/2022-sem1-majorProjectsB.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Major Projects Game (Part 2)</p>
@@ -106,7 +118,7 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2022-sem1-majorProjectsA.pdf" target="_blank">
+						<a href="downloads/2022-sem1-majorProjectsA.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Major Projects Game (Part 1)</p>
@@ -115,7 +127,7 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2022-sem1-appliedMedia.pdf" target="_blank">
+						<a href="downloads/2022-sem1-appliedMedia.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Photogrammetry, Mount Victoria and Dylan V1</p>
@@ -124,7 +136,7 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2022-sem1-contextAndPractice.pdf" target="_blank">
+						<a href="downloads/2022-sem1-contextAndPractice.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Koji Kondo Research Report</p>
@@ -133,7 +145,7 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2021-sem2-appliedMedia.pdf" target="_blank">
+						<a href="downloads/2021-sem2-appliedMedia.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Cyberthug Core</p>
@@ -142,68 +154,11 @@
 							</div>
 						</a>
 
-						<a href="workbooks/2021-sem1-appliedMedia.pdf" target="_blank">
+						<a href="downloads/2021-sem1-appliedMedia.pdf" target="_blank">
 							<div class="cardDownload">
 								<div>
 									<p class="cardDownload-title">Cyberthug</p>
 									<p class="cardDownload-subtitle">Semester 1, 2021</p>
-								</div>
-							</div>
-						</a>
-
-	                </div>
-	            </div>
-				<div class="container">
-					<p class="section-title">Project Files</p>
-					<div class="divider"></div>
-					<div class="workbook-grid">
-
-						<a class="disabled" href="files/energydrink.7z">
-							<div class="cardDownload">
-								<img class="cardDownload-image" src="assets/logos/maya.svg">
-								<div>
-									<p class="cardDownload-title">Energy Drink</p>
-									<p class="cardDownload-subtitle">August 2023</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="files/chocolatemilk.7z">
-							<div class="cardDownload">
-								<img class="cardDownload-image" src="assets/logos/maya.svg">
-								<div>
-									<p class="cardDownload-title">Chocolate Milk</p>
-									<p class="cardDownload-subtitle">August 2023</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="files/steamroom.7z">
-							<div class="cardDownload">
-								<img class="cardDownload-image" src="assets/logos/maya.svg">
-								<div>
-									<p class="cardDownload-title">Steam Room</p>
-									<p class="cardDownload-subtitle">October 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="files/harrypotter.7z">
-							<div class="cardDownload">
-								<img class="cardDownload-image" src="assets/logos/maya.svg">
-								<div>
-									<p class="cardDownload-title">LEGO Harry Potter</p>
-									<p class="cardDownload-subtitle">October 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="files/majorprojects-source.7z">
-							<div class="cardDownload">
-								<img class="cardDownload-image" src="assets/logos/unity.svg">
-								<div>
-									<p class="cardDownload-title">Major Projects Game</p>
-									<p class="cardDownload-subtitle">June 2022</p>
 								</div>
 							</div>
 						</a>

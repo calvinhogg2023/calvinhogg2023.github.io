@@ -17,13 +17,13 @@
 
 		<nav id="navbar">
             <div id="navbarContainer">
-				<a class="navbar-logo" href="index.html">
-                    <img src="assets/logos/calvinhogg.svg"/>
-                </a>
+				<div class="navbar-logo">
+                    <img src="assets/logos/calvin.svg"/>
+                </div>
                 <div class="navbar-section2">
-					<a class="navbar-page" href="cgi.html">
+					<a class="navbar-page" href="renders.html">
 						<img class="navbar-page-image" src="assets/icons/cgi.svg"/>
-						<p class="navbar-page-text">CGI</p>
+						<p class="navbar-page-text">Renders</p>
     				</a>
 					<a class="navbar-pageCurrent" href="animations.html">
 						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
@@ -37,6 +37,10 @@
 						<img class="navbar-page-image" src="assets/icons/download.svg"/>
 						<p class="navbar-page-text">Downloads</p>
 					</a>
+					<a class="navbar-page" href="about.html">
+						<img class="navbar-page-image" src="assets/icons/about.svg"/>
+						<p class="navbar-page-text">About Me</p>
+					</a>
 					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
 						<img class="navbar-page-image" src="assets/icons/menu.svg"/>
 					</div>
@@ -44,28 +48,36 @@
             </div>
 			<div class="navbar-divider"></div>
 			<div id="menu">
-				<a class="menu-page" href="cgi.html">
+				<a class="menu-page" href="renders.html">
 					<img class="menu-page-image" src="assets/icons/cgi.svg"/>
-					<p class="menu-page-text">CGI</p>
+					<p class="menu-page-text">Renders</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-pageCurrent" href="animations.html">
 					<img class="menu-page-image" src="assets/icons/animations.svg"/>
 					<p class="menu-page-text">Animations</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-page" href="software.html">
 					<img class="menu-page-image" src="assets/icons/software.svg"/>
 					<p class="menu-page-text">Software</p>
 				</a>
+				<div class="menu-divider"></div>
 				<a class="menu-page" href="downloads.html">
-					<img class="menu-page-image" src="assets/icons/download.svg"/>
+					<img class="menu-page-image" src="assets/icons/workbook.svg"/>
 					<p class="menu-page-text">Downloads</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="about.html">
+					<img class="menu-page-image" src="assets/icons/about.svg"/>
+					<p class="menu-page-text">About Me</p>
 				</a>
 			</div>
         </nav>
 
 		<div id="content" onclick="hideMenu()">
 
-			<div class="banner" style="background-image: url('assets/imagesPNG/banner.png');">
+			<div class="banner" style="background-image: url('assets/images/banner.webp');">
 	            <div class="banner-gradient">
 					<div style="margin: auto;">
 						<p class="banner-title">Animations</p>
@@ -76,39 +88,39 @@
 
 			<section class="section-top section-bottom">
 	            <div class="container">
-	                <p class="section-title">Finals</p>
+					<p class="section-title">Finals</p>
 					<div class="divider"></div>
 					<div class="grid">
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Sole" style="background-image: url('assets/imagesPNG/animations/sole/sole-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Sole" style="background-image: url('assets/images/animations/sole/sole-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">My Name is Sole Letafu</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Loops" style="background-image: url('assets/imagesPNG/animations/loops/loops-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Loops" style="background-image: url('assets/images/animations/loops/loops-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Thematic Loops</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Principles" style="background-image: url('assets/imagesPNG/animations/principles/principles-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Principles" style="background-image: url('assets/images/animations/principles/principles-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Principles of Animation</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-PlayStation" style="background-image: url('assets/imagesPNG/animations/playstation/playstation-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-PlayStation" style="background-image: url('assets/images/animations/playstation/playstation-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">PlayStation Commercial</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Toilet" style="background-image: url('assets/imagesPNG/animations/toilet/toilet-1.png');">
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Toilet" style="background-image: url('assets/images/animations/toilet/toilet-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">The Toilet Thing</p>
@@ -134,13 +146,13 @@
 						<p class="modal-title">My Name is Sole Letafu</p>
                         <p class="modal-subtitle">April 2022</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/animations/sole/sole-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/animations/sole/sole-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/sole/sole-2.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/sole/sole-3.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/sole/sole-4.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/sole/sole-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/sole/sole-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/sole/sole-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>
@@ -172,13 +184,13 @@
 						<p class="modal-title">Thematic Loops</p>
                         <p class="modal-subtitle">November 2021</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/animations/loops/loops-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/animations/loops/loops-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/loops/loops-2.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/loops/loops-3.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/loops/loops-4.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/loops/loops-5.png"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/animations/loops/loops-6.png"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/loops/loops-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/loops/loops-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/loops/loops-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/loops/loops-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/animations/loops/loops-6.webp"/>
 							</div>
 						</div>
                     </div>
@@ -206,13 +218,13 @@
 						<p class="modal-title">Principles of Animation</p>
                         <p class="modal-subtitle">September 2018</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/animations/principles/principles-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/animations/principles/principles-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>
@@ -240,13 +252,13 @@
 						<p class="modal-title">PlayStation Commercial</p>
                         <p class="modal-subtitle">September 2017</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/animations/playstation/playstation-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/animations/playstation/playstation-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>
@@ -274,13 +286,13 @@
 						<p class="modal-title">The Toilet Thing</p>
                         <p class="modal-subtitle">July 2017</p>
 						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/imagesPNG/animations/toilet/toilet-1.png"/>
+                        	<img class="modal-images-feature" src="assets/images/animations/toilet/toilet-1.webp"/>
 							<div class="modal-images-gallery">
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
-								<img class="modal-images-gallery-thumbnail" src="assets/imagesPNG/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
 							</div>
 						</div>
                     </div>

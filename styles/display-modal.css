@@ -37,10 +37,6 @@
 		overflow-y: auto;
 		height: auto;
 	}
-
-	.modal-images-gallery {
-		column-gap: 6px;
-	}
 }
 
 @media (min-width: 640.1px) and (max-width: 1200px) {

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CALVIN HOGG > Renders</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Portfolio website for Calvin Hogg, digital media bachelor graduate with a passion for 3D animation.">
+		<link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/modal.css">
+        <link rel="stylesheet" href="styles/display.css">
+        <link rel="stylesheet" href="styles/display-navbar.css">
+        <link rel="stylesheet" href="styles/display-modal.css">
+		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    </head>
+    <body>
+
+		<nav id="navbar">
+            <div id="navbarContainer">
+				<div class="navbar-logo">
+                    <img src="assets/logos/calvin.svg"/>
+                </div>
+                <div class="navbar-section2">
+					<a class="navbar-pageCurrent" href="renders.html">
+						<img class="navbar-page-image" src="assets/icons/cgi.svg"/>
+						<p class="navbar-page-text">Renders</p>
+    				</a>
+					<a class="navbar-page" href="animations.html">
+						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
+						<p class="navbar-page-text">Animations</p>
+					</a>
+					<a class="navbar-page" href="software.html">
+						<img class="navbar-page-image" src="assets/icons/software.svg"/>
+						<p class="navbar-page-text">Software</p>
+					</a>
+					<a class="navbar-page" href="downloads.html">
+						<img class="navbar-page-image" src="assets/icons/download.svg"/>
+						<p class="navbar-page-text">Downloads</p>
+					</a>
+					<a class="navbar-page" href="about.html">
+						<img class="navbar-page-image" src="assets/icons/about.svg"/>
+						<p class="navbar-page-text">About Me</p>
+					</a>
+					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
+						<img class="navbar-page-image" src="assets/icons/menu.svg"/>
+					</div>
+                </div>
+            </div>
+			<div class="navbar-divider"></div>
+			<div id="menu">
+				<a class="menu-pageCurrent" href="renders.html">
+					<img class="menu-page-image" src="assets/icons/cgi.svg"/>
+					<p class="menu-page-text">Renders</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="animations.html">
+					<img class="menu-page-image" src="assets/icons/animations.svg"/>
+					<p class="menu-page-text">Animations</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="software.html">
+					<img class="menu-page-image" src="assets/icons/software.svg"/>
+					<p class="menu-page-text">Software</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="downloads.html">
+					<img class="menu-page-image" src="assets/icons/workbook.svg"/>
+					<p class="menu-page-text">Downloads</p>
+				</a>
+				<div class="menu-divider"></div>
+				<a class="menu-page" href="about.html">
+					<img class="menu-page-image" src="assets/icons/about.svg"/>
+					<p class="menu-page-text">About Me</p>
+				</a>
+			</div>
+        </nav>
+
+		<div id="content" onclick="hideMenu()">
+
+			<div class="banner" style="background-image: url('assets/images/banner.webp');">
+	            <div class="banner-gradient">
+					<div style="margin: auto;">
+						<p class="banner-title">Renders</p>
+						<p class="banner-subtitle">Tap on a card to learn more</p>
+					</div>
+	            </div>
+	        </div>
+
+			<section class="section-top">
+	            <div class="container">
+	                <p class="section-title">Characters</p>
+					<div class="divider"></div>
+					<div class="grid">
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-John" style="background-image: url('assets/images/cgi/john/john-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">John</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-DylanV2" style="background-image: url('assets/images/cgi/dylan2/dylan2-1.webp')";>
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Dylan V2</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-DylanV1" style="background-image: url('assets/images/cgi/dylan1/dylan1-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Dylan V1</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Cyberthug" style="background-image: url('assets/images/cgi/cyberthug/cyberthug-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Cyberthug</p>
+							</div>
+						</div>
+
+	                </div>
+	            </div>
+	        </section>
+
+			<section>
+	            <div class="container">
+	                <p class="section-title">Environments</p>
+					<div class="divider"></div>
+					<div class="grid">
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Memorial" style="background-image: url('assets/images/cgi/memorial/memorial-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">War Memorial</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Steam" style="background-image: url('assets/images/cgi/steam/steam-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Steam Room</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Classroom" style="background-image: url('assets/images/cgi/classroom/classroom-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Classroom</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Victoria" style="background-image: url('assets/images/cgi/victoria/victoria-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Mount Victoria</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Core" style="background-image: url('assets/images/cgi/core/core-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Cyberthug Core</p>
+							</div>
+						</div>
+
+	                </div>
+	            </div>
+	        </section>
+
+			<section class="section-bottom">
+	            <div class="container">
+	                <p class="section-title">Props</p>
+					<div class="divider"></div>
+					<div class="grid">
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Energy" style="background-image: url('assets/images/cgi/energy/energy-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Energy Drink</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Milk" style="background-image: url('assets/images/cgi/milk/milk-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">Chocolate Milk</p>
+							</div>
+						</div>
+
+						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Harry" style="background-image: url('assets/images/cgi/harry/harry-1.webp');">
+							<div class="card-glare"></div>
+							<div class="card-gradient">
+								<p class="card-text">LEGO Harry Potter</p>
+							</div>
+						</div>
+
+	                </div>
+	            </div>
+	        </section>
+
+	        <div class="footer">
+	            <p class="footer-text">&copy; 2023 Calvin Hogg. All rights reserved.</p>
+	        </div>
+
+		</div>
+
+
+
+
+		<div class="modal fade" id="modal-John" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">John</p>
+                        <p class="modal-subtitle">WORK IN PROGRESS</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/john/john-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/john/john-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/john/john-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/john/john-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/john/john-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								Over the Christmas break, without various school assignments taking up my time, I put more effort into character modelling. I tried to maintain a more consistent level of detail across facial features this time around. The model went through a few different iterations, with me making a list of areas that looked a bit off each time.
+								<br><br>
+								I used Substance Painter for most of the texturing instead of Photoshop, which allowed me to get a realtime preview of how the model would look. The ears are much better, with the edge flow correctly following the structure, whereas with Dylan V2 they were very primitive and oddly-shaped.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-DylanV2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Dylan V2</p>
+                        <p class="modal-subtitle">October 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/dylan2/dylan2-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan2/dylan2-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan2/dylan2-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan2/dylan2-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan2/dylan2-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan2/dylan2-6.webp"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								For the second semester's major project, I focused on improving my skills in character modelling. I brought front and side reference images of Dylan into Blender, then sculpted out a sphere to match his head and shoulders.
+								<br><br>
+								You can see the improvement in the facial features, with noticeably more detail in the eyes and nose. I still had trouble getting the lips looking right though. I learnt that textures can be deceiving, and that I had to reduce the contrast of the eyes considerably in Photoshop to get a satisfying result.
+								<br><br>
+								I experimented with XGen plugged into a PxrMarschnerHair shader to create Dylan's hair, and Maya's nHair system for the physics.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-DylanV1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Dylan V1</p>
+                        <p class="modal-subtitle">June 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/dylan1/dylan1-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan1/dylan1-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan1/dylan1-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/dylan1/dylan1-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								This was an attempt at recreating a classmate in 3D, which featured in the Mount Victoria render. I used photogrammetry of his head to create a base mesh, which was then covered in clean geometry.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Cyberthug" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Cyberthug</p>
+                        <p class="modal-subtitle">January 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/cyberthug/cyberthug-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/cyberthug/cyberthug-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/cyberthug/cyberthug-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/cyberthug/cyberthug-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/cyberthug/cyberthug-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								This was the first character I modelled, based off the Cyberthug from 2021. Although it's unfinished, I tried to find a balance between making it visually identical to the model and increasing the level of detail. I only got as far as making a "vanilla" model, without all the cyborg modifications.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Memorial" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">War Memorial</p>
+                        <p class="modal-subtitle">WORK IN PROGRESS</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/memorial/memorial-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/memorial/memorial-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								The war memorial located in the Wellington CBD seemed like an interesting place to recreate. I tried to worry less about getting the measurements exactly right, and focus more on the bigger picture. The horse statue in the foreground was created with photogrammetry, while everything else was modelled by hand.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Steam" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Steam Room</p>
+                        <p class="modal-subtitle">October 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/steam/steam-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/steam/steam-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								This was part of a class project involving hexagonal rooms fitted together. This one was a bit rushed, but it makes use of volumetrics to simulate steam, and roughness maps for the foggy glass and wet floor. Given the small area, I focused on making it photorealistic.
+								<br><br>
+								The environment is based off a real location, and was created entirely from memory.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Classroom" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Classroom</p>
+                        <p class="modal-subtitle">August 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/classroom/classroom-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/classroom/classroom-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/classroom/classroom-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/classroom/classroom-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/classroom/classroom-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/classroom/classroom-6.webp"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								After seeing how well Mount Victoria turned out, I decided to recreate a more convenient location. I took a different approach this time, taking note of the dimensions of the scene with a tape measure. The scene extends outside, revealing a carpark and alley.
+								<br><br>
+								It was interesting (and rather disorienting) to see the project develop as most of the modelling was done in that same room. I had planned to use it for a short film or virtual reality experience.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Victoria" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Mount Victoria</p>
+                        <p class="modal-subtitle">June 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/victoria/victoria-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/victoria/victoria-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/victoria/victoria-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/victoria/victoria-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/victoria/victoria-5.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								This remake of a real location was made using large-scale photogrammetry and involved taking over 1,000 photos. Using the generated model for reference, I then manually recreated everything with clean geometry.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Core" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Cyberthug Core</p>
+                        <p class="modal-subtitle">November 2021</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/core/core-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/core/core-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/core/core-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/core/core-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								While constructing the physical model of the Cyberthug Core, I used Adobe Illustrator to create the shapes required for lasercutting. This made it easy to create 3D models from these shapes. The point of this render is to show how I imagine the Core to look, as physical lighting methods were limited.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Energy" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Energy Drink</p>
+                        <p class="modal-subtitle">August 2023</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/energy/energy-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/energy/energy-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/energy/energy-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								What a way to start the morning. As with the chocolate milk, I thought about redrawing the label, but decided that it would take a substantial amount of time for little payoff given the 2 hours allocated for this project.
+								<br><br>
+								A PxrVolume and disk light were used for the purple glow, while the particles and lightning were added in post-production. I made use of vignetting and lens distortion for added realism.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Milk" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">Chocolate Milk</p>
+                        <p class="modal-subtitle">August 2023</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/milk/milk-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/milk/milk-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/milk/milk-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/milk/milk-4.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								This simple prop was made in just 2 hours. It was an experiment in fine-tuning specular and subsurface settings to match how it would look in the real world. If you look closely you can see the bottom of the lid is darker than the top, as it is covering the bottle and allowing less light to pass through.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="modal fade" id="modal-Harry" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+					<div class="modal-section1">
+						<p class="modal-title">LEGO Harry Potter</p>
+                        <p class="modal-subtitle">October 2022</p>
+						<div class="modal-images">
+                        	<img class="modal-images-feature" src="assets/images/cgi/harry/harry-1.webp"/>
+							<div class="modal-images-gallery">
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/harry/harry-2.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/cgi/harry/harry-3.webp"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+								<img class="modal-images-gallery-thumbnail" src="assets/images/placeholder.svg"/>
+							</div>
+						</div>
+                    </div>
+					<div class="modal-section2">
+                        <p class="modal-header">ABOUT THIS PIECE</p>
+						<div class="modal-description">
+                            <p>
+								This project involved recreating specific LEGO pieces from a chosen set, then fitting them together as you would in real life. I experimented with compositing it over a photo I took, taking into consideration light sources, viewing angles and depth-of-field.
+								<br><br>
+							</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="scripts/main.js"></script>
+
+    </body>
+</html>
