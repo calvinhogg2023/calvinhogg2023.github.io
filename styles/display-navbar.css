@@ -1,33 +1,12 @@
 @charset "UTF-8";
 
-@media (max-width: 910px) {
-	.navbar-section2 {
-		margin-left: auto;
-	}
-
+@media (max-width: 890px) {
+	.navbar-page,
 	.navbar-pageCurrent {
 		display: none;
 	}
 
-	.navbar-page {
-		display: none;
-	}
-
-	.navbar-page-text {
-		display: none;
-	}
-
-	#navbar-menuButton {
-		display: flex;
-	}
-
-	.home-content {
-		background: linear-gradient(to right, #000000c0, #000000c0);
-	}
-}
-
-@media (min-width: 910.1px) {
-	#menu {
-		display: none;
+	#menuButton {
+		display: block;
 	}
 }

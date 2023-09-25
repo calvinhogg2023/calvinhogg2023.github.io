@@ -1,50 +1,72 @@
 @charset "UTF-8";
 
-#navbar > #navbarContainer {
-	height: 80px;
+#navbarContainer {
+	width: 150px;
+	height: 70px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 	display: flex;
-	flex-wrap: inherit;
 	align-items: center;
-	box-shadow: var(--shadow-navbar);
-	z-index: 100;
-    background-image: linear-gradient(to bottom, #525252, #2a2a2a);
+	pointer-events: all;
 }
 
 #navbar {
-	height: auto;
-    display: flex;
-    flex-direction: column !important;
+	display: flex;
+	width: 100%;
+	height: 80px;
+	z-index: 100;
+	position: fixed;
+	box-shadow: var(--shadow-navbar);
+    background: linear-gradient(to bottom, #525252, #2a2a2a);
 }
 
-.navbar-logo {
-	display: flex;
+#logo {
 	width: 69px;
 	height: 48px;
-	margin-left: 1rem;
+	margin: 16px;
 	user-select: none;
-	filter: invert();
 }
 
-.navbar-section2 {
-	padding-left: 1rem;
-	padding-right: 1rem;
-	user-select: none;
-    display: flex;
-    width: auto;
-	height: 54px;
+#menuButton {
+	display: none;
+	width: 56px;
+	height: 56px;
+	margin: 12px;
+	margin-left: auto;
+	padding: 13px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	transition: background-color 0.05s ease-out;
+}
+
+#menuButton:hover {
+	background-color: #ffffff30;
+}
+
+#menuButton-image {
+	width: 30px;
+	height: 30px;
+	opacity: 50%;
+	filter: invert();
+	transition: opacity 0.05s ease-out;
+}
+
+#menuButton:hover > #menuButton-image {
+	opacity: 100%;
 }
 
 .navbar-page,
 .navbar-pageCurrent {
 	display: flex;
-	padding: 14px;
-	padding-left: 20px;
-	padding-right: 20px;
 	width: auto;
-	height: 100%;
+	height: 56px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 15px;
+	padding-right: 18px;
+	padding-left: 18px;
 	border-radius: 0.5rem;
 	opacity: 50%;
-	background-color: #ffffff00;
 	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
@@ -74,48 +96,29 @@
 }
 
 .navbar-divider {
+	position: fixed;
+	top: 80px;
 	width: 100%;
 	height: 1px;
 	z-index: 100;
-	background-color: #686868;
+	background-color: #646464;
 }
 
 
 /* ---------- Mobile view ---------- */
 
-#navbar-menuButton {
-	display: none;
- 	padding: 12px;
-	width: 54px;
-	height: 100%;
-	border-radius: 0.5rem;
-	opacity: 50%;
-	background-color: #ffffff00;
-	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
-}
 
-#navbar-menuButton-image {
-	width: 30px;
-	height: 30px;
-	filter: invert();
-}
 
 #menu {
-	background-color: #303030;
-	min-width: var(--min-width);
+	background-color: #2d2d2d;
 	width: 100%;
 	height: 0px;
+	top: 80px;
 	box-shadow: var(--shadow-none);
 	z-index: 50;
-	position: absolute;
-	top: 81px;
+	position: fixed;
 	overflow: hidden;
-	transition: all 0.25s cubic-bezier(.17,.12,.37,.97);
-}
-
-.hovered {
-	opacity: 100% !important;
-	background-color: #ffffff30 !important;
+	transition: height 0.25s cubic-bezier(.17,.12,.37,.97);
 }
 
 .menu-page,
@@ -135,7 +138,7 @@
 
 .menu-page:hover {
 	opacity: 100%;
-	background-color: #ffffff20;
+	background-color: #d0d0d020;
 }
 
 .menu-page-image {

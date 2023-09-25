@@ -15,89 +15,48 @@
 
 @media (max-width: 760px) {
     .container {
-        max-width: 100%;
+		width: calc(100% - 32px);
+        max-width: 728px;
     }
 
 	.card,
 	.cardAlt,
 	.cardSketch {
-		min-height: 130px;
-		height: 31vw;
+		width: calc(50vw - 20px);
+		height: calc((50vw - 20px) / 1.5);
 	}
 
 	.grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
-
-	.workbook-grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
 }
 
-@media (min-width: 760.1px) and (max-width: 1152px) {
+@media (min-width: 760.1px) and (max-width: 1128px) {
     .container {
-        max-width: 760px;
+        width: 728px;
     }
-
-	.card,
-	.cardAlt,
-	.cardSketch {
-		height: 14.9rem;
-	}
 
 	.grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
-
-	.workbook-grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
 }
 
-@media (min-width: 1152.1px) and (max-width: 1460px) {
+@media (min-width: 1128.1px) and (max-width: 1496px) {
 	.container {
-        max-width: 1120px;
+        width: 1096px;
     }
-
-	.card,
-	.cardAlt,
-	.cardSketch {
-		height: 14.7rem;
-	}
 
 	.grid {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
-
-	.workbook-grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
-	}
 }
 
-@media (min-width: 1460.1px) {
+@media (min-width: 1496.1px) {
 	.container {
-        max-width: 1460px;
+        width: 1464px;
     }
-
-	.card,
-	.cardAlt,
-	.cardSketch {
-		height: 14.5rem;
-	}
 
 	.grid {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-
-	.grid2 {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		width: 1440px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.workbook-grid {
-		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 }

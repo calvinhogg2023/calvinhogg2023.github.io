@@ -1,36 +1,39 @@
 history.scrollRestoration = 'auto';
 
 var navbar = document.getElementById("navbarContainer");
-var button = document.getElementById("navbar-menuButton");
+var button = document.getElementById("menuButton");
+var icon = document.getElementById("menuButton-image");
 var menu = document.getElementById("menu");
+var menuOpen = 0;
+var desktopWidth = window.matchMedia("(min-width: 890px)")
 
+const widthOutput = document.querySelector("#width");
+window.onresize = reportWindowSize;
 
-
-function toggleMenu() {
-	if (menu.style.height === "304px") {
-		//Collapsed
-		button.style.opacity = "50%";
-		menu.style.height = "0px";
-		menu.style.boxShadow = "var(--shadow-none)";
-	} else {
-		//Expanded
-		button.style.opacity = "100%";
-		menu.style.height = "304px";
-		menu.style.boxShadow = "var(--shadow-medium)";
-	}
+function showMenu() {
+	icon.style.opacity = "100%";
+	menu.style.height = "305px";
+	menu.style.boxShadow = "var(--shadow-medium)";
+	menuOpen = 1;
 }
 
 function hideMenu() {
-	//Collapsed
-	button.style.opacity = "50%";
-	menu.style.height = "0px";
+	icon.style.opacity = null;
+	menu.style.height = null;
 	menu.style.boxShadow = "var(--shadow-none)";
+	menuOpen = 0;
 }
 
-function menuButtonHover() {
-	button.classList.add("hovered");
+function toggleMenu() {
+	if (menuOpen == 0) {
+		showMenu();
+	} else {
+		hideMenu();
+	}
 }
 
-function menuButtonNotHover() {
-	button.classList.remove("hovered");
+function reportWindowSize() {
+	if (desktopWidth.matches) {
+		hideMenu();
+	}
 }

@@ -16,64 +16,62 @@
     <body>
 
 		<nav id="navbar">
-            <div id="navbarContainer">
-                <img class="navbar-logo" src="assets/logos/calvin.svg"/>
-                <div class="navbar-section2">
-					<a class="navbar-pageCurrent" href="renders.html">
-						<img class="navbar-page-image" src="assets/icons/renders.svg"/>
-						<p class="navbar-page-text">Renders</p>
-    				</a>
-					<a class="navbar-page" href="animations.html">
-						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
-						<p class="navbar-page-text">Animations</p>
-					</a>
-					<a class="navbar-page" href="software.html">
-						<img class="navbar-page-image" src="assets/icons/software.svg"/>
-						<p class="navbar-page-text">Software</p>
-					</a>
-					<a class="navbar-page" href="workbooks.html">
-						<img class="navbar-page-image" src="assets/icons/workbooks.svg"/>
-						<p class="navbar-page-text">Workbooks</p>
-					</a>
-					<a class="navbar-page" href="about.html">
-						<img class="navbar-page-image" src="assets/icons/about.svg"/>
-						<p class="navbar-page-text">About Me</p>
-					</a>
-					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
-						<img id="navbar-menuButton-image" src="assets/icons/menu.svg"/>
-					</div>
-                </div>
-            </div>
-			<div class="navbar-divider"></div>
-			<div id="menu">
-				<a class="menu-pageCurrent" href="renders.html">
-					<img class="menu-page-image" src="assets/icons/renders.svg"/>
-					<p class="menu-page-text">Renders</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="animations.html">
-					<img class="menu-page-image" src="assets/icons/animations.svg"/>
-					<p class="menu-page-text">Animations</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="software.html">
-					<img class="menu-page-image" src="assets/icons/software.svg"/>
-					<p class="menu-page-text">Software</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="workbooks.html">
-					<img class="menu-page-image" src="assets/icons/workbooks.svg"/>
-					<p class="menu-page-text">Workbooks</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="about.html">
-					<img class="menu-page-image" src="assets/icons/about.svg"/>
-					<p class="menu-page-text">About Me</p>
-				</a>
+			<img id="logo" src="assets/logos/calvin.svg"/>
+			<a class="navbar-pageCurrent" href="renders.html">
+				<img class="navbar-page-image" src="assets/icons/renders.svg"/>
+				<p class="navbar-page-text">Renders</p>
+			</a>
+			<a class="navbar-page" href="animations.html">
+				<img class="navbar-page-image" src="assets/icons/animations.svg"/>
+				<p class="navbar-page-text">Animations</p>
+			</a>
+			<a class="navbar-page" href="software.html">
+				<img class="navbar-page-image" src="assets/icons/software.svg"/>
+				<p class="navbar-page-text">Software</p>
+			</a>
+			<a class="navbar-page" href="workbooks.html">
+				<img class="navbar-page-image" src="assets/icons/workbooks.svg"/>
+				<p class="navbar-page-text">Workbooks</p>
+			</a>
+			<a class="navbar-page" href="about.html">
+				<img class="navbar-page-image" src="assets/icons/about.svg"/>
+				<p class="navbar-page-text">About Me</p>
+			</a>
+			<div id="menuButton" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
+				<img id="menuButton-image" src="assets/icons/menu.svg"/>
 			</div>
+			<div class="navbar-divider"></div>
         </nav>
 
-		<div id="content" onclick="hideMenu()">
+
+		<div id="menu">
+			<a class="menu-pageCurrent" href="renders.html">
+				<img class="menu-page-image" src="assets/icons/renders.svg"/>
+				<p class="menu-page-text">Renders</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="animations.html">
+				<img class="menu-page-image" src="assets/icons/animations.svg"/>
+				<p class="menu-page-text">Animations</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="software.html">
+				<img class="menu-page-image" src="assets/icons/software.svg"/>
+				<p class="menu-page-text">Software</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="workbooks.html">
+				<img class="menu-page-image" src="assets/icons/workbooks.svg"/>
+				<p class="menu-page-text">Workbooks</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="about.html">
+				<img class="menu-page-image" src="assets/icons/about.svg"/>
+				<p class="menu-page-text">About Me</p>
+			</a>
+		</div>
+
+		<div id="content" style="top: 80px; position: relative" onclick="hideMenu()">
 
 			<div class="banner" style="background-image: url('assets/images/banner.webp');">
 	            <div class="banner-gradient">
