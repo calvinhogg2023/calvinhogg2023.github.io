@@ -117,7 +117,6 @@ textarea {
 	width: 100%;
     height: 20rem;
 	display: flex;
-	position: relative;
 	flex-direction: column;
 	background-color: #76818a;
 	background-position: center;
@@ -141,7 +140,7 @@ textarea {
 .banner-subtitle {
     font-family: var(--font-semibold);
 	text-align: center;
-	opacity: 67%;
+	opacity: 60%;
 }
 
 .section-top {
@@ -149,28 +148,19 @@ textarea {
 }
 
 .section-bottom {
-	padding-bottom: 12rem;
+	padding-bottom: 10rem;
 }
 
 .section-title {
 	color: #ffffff90;
-    font-family: var(--font-regular);
 	font-size: 2rem;
-	line-height: 48px;
 }
-
-
 
 .container,
 .containerWorkbook {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.row {
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .grid {
@@ -186,13 +176,6 @@ textarea {
 	row-gap: 6px;
 }
 
-.img-fluid {
-	max-width: 100%;
-	height: auto;
-}
-
-
-
 .divider {
 	width: 100%;
 	height: 2px;
@@ -205,10 +188,6 @@ textarea {
 	pointer-events: none;
 	user-select: none;
 }
-
-
-
-
 
 .footer {
 	display: flex;
@@ -229,17 +208,14 @@ textarea {
 }
 
 .card {
-	position: relative;
 	width: 360px;
 	height: 240px;
-    border: none;
 	border-radius: 0.5rem;
     box-shadow: var(--shadow-small);
-    background-position: center;
     background-size: cover;
 	cursor: pointer;
 	transform: scale(1);
-	transition: background-color 0.15s ease-out, transform 0.15s ease-out, box-shadow 0.15s ease-out;
+	transition: background-color 0.16s ease-out, transform 0.16s ease-out, box-shadow 0.16s ease-out;
 	transition-timing-function: cubic-bezier(0.400, 0.000, 1.000, 1.000);
 }
 
@@ -249,11 +225,9 @@ textarea {
 	height: 100%;
 	opacity: 0%;
 	border-radius: 0.5rem;
-	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-image: url('../assets/images/glare.webp');
-	transition: all 0.18s ease-out;
+	transition: all 0.16s ease-out;
 	transition-timing-function: cubic-bezier(0.400, 0.000, 1.000, 1.000);
 }
 
@@ -261,7 +235,7 @@ textarea {
 	display: flex;
 	height: 100%;
 	border-radius: 0.5rem;
-	background: linear-gradient(to bottom, #00000000 40%, #00000090);
+	background: linear-gradient(to bottom, #00000000 40%, #00000080);
 }
 
 .card-text {
@@ -273,57 +247,42 @@ textarea {
 	margin-bottom: 0.8rem;
 	line-height: 1.2;
 	text-shadow: 0rem 1px 2px #000000d0;
-	user-select: none;
 }
 
 .card:hover {
 	z-index: 10;
 	transform: scale(1.03);
     box-shadow: var(--shadow-large);
-	transition: transform 0.06s ease-out, box-shadow 0.06s ease-out;
+	transition: transform 0.07s ease-out, box-shadow 0.07s ease-out;
 }
 
-.card:hover .card-glare {
+.card:hover > .card-glare {
 	opacity: 70%;
-	transition: all 0.05s ease-out;
+	transition: all 0.07s ease-out;
 }
 
-.cardDownload {
-	height: auto;
+.workbook {
 	padding: 1rem;
-	display: flex;
 	border-radius: 0.5rem;
     box-shadow: var(--shadow-small);
 	background-color: var(--card);
 	transition: background-color 0.05s ease-out;
 }
 
-.cardDownload:hover {
+.workbook:hover {
 	background-color: var(--cardHover);
 }
 
-.cardDownload-image {
-	filter: invert();
-	width: 3rem;
-	margin-right: 1rem;
-}
-
-.cardDownload-title {
+.workbook-title {
 	font-size: 1.4rem;
 	line-height: 1.2;
 }
 
-.cardDownload-subtitle {
+.workbook-subtitle {
 	font-size: 0.9rem;
 	margin-top: 2px;
 	color: #ffffffa0;
 }
-
-
-
-
-
-
 
 ::-webkit-scrollbar {
 	background-color: #ffffff30;
