@@ -1,27 +1,13 @@
 @charset "UTF-8";
 
-@media (max-width: 600px) {
-	.home-grid {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-}
-
-@media (max-width: 800px) {
-	.home-content2 {
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
 @media (max-width: 760px) {
-    .container {
+    .container,
+	.containerWorkbook {
 		width: calc(100% - 32px);
         max-width: 728px;
     }
 
-	.card,
-	.cardAlt,
-	.cardSketch {
+	.card {
 		width: calc(50vw - 20px);
 		height: calc((50vw - 20px) / 1.5);
 	}

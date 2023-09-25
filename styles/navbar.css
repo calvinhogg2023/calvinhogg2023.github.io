@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-#navbarContainer {
-	width: 150px;
-	height: 70px;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	display: flex;
-	align-items: center;
-	pointer-events: all;
-}
-
 #navbar {
 	display: flex;
 	width: 100%;
@@ -95,12 +85,11 @@
 	user-select: none;
 }
 
-.navbar-divider {
+#navbar-divider {
 	position: fixed;
 	top: 80px;
 	width: 100%;
 	height: 1px;
-	z-index: 100;
 	background-color: #646464;
 }
 

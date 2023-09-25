@@ -37,12 +37,11 @@
 				<img class="navbar-page-image" src="assets/icons/about.svg"/>
 				<p class="navbar-page-text">About Me</p>
 			</a>
-			<div id="menuButton" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
+			<div id="menuButton" onclick="toggleMenu()">
 				<img id="menuButton-image" src="assets/icons/menu.svg"/>
 			</div>
-			<div class="navbar-divider"></div>
+			<div id="navbar-divider"></div>
         </nav>
-
 
 		<div id="menu">
 			<a class="menu-pageCurrent" href="renders.html">
@@ -71,7 +70,7 @@
 			</a>
 		</div>
 
-		<div id="content" style="top: 80px; position: relative" onclick="hideMenu()">
+		<div id="content" onclick="hideMenu()">
 
 			<div class="banner" style="background-image: url('assets/images/banner.webp');">
 	            <div class="banner-gradient">
