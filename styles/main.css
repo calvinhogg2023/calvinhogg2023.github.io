@@ -173,7 +173,7 @@ textarea {
 .gridWorkbook {
 	display: grid;
 	grid-template-columns: repeat(1, minmax(0, 1fr));
-	row-gap: 6px;
+	row-gap: 16px;
 }
 
 .divider {
@@ -213,6 +213,7 @@ textarea {
 	border-radius: 0.5rem;
     box-shadow: var(--shadow-small);
     background-size: cover;
+	user-select: none;
 	cursor: pointer;
 	transform: scale(1);
 	transition: background-color 0.16s ease-out, transform 0.16s ease-out, box-shadow 0.16s ease-out;
@@ -261,26 +262,18 @@ textarea {
 	transition: all 0.07s ease-out;
 }
 
-.workbook {
-	padding: 1rem;
-	border-radius: 0.5rem;
-    box-shadow: var(--shadow-small);
-	background-color: var(--card);
-	transition: background-color 0.05s ease-out;
-}
-
-.workbook:hover {
-	background-color: var(--cardHover);
+.workbook:hover > .workbook-title {
+	text-decoration: underline;
 }
 
 .workbook-title {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	line-height: 1.2;
 }
 
 .workbook-subtitle {
 	font-size: 0.9rem;
-	margin-top: 2px;
+	margin-top: 3px;
 	color: #ffffffa0;
 }
 
