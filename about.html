@@ -13,161 +13,79 @@
         <link rel="stylesheet" href="styles/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
     </head>
-    <body>
+    <body style="background-color: #404040;">
 
 		<nav id="navbar">
-            <div id="navbarContainer">
-                <img class="navbar-logo" src="assets/logos/calvin.svg"/>
-                <div class="navbar-section2">
-					<a class="navbar-page" href="renders.html">
-						<img class="navbar-page-image" src="assets/icons/renders.svg"/>
-						<p class="navbar-page-text">Renders</p>
-    				</a>
-					<a class="navbar-page" href="animations.html">
-						<img class="navbar-page-image" src="assets/icons/animations.svg"/>
-						<p class="navbar-page-text">Animations</p>
-					</a>
-					<a class="navbar-page" href="software.html">
-						<img class="navbar-page-image" src="assets/icons/software.svg"/>
-						<p class="navbar-page-text">Software</p>
-					</a>
-					<a class="navbar-page" href="workbooks.html">
-						<img class="navbar-page-image" src="assets/icons/workbooks.svg"/>
-						<p class="navbar-page-text">Workbooks</p>
-					</a>
-					<a class="navbar-pageCurrent" href="about.html">
-						<img class="navbar-page-image" src="assets/icons/about.svg"/>
-						<p class="navbar-page-text">About Me</p>
-					</a>
-					<div id="navbar-menuButton" style="cursor: pointer;" onclick="toggleMenu()" onmouseover="menuButtonHover()" onmouseout="menuButtonNotHover()">
-						<img id="navbar-menuButton-image" src="assets/icons/menu.svg"/>
-					</div>
-                </div>
-            </div>
-			<div class="navbar-divider"></div>
-			<div id="menu">
-				<a class="menu-page" href="renders.html">
-					<img class="menu-page-image" src="assets/icons/renders.svg"/>
-					<p class="menu-page-text">Renders</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="animations.html">
-					<img class="menu-page-image" src="assets/icons/animations.svg"/>
-					<p class="menu-page-text">Animations</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="software.html">
-					<img class="menu-page-image" src="assets/icons/software.svg"/>
-					<p class="menu-page-text">Software</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-page" href="workbooks.html">
-					<img class="menu-page-image" src="assets/icons/workbooks.svg"/>
-					<p class="menu-page-text">Workbooks</p>
-				</a>
-				<div class="menu-divider"></div>
-				<a class="menu-pageCurrent" href="about.html">
-					<img class="menu-page-image" src="assets/icons/about.svg"/>
-					<p class="menu-page-text">About Me</p>
-				</a>
+			<img id="logo" src="assets/logos/calvin.svg"/>
+			<a class="navbar-page" href="renders.html">
+				<img class="navbar-page-image" src="assets/icons/renders.svg"/>
+				<p class="navbar-page-text">Renders</p>
+			</a>
+			<a class="navbar-page" href="animations.html">
+				<img class="navbar-page-image" src="assets/icons/animations.svg"/>
+				<p class="navbar-page-text">Animations</p>
+			</a>
+			<a class="navbar-page" href="software.html">
+				<img class="navbar-page-image" src="assets/icons/software.svg"/>
+				<p class="navbar-page-text">Software</p>
+			</a>
+			<a class="navbar-page" href="workbooks.html">
+				<img class="navbar-page-image" src="assets/icons/workbooks.svg"/>
+				<p class="navbar-page-text">Workbooks</p>
+			</a>
+			<a class="navbar-pageCurrent" href="about.html">
+				<img class="navbar-page-image" src="assets/icons/about.svg"/>
+				<p class="navbar-page-text">About Me</p>
+			</a>
+			<div id="menuButton" onclick="toggleMenu()">
+				<img id="menuButton-image" src="assets/icons/menu.svg"/>
 			</div>
+			<div id="navbar-divider"></div>
         </nav>
 
-		<div id="content" onclick="hideMenu()">
+		<div id="menu">
+			<a class="menu-page" href="renders.html">
+				<img class="menu-page-image" src="assets/icons/renders.svg"/>
+				<p class="menu-page-text">Renders</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="animations.html">
+				<img class="menu-page-image" src="assets/icons/animations.svg"/>
+				<p class="menu-page-text">Animations</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="software.html">
+				<img class="menu-page-image" src="assets/icons/software.svg"/>
+				<p class="menu-page-text">Software</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="workbooks.html">
+				<img class="menu-page-image" src="assets/icons/workbooks.svg"/>
+				<p class="menu-page-text">Workbooks</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-pageCurrent" href="about.html">
+				<img class="menu-page-image" src="assets/icons/about.svg"/>
+				<p class="menu-page-text">About Me</p>
+			</a>
+		</div>
 
-			<div class="banner" style="background-image: url('assets/images/banner.webp');">
-	            <div class="banner-gradient">
-					<div style="margin: auto;">
-						<p class="banner-title">Workbooks</p>
-					</div>
-	            </div>
-	        </div>
+		<div id="content" onclick="hideMenu()" style="display: flex;">
 
-			<section class="section-top section-bottom">
-	            <div class="container" style="margin-bottom: 6rem; width: 100%; max-width: 800px;">
-	                <p class="section-title">All</p>
-					<div class="divider"></div>
-					<div class="gridWorkbook">
+			<div class="about1">
+				<img class="about-photo" src="assets/images/about/profile.jpg"/>
+			</div>
 
-						<a href="downloads/2022-sem2-majorProjects.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Dylan V2</p>
-									<p class="cardDownload-subtitle">Semester 2, 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2022-sem1-majorProjectsC.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Major Projects Game (Part 3)</p>
-									<p class="cardDownload-subtitle">Semester 1, 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2022-sem1-majorProjectsB.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Major Projects Game (Part 2)</p>
-									<p class="cardDownload-subtitle">Semester 1, 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2022-sem1-majorProjectsA.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Major Projects Game (Part 1)</p>
-									<p class="cardDownload-subtitle">Semester 1, 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2022-sem1-appliedMedia.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Photogrammetry, Mount Victoria and Dylan V1</p>
-									<p class="cardDownload-subtitle">Semester 1, 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2022-sem1-contextAndPractice.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Koji Kondo Research Report</p>
-									<p class="cardDownload-subtitle">Semester 1, 2022</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2021-sem2-appliedMedia.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Cyberthug Core</p>
-									<p class="cardDownload-subtitle">Semester 2, 2021</p>
-								</div>
-							</div>
-						</a>
-
-						<a href="downloads/2021-sem1-appliedMedia.pdf" target="_blank">
-							<div class="cardDownload">
-								<div>
-									<p class="cardDownload-title">Cyberthug</p>
-									<p class="cardDownload-subtitle">Semester 1, 2021</p>
-								</div>
-							</div>
-						</a>
-
-	                </div>
-	            </div>
-	        </section>
-
-	        <div class="footer">
-	            <p class="footer-text">&copy; 2023 Calvin Hogg. All rights reserved.</p>
-	        </div>
+			<div class="about2">
+				<p style="font-size: 2rem; font-weight: 600;">I'm Calvin</p>
+				<p style="margin-bottom: 1rem;">I built this website from scratch both to showcase my work and to fiddle with designing good user interfaces and experiences. It's been through numerous iterations since early 2022, becoming slightly more refined each time.</p>
+				<a href="https://www.youtube.com/@CalvinHogg" target="_blank" class="about-link">
+					<span class="about-text">YouTube</span>
+				</a>
+				<a href="https://nz.linkedin.com/in/calvinhogg2000" target="_blank" class="about-link">
+					<span class="about-text">LinkedIn</span>
+				</a>
+			</div>
 
 		</div>
 
