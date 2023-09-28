@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
 	.modal {
 		padding-bottom: 7rem !important;
 	}
@@ -39,21 +39,15 @@
 	}
 }
 
-@media (min-width: 640.1px) and (max-width: 1200px) {
+@media (min-width: 600.1px) and (max-width: 1200px) {
 	.modal {
 		padding-bottom: 7rem !important;
 	}
 
-	.modal-dialog {
-		width: 620px;
-		margin-top: 0;
-		margin-left: calc(50vw - 320px);
-	}
-
-	.dialogStandard {
+	.standard-dialog {
 		width: 600px;
-		height: auto;
 		margin-top: 0;
+		margin-left: calc(50vw - 300px);
 	}
 
 	.modal-content {
@@ -88,8 +82,14 @@
 }
 
 
-@media (max-height: 757px) {
-	.modal-dialog {
+@media (max-height: 680px) {
+	.contact-dialog {
+		margin-top: 0;
+	}
+}
+
+@media (max-height: 758px) {
+	.standard-dialog {
 		margin-top: 0;
 	}
 }
