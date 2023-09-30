@@ -197,7 +197,7 @@
 }
 
 .modal-button-subtext {
-    font-family: var(--font-regular);
+    font-family: var(--font-semibold);
 	color: #ffffffa0;
 	margin: auto;
 	font-size: 0.8rem;

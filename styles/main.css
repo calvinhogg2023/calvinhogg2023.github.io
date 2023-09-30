@@ -11,15 +11,15 @@
 
 	--modal-background: #080808d0;
 	--modal-button: #ffffff20;
-	--modal-buttonHover: #ffffff3c;
+	--modal-buttonHover: #ffffff40;
 
 	--border-modal: 1px solid #404040;
 
 	--shadow-navbar: 0rem 0.1rem 0.6rem #00000088;
 	--shadow-none: 0rem 0.1rem 0.15rem #00000000;
-	--shadow-small: 0rem 0.06rem 0.1rem #00000060;
+	--shadow-small: 0rem 0.07rem 0.1rem #00000070;
 	--shadow-medium: 0rem 0.1rem 0.67rem #000000a0;
-	--shadow-large: 0rem 0.13rem 1rem #00000060;
+	--shadow-large: 0rem 0.13rem 1rem #00000070;
 
 	--font-regular: 'Open Sans', sans-serif;
 	--font-semibold: 'Open Sans SemiBold', sans-serif;
@@ -237,7 +237,7 @@ textarea {
 	display: flex;
 	height: 100%;
 	border-radius: 0.5rem;
-	background: linear-gradient(to bottom, #00000000 40%, #00000080);
+	background: linear-gradient(to bottom, #00000000 40%, #00000088);
 }
 
 .card-text {
@@ -325,6 +325,7 @@ textarea {
 	width: 100%;
 	height: 60px;
 	padding: 14px;
+	user-select: none;
 	cursor: pointer;
 	border-width: 2px;
 	border-style: solid;
