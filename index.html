@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CALVIN HOGG</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Portfolio website for Calvin Hogg, digital media bachelor graduate with a passion for 3D animation.">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/modal.css">
+        <link rel="stylesheet" href="styles/display.css">
+        <link rel="stylesheet" href="styles/display-navbar.css">
+        <link rel="stylesheet" href="styles/display-modal.css">
+		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    </head>
+    <body class="about-background" style="background-image: url('assets/images/about/background.webp');">
+
+		<nav id="navbar">
+			<img id="logo" src="assets/logos/calvin.svg"/>
+			<a class="navbar-page" href="renders.html">
+				<img class="navbar-page-image" src="assets/icons/renders.svg"/>
+				<p class="navbar-page-text">Renders</p>
+			</a>
+			<a class="navbar-page" href="animations.html">
+				<img class="navbar-page-image" src="assets/icons/animations.svg"/>
+				<p class="navbar-page-text">Animations</p>
+			</a>
+			<a class="navbar-page" href="software.html">
+				<img class="navbar-page-image" src="assets/icons/software.svg"/>
+				<p class="navbar-page-text">Software</p>
+			</a>
+			<a class="navbar-page" href="workbooks.html">
+				<img class="navbar-page-image" src="assets/icons/workbooks.svg"/>
+				<p class="navbar-page-text">Workbooks</p>
+			</a>
+			<a class="navbar-pageCurrent" href="about.html">
+				<img class="navbar-page-image" src="assets/icons/about.svg"/>
+				<p class="navbar-page-text">About Me</p>
+			</a>
+			<div id="menuButton" onclick="toggleMenu()">
+				<img id="menuButton-image" src="assets/icons/menu.svg"/>
+			</div>
+			<div id="navbar-divider"></div>
+        </nav>
+
+		<div id="menu">
+			<a class="menu-page" href="renders.html">
+				<img class="menu-page-image" src="assets/icons/renders.svg"/>
+				<p class="menu-page-text">Renders</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="animations.html">
+				<img class="menu-page-image" src="assets/icons/animations.svg"/>
+				<p class="menu-page-text">Animations</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="software.html">
+				<img class="menu-page-image" src="assets/icons/software.svg"/>
+				<p class="menu-page-text">Software</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-page" href="workbooks.html">
+				<img class="menu-page-image" src="assets/icons/workbooks.svg"/>
+				<p class="menu-page-text">Workbooks</p>
+			</a>
+			<div class="menu-divider"></div>
+			<a class="menu-pageCurrent" href="about.html">
+				<img class="menu-page-image" src="assets/icons/about.svg"/>
+				<p class="menu-page-text">About Me</p>
+			</a>
+		</div>
+
+		<div id="content" onclick="hideMenu()">
+
+			<div class="about-overlay">
+				<div style="display: block; width: 400px; height: 400px; line-height: 0px; border-radius: 100rem; overflow: hidden;">
+					<table width="400" height="400" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_001.jpg" class="profileSlice" id="sliceA01"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_002.jpg" class="profileSlice" id="sliceA02"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_003.jpg" class="profileSlice" id="sliceA03"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_004.jpg" class="profileSlice" id="sliceA04"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_005.jpg" class="profileSlice" id="sliceA05"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_006.jpg" class="profileSlice" id="sliceA06"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_007.jpg" class="profileSlice" id="sliceA07"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_008.jpg" class="profileSlice" id="sliceA08"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_009.jpg" class="profileSlice" id="sliceA09"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_010.jpg" class="profileSlice" id="sliceA10"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_011.jpg" class="profileSlice" id="sliceA11"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_012.jpg" class="profileSlice" id="sliceA12"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_013.jpg" class="profileSlice" id="sliceA13"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_014.jpg" class="profileSlice" id="sliceA14"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_015.jpg" class="profileSlice" id="sliceA15"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_016.jpg" class="profileSlice" id="sliceA16"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_017.jpg" class="profileSlice" id="sliceA17"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_018.jpg" class="profileSlice" id="sliceA18"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_019.jpg" class="profileSlice" id="sliceA19"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_020.jpg" class="profileSlice" id="sliceA20"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_021.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_022.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_023.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_024.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_025.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_026.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_027.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_028.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_029.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_030.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_031.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_032.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_033.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_034.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_035.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_036.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_037.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_038.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_039.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_040.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_041.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_042.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_043.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_044.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_045.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_046.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_047.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_048.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_049.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_050.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_051.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_052.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_053.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_054.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_055.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_056.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_057.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_058.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_059.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_060.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_061.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_062.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_063.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_064.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_065.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_066.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_067.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_068.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_069.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_070.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_071.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_072.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_073.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_074.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_075.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_076.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_077.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_078.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_079.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_080.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_081.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_082.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_083.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_084.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_085.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_086.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_087.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_088.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_089.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_090.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_091.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_092.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_093.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_094.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_095.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_096.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_097.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_098.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_099.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_100.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_101.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_102.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_103.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_104.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_105.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_106.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_107.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_108.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_109.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_110.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_111.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_112.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_113.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_114.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_115.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_116.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_117.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_118.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_119.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_120.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_121.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_122.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_123.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_124.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_125.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_126.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_127.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_128.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_129.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_130.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_131.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_132.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_133.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_134.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_135.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_136.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_137.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_138.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_139.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_140.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_141.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_142.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_143.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_144.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_145.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_146.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_147.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_148.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_149.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_150.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_151.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_152.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_153.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_154.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_155.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_156.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_157.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_158.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_159.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_160.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_161.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_162.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_163.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_164.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_165.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_166.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_167.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_168.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_169.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_170.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_171.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_172.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_173.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_174.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_175.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_176.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_177.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_178.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_179.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_180.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_181.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_182.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_183.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_184.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_185.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_186.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_187.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_188.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_189.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_190.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_191.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_192.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_193.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_194.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_195.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_196.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_197.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_198.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_199.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_200.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_201.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_202.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_203.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_204.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_205.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_206.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_207.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_208.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_209.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_210.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_211.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_212.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_213.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_214.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_215.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_216.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_217.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_218.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_219.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_220.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_221.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_222.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_223.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_224.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_225.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_226.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_227.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_228.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_229.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_230.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_231.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_232.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_233.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_234.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_235.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_236.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_237.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_238.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_239.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_240.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_241.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_242.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_243.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_244.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_245.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_246.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_247.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_248.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_249.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_250.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_251.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_252.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_253.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_254.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_255.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_256.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_257.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_258.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_259.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_260.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_261.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_262.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_263.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_264.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_265.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_266.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_267.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_268.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_269.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_270.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_271.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_272.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_273.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_274.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_275.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_276.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_277.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_278.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_279.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_280.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_281.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_282.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_283.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_284.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_285.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_286.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_287.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_288.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_289.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_290.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_291.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_292.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_293.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_294.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_295.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_296.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_297.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_298.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_299.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_300.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_301.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_302.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_303.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_304.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_305.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_306.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_307.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_308.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_309.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_310.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_311.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_312.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_313.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_314.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_315.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_316.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_317.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_318.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_319.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_320.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_321.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_322.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_323.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_324.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_325.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_326.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_327.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_328.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_329.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_330.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_331.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_332.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_333.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_334.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_335.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_336.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_337.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_338.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_339.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_340.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_341.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_342.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_343.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_344.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_345.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_346.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_347.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_348.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_349.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_350.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_351.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_352.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_353.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_354.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_355.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_356.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_357.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_358.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_359.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_360.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_361.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_362.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_363.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_364.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_365.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_366.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_367.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_368.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_369.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_370.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_371.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_372.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_373.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_374.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_375.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_376.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_377.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_378.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_379.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_380.jpg" class="profileSlice"></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="assets/images/index/profile/profile_381.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_382.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_383.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_384.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_385.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_386.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_387.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_388.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_389.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_390.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_391.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_392.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_393.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_394.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_395.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_396.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_397.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_398.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_399.jpg" class="profileSlice"></td>
+							<td>
+								<img src="assets/images/index/profile/profile_400.jpg" class="profileSlice"></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+				<p style="font-size: 2rem; font-weight: 600; margin-bottom: 0.5rem;">About me</p>
+				<p style="margin-bottom: 2rem;">I built this website from scratch both to showcase my work and to fiddle with designing good user interfaces and experiences. Unlike with social media platforms, having access to the code means I'm able to control every tiny detail. I see it as a curated museum of sorts. It's been through numerous iterations since its inception, becoming slightly more refined and feature-rich each time.</p>
+				<p style="margin-bottom: 2rem;">I'm passionate about several forms of digital media, and consider myself a jack-of-all-trades, but my main interests would have to be 3D animation and game development, specifically creating characters and realistic environments. When I'm not busy making stuff, I enjoy hiking, swimming and watching tutorials.</p>
+				<p style="margin-bottom: 2rem;">If you have any feedback or just want to get in touch, you can send me an email below.</p>
+				<div class="gridAbout">
+					<div class="about-link" data-bs-toggle="modal" data-bs-target="#modal-Contact">
+						<span style="margin: auto;">Contact me</span>
+					</div>
+					<a class="about-link" href="https://www.youtube.com/@CalvinHogg" target="_blank">
+						<img style="filter: invert(); margin: auto;" src="assets/logos/youtube.svg"/>
+					</a>
+					<a class="about-link" href="https://nz.linkedin.com/in/calvinhogg2000" target="_blank">
+						<img style="filter: invert(); margin: auto;" src="assets/logos/linkedin.svg"/>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="modal standard-modal fade" id="modal-Contact" tabindex="-1">
+            <div class="modal-dialog contact-dialog">
+					<div class="contact">
+						<p class="modal-title">Contact me</p>
+						<form method="post" action="contact.php" style="display: flex; flex-direction: column;">
+							<p class="contact-header">Name</p>
+							<input class="contact-text" type="text" id="Name" name="Name" required>
+							<p class="contact-header">Email address</p>
+							<input class="contact-text" type="email" id="Email" name="Email" required>
+							<p class="contact-header">Message</p>
+							<textarea class="contact-text" type="text" id="Message" name="Message" required></textarea>
+							<button class="contact-submit" type="submit" id="Submit">Send Message</button>
+						</form>
+                </div>
+            </div>
+        </div>
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="scripts/main.js"></script>
+
+    </body>
+</html>
