@@ -37,3 +37,5 @@ function reportWindowSize() {
 		hideMenu();
 	}
 }
+
+document.getElementById('profile').src="assets/images/index/profile.gif?a="+Math.random()

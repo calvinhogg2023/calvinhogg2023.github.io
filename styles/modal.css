@@ -154,6 +154,7 @@
 
 .modal-description {
 	font-size: 15px;
+    line-height: 1.55;
 	padding-right: 0.5rem;
 	overflow-y: auto;
 	height: 674px;
@@ -161,17 +162,15 @@
 
 .modal-button {
 	background-color: var(--modal-button);
-	height: 3.2rem;
+	height: 50px;
 	border-radius: 0.5rem;
 	margin-top: 0.5rem;
+	margin-left: auto;
 	padding: 0.6rem;
 	padding-left: 0.75rem;
 	padding-right: 0.75rem;
     display: flex;
 	cursor: pointer;
-	outline-style: none;
-	border-style: none;
-	font-size: 1rem;
 	transition: all 0.05s ease-out;
 }
 
@@ -179,7 +178,12 @@
 	background-color: var(--modal-buttonHover);
 }
 
-.modal-button-icon {
+.modal-button-text {
+	margin: auto;
+    font-family: var(--font-semibold);
+}
+
+.modal-button-downloadIcon {
 	width: 2rem;
 	height: 2rem;
     display: flex;
@@ -188,15 +192,14 @@
 	filter: invert();
 }
 
-.modal-button-text {
+.modal-button-downloadText {
     font-family: var(--font-semibold);
 	margin: auto;
 	margin-left: 0.5rem;
     user-select: none;
-	line-height: 1rem;
 }
 
-.modal-button-subtext {
+.modal-button-downloadSubtext {
     font-family: var(--font-semibold);
 	color: #ffffffa0;
 	margin: auto;
@@ -204,7 +207,6 @@
 	margin-left: 0.5rem;
 	margin-top: 0.2rem;
 	user-select: none;
-	line-height: 0.8rem;
 }
 
 
@@ -224,21 +226,25 @@
 
 .contact-header {
 	margin-top: 1rem;
+	color: var(--grey1);
 }
 
-.contact-text {
+.contact-field {
 	width: 100%;
+	height: auto;
 	margin-top: 8px;
 	margin-bottom: 12px;
 	background-color: #202020;
-	padding: 1rem;
+	padding: 12px;
+	font-size: 15px;
+	line-height: 1.55;
 	outline-style: none;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #a0a0a000;
 }
 
-.contact-text:focus {
+.contact-field:focus {
 	border-color: #a0a0a0ff;
 }
 
