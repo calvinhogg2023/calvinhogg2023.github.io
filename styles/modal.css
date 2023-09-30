@@ -63,7 +63,7 @@
 
 .contact-dialog {
 	width: 600px;
-	margin-top: calc(50vh - 340px);
+	margin-top: calc(50vh - 345px);
 	margin-left: calc(50vw - 300px);
 }
 
@@ -176,11 +176,6 @@
 
 .modal-button:hover {
 	background-color: var(--modal-buttonHover);
-}
-
-.modal-button-text {
-	margin: auto;
-    font-family: var(--font-semibold);
 }
 
 .modal-button-downloadIcon {

@@ -90,6 +90,7 @@ iframe {
 p {
 	margin-top: 0;
 	margin-bottom: 0;
+	line-height: 1.55;
 }
 
 img {
@@ -419,13 +420,20 @@ textarea {
 .about-overlay {
 	display: flex;
 	flex-direction: column;
-	width: 550px;
+	width: 100%;
+	max-width: 510px;
 	height: 100%;
 	margin: auto;
-	padding: 48px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	padding-left: 32px;
+	padding-right: 32px;
 }
 
 .about-background {
+	width: 100%;
+	min-height: calc(100vh - 80px);
+	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -438,7 +446,7 @@ textarea {
 	border-radius: 100rem;
 }
 
-.gridAbout {
+.about-grid {
 	display: grid;
 	grid-template-columns: 1fr 60px 60px;
 	column-gap: 12px;
@@ -456,10 +464,16 @@ textarea {
 	border-style: solid;
 	border-color: #ffffff;
 	border-radius: 12px;
+	transition: background-color 0.07s ease-out;
 }
 
 .about-link:hover {
-	background-color: #ffffff30;
+	background-color: #ffffff40;
+}
+
+.button-text {
+	margin: auto;
+    font-family: var(--font-semibold);
 }
 
 

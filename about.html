@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="styles/display-modal.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
     </head>
-    <body class="about-background" style="background-image: url('assets/images/about/background.webp');">
+    <body style="background-color: #101018;">
 
 		<nav id="navbar">
 			<img id="logo" src="assets/logos/calvin.svg"/>
@@ -70,16 +70,16 @@
 			</a>
 		</div>
 
-		<div id="content" onclick="hideMenu()" style="display: flex;">
+		<div id="content" onclick="hideMenu()" class="about-background" style="background-image: url('assets/images/about/background.webp')">
 
 			<div class="about-overlay">
 				<p style="font-size: 2rem; font-weight: 600; margin-bottom: 0.5rem;">About me</p>
 				<p style="margin-bottom: 2rem;">I built this website from scratch both to showcase my work and to fiddle with designing good user interfaces and experiences. Unlike with social media platforms, having access to the code means I'm able to control every tiny detail. I see it as a curated museum of sorts. It's been through numerous iterations since its inception, becoming slightly more refined and feature-rich each time.</p>
 				<p style="margin-bottom: 2rem;">I'm passionate about several forms of digital media, and consider myself a jack-of-all-trades, but my main interests would have to be 3D animation and game development, specifically creating characters and realistic environments. When I'm not busy making stuff, I enjoy hiking, swimming and watching tutorials.</p>
 				<p style="margin-bottom: 2rem;">If you have any feedback or just want to get in touch, you can send me an email below.</p>
-				<div class="gridAbout">
+				<div class="about-grid">
 					<div class="about-link" data-bs-toggle="modal" data-bs-target="#modal-Contact">
-						<span style="margin: auto;">Contact me</span>
+						<p class="button-text">Contact me</span>
 					</div>
 					<a class="about-link" href="https://www.youtube.com/@CalvinHogg" target="_blank">
 						<img style="filter: invert(); margin: auto;" src="assets/logos/youtube.svg"/>
@@ -103,8 +103,8 @@
 							<input class="contact-field" type="email" id="Email" name="Email" required>
 							<p class="contact-header">Message</p>
 							<textarea class="contact-field" type="text" id="Message" name="Message" required></textarea>
-							<button class="modal-button" style="width: 150px; margin-top: 16px;" type="submit" id="Submit">
-								<p class="modal-button-text">Send message</p>
+							<button class="modal-button" style="width: 150px; margin-top: 32px;" type="submit" id="Submit">
+								<p class="button-text">Send message</p>
 							</button>
 						</form>
                 </div>
