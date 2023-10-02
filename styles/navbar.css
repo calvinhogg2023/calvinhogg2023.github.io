@@ -77,7 +77,7 @@
 }
 
 .navbar-page-text {
-    font-family: var(--font-semibold);
+    font-family: var(--semibold);
 	line-height: 26px;
 	margin-left: 13px;
 	color: #ffffff;
@@ -94,9 +94,9 @@
 }
 
 
+
+
 /* ---------- Mobile view ---------- */
-
-
 
 #menu {
 	background-color: #2d2d2d;
@@ -115,7 +115,7 @@
 	display: flex;
 	padding: 15px;
 	height: 60px;
-	opacity: 35%;
+	opacity: 40%;
 	background-color: #ffffff00;
 	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
@@ -137,7 +137,7 @@
 }
 
 .menu-page-text {
-    font-family: var(--font-semibold);
+    font-family: var(--semibold);
 	line-height: 30px;
 	margin-left: 12px;
 	color: #ffffff;
