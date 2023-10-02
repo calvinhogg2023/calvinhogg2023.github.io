@@ -113,7 +113,6 @@
 
 .modal-subtitle {
     font-family: var(--semibold);
-	font-size: 0.9rem;
 	color: var(--grey1);
 }
 
@@ -147,16 +146,16 @@
 }
 
 .modal-header {
+	font-size: 16px;
     font-family: var(--bold);
 	color: var(--grey2);
-	margin-bottom: 6px;
 }
 
 .modal-description {
-	font-size: 15px;
     line-height: 1.55;
 	padding-right: 0.5rem;
 	overflow-y: auto;
+	margin-top: 0.25rem;
 	height: 674px;
 }
 
@@ -187,10 +186,10 @@
 }
 
 .modal-button-text {
+	font-size: 16px;
     font-family: var(--semibold);
 	line-height: 50px;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin: auto;
 }
 
 .modal-button-download {
@@ -206,9 +205,25 @@
 
 .modal-button-downloadSubtext {
 	font-size: 14px;
-    font-family: var(--semibold);
 	line-height: 18px;
-	color: #ffffffa0;
+}
+
+.modal-field {
+	width: 100%;
+	height: auto;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	background-color: #202020;
+	padding: 12px;
+	line-height: 1.55;
+	outline-style: none;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #a0a0a000;
+}
+
+.modal-field:focus {
+	border-color: #a0a0a0ff;
 }
 
 
@@ -222,44 +237,4 @@
 	display: flex;
 	flex-direction: column;
 	border: var(--border-modal);
-}
-
-.contact-header {
-	margin-top: 1rem;
-	font-family: var(--semibold);
-	color: var(--grey1);
-}
-
-.contact-field {
-	width: 100%;
-	height: auto;
-	margin-top: 8px;
-	margin-bottom: 12px;
-	background-color: #202020;
-	padding: 12px;
-	font-size: 15px;
-	line-height: 1.55;
-	outline-style: none;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #a0a0a000;
-}
-
-.contact-field:focus {
-	border-color: #a0a0a0ff;
-}
-
-.contact-submit {
-	width: 150px;
-	height: 3rem;
-	margin-top: 2rem;
-	margin-left: auto;
-	background-color: var(--modal-button);
-	border-radius: 0.67rem;
-	border-style: none;
-	cursor: pointer;
-}
-
-.contact-submit:hover {
-	background-color: var(--modal-buttonHover);
 }

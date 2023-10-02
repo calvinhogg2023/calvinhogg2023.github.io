@@ -65,7 +65,6 @@ html {
 * {
     box-sizing: border-box;
     text-decoration: none;
-	font-size: 16px;
 	font-family: var(--regular);
 	color: #ffffff;
 	outline-style: none;
@@ -88,6 +87,7 @@ iframe {
 }
 
 p {
+	font-size: 15px;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 1.55;
@@ -106,7 +106,12 @@ input {
 	height: 3rem;
 }
 
+input {
+	font-size: 15px;
+}
+
 textarea {
+	font-size: 15px;
 	resize: none;
 	height: 14rem !important;
 }
@@ -145,6 +150,7 @@ textarea {
 }
 
 .banner-subtitle {
+	font-size: 16px;
     font-family: var(--semibold);
 	text-align: center;
 	opacity: 60%;
@@ -200,12 +206,10 @@ textarea {
 	display: flex;
 	padding: 0.5rem;
 	height: 2rem;
-    font-size: 0.8rem;
 }
 
 .footer-text {
 	width: 100%;
-	font-size: 14px;
 	opacity: 50%;
 	line-height: 1rem;
 	text-align: right;
@@ -246,7 +250,6 @@ textarea {
 .card-text {
     font-family: var(--semibold);
 	margin-top: auto;
-	font-size: 15px;
 	margin-left: 0.8rem;
 	margin-right: 0.8rem;
 	margin-bottom: 0.8rem;
@@ -276,7 +279,6 @@ textarea {
 }
 
 .workbook-subtitle {
-	font-size: 0.9rem;
 	margin-top: 3px;
 	opacity: 60%;
 }
@@ -356,7 +358,7 @@ textarea {
 }
 
 .about-link:hover {
-	background-color: #ffffff40;
+	background-color: #ffffff30;
 }
 
 .button-text {
