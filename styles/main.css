@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-	--background: #343c45;
+	--background: #333a43;
 	--grey1: #b0b0b0;
 	--grey2: #a0a0a0;
 	--grey3: #808080;
@@ -140,7 +140,7 @@ textarea {
 .banner-gradient {
 	height: 100%;
 	display: flex;
-	background: linear-gradient(to bottom, #343c4560, #343c45ff);
+	background: linear-gradient(to bottom, #333a4360, #333a43ff);
 }
 
 .banner-title {
