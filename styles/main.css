@@ -244,7 +244,7 @@ textarea {
 	display: flex;
 	height: 100%;
 	border-radius: 0.5rem;
-	background: linear-gradient(to bottom, #00000000 40%, #00000088);
+	background: linear-gradient(to bottom, #00000000 70%, #00000080);
 }
 
 .card-text {
@@ -254,7 +254,7 @@ textarea {
 	margin-right: 0.8rem;
 	margin-bottom: 0.8rem;
 	line-height: 1.2;
-	text-shadow: 0rem 1px 2px #000000d0;
+	text-shadow: 0rem 0.5px 1.5px #000000ff;
 }
 
 .card:hover {
