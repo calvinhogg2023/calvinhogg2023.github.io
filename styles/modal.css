@@ -30,7 +30,7 @@
 
 .modal {
 	overflow-x: scroll;
-	transition: opacity 0.3s;
+	transition: opacity 0.25s;
 	background-color: var(--modal-background);
 	position: fixed;
 	top: 0;
@@ -50,8 +50,8 @@
 	display: flex;
 	align-items: center;
 	padding: 10px;
-	transform: scale(1.23);
-	transition: all 0.3s, margin 0s, width 0s, height 0s, padding 0s;
+	transform: scale(1.15);
+	transition: all 0.25s, margin 0s, width 0s, height 0s, padding 0s;
 	transition-timing-function: linear;
 }
 
