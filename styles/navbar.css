@@ -77,7 +77,6 @@
 }
 
 .navbar-page-text {
-	font-size: 16px;
     font-family: var(--semibold);
 	line-height: 26px;
 	margin-left: 13px;
@@ -138,7 +137,6 @@
 }
 
 .menu-page-text {
-	font-size: 16px;
     font-family: var(--semibold);
 	line-height: 30px;
 	margin-left: 12px;

@@ -108,10 +108,11 @@
 
 .modal-title {
     font-family: var(--bold);
-	font-size: 1.8rem;
+	font-size: 28px;
 }
 
 .modal-subtitle {
+	font-size: 15px;
     font-family: var(--semibold);
 	color: var(--grey1);
 }
@@ -146,18 +147,59 @@
 }
 
 .modal-header {
-	font-size: 16px;
-    font-family: var(--bold);
+    font-family: var(--semibold);
 	color: var(--grey2);
 }
 
 .modal-description {
-    line-height: 1.55;
 	padding-right: 0.5rem;
 	overflow-y: auto;
 	margin-top: 0.25rem;
 	height: 674px;
 }
+
+.contact {
+	width: 800px;
+	background-color: #303030;
+	padding: 1rem;
+	border-radius: 0.67rem;
+	display: flex;
+	flex-direction: column;
+	border: var(--border-modal);
+}
+
+.modal-field {
+	width: 100%;
+	height: auto;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	background-color: #202020;
+	padding: 12px;
+	outline-style: none;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #a0a0a000;
+	font-size: 15px;
+	border-radius: 0.67rem;
+	transition: border-color 0.05s ease-out;
+}
+
+.modal-field:focus {
+	border-color: #a0a0a0ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .modal-button {
 	background-color: var(--modal-button);
@@ -208,33 +250,7 @@
 	line-height: 18px;
 }
 
-.modal-field {
-	width: 100%;
-	height: auto;
-	margin-top: 8px;
-	margin-bottom: 30px;
-	background-color: #202020;
-	padding: 12px;
-	line-height: 1.55;
-	outline-style: none;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #a0a0a000;
-}
-
-.modal-field:focus {
-	border-color: #a0a0a0ff;
-}
-
-
-
-
-.contact {
-	width: 800px;
-	background-color: #303030;
-	padding: 1rem;
-	border-radius: 0.67rem;
-	display: flex;
-	flex-direction: column;
-	border: var(--border-modal);
+.button-text {
+	margin: auto;
+    font-family: var(--semibold);
 }
