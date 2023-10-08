@@ -137,6 +137,7 @@ textarea {
 .banner-title {
 	font-size: 42px;
     font-family: var(--bold);
+	line-height: 1.45;
 }
 
 .banner-subtitle {
@@ -231,7 +232,7 @@ textarea {
 	display: flex;
 	height: 100%;
 	border-radius: 0.5rem;
-	background: linear-gradient(to bottom, #00000000 70%, #00000080);
+	background: linear-gradient(to bottom, #00000000 65%, #00000060);
 }
 
 .card-text {
