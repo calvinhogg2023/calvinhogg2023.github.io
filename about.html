@@ -79,7 +79,7 @@
 				<p style="margin-bottom: 2rem;">If you have any feedback or just want to get in touch, you can send me an email below.</p>
 				<div class="about-grid">
 					<div class="about-link" data-bs-toggle="modal" data-bs-target="#modal-Contact">
-						<p class="button-text">Contact me</span>
+						<p class="about-link-text">Contact me</span>
 					</div>
 					<a class="about-link" href="https://www.youtube.com/@CalvinHogg" target="_blank">
 						<img style="filter: invert(); margin: auto;" src="assets/logos/youtube.svg"/>
@@ -97,14 +97,16 @@
 				<div class="contact">
 					<p class="modal-title" style="margin-bottom: 1rem;">Contact me</p>
 					<form method="post" action="contact.php" style="display: flex; flex-direction: column;">
-						<p class="modal-header">Name</p>
+						<p class="modal-label">Name</p>
 						<input class="modal-field" type="text" id="Name" name="Name" required>
-						<p class="modal-header">Email address</p>
+						<p class="modal-label">Email address</p>
 						<input class="modal-field" type="email" id="Email" name="Email" required>
-						<p class="modal-header">Message</p>
+						<p class="modal-label">Message</p>
 						<textarea class="modal-field" type="text" id="Message" name="Message" required></textarea>
-						<button class="modal-button" style="width: 150px;" type="submit" id="Submit">
-							<p class="modal-button-text">Send message</p>
+						<button class="button" style="width: 150px;" type="submit" id="Submit">
+							<div class="button-text">
+								<p class="button-text1">Send message</p>
+							</div>
 						</button>
 					</form>
                 </div>

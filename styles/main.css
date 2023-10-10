@@ -13,7 +13,7 @@
 	--modal-button: #ffffff20;
 	--modal-buttonHover: #ffffff40;
 
-	--border-modal: 1px solid #404040;
+	--border-modal: 1px solid #484848;
 
 	--shadow-navbar: 0rem 0.1rem 0.6rem #00000088;
 	--shadow-none: 0rem 0.1rem 0.15rem #00000000;
@@ -334,6 +334,11 @@ textarea {
 
 .about-link:hover {
 	background-color: #ffffff30;
+}
+
+.about-link-text {
+	margin: auto;
+	font-family: var(--semibold);
 }
 
 
